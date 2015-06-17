@@ -23,7 +23,7 @@
   border: 1px solid #d0d0d0;
   box-shadow: none;
   border-radius: 0.25rem;
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
   border-collapse: separate;
   border-spacing: 0px;
 }
@@ -55,7 +55,7 @@
   cursor: auto;
   background: #f0f0f0;
   text-align: left;
-  color: rgba(0, 0, 0, 0.8);
+  color: #f1f1f1;
   padding: 0.7em 0.8em;
   vertical-align: middle;
   font-style: none;
@@ -86,7 +86,7 @@
   border-top: 1px solid #d4d4d5;
   background: #ffffff;
   text-align: left;
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
   padding: 0.7em 0.8em;
   vertical-align: middle;
   font-style: normal;
@@ -555,13 +555,13 @@
   border-top: 0.2em solid #1b1c1d;
 }
 .ui.blue.table {
-  border-top: 0.2em solid #3b83c0;
+  border-top: 0.2em solid #3d97d2;
 }
 .ui.green.table {
-  border-top: 0.2em solid #5bbd72;
+  border-top: 0.2em solid #93c953;
 }
 .ui.orange.table {
-  border-top: 0.2em solid #e07b53;
+  border-top: 0.2em solid #ec823e;
 }
 .ui.pink.table {
   border-top: 0.2em solid #d9499a;
@@ -589,15 +589,15 @@
   color: #ffffff !important;
 }
 .ui.inverted.blue.table {
-  background-color: #3b83c0 !important;
+  background-color: #3d97d2 !important;
   color: #ffffff !important;
 }
 .ui.inverted.green.table {
-  background-color: #5bbd72 !important;
+  background-color: #93c953 !important;
   color: #ffffff !important;
 }
 .ui.inverted.orange.table {
-  background-color: #e07b53 !important;
+  background-color: #ec823e !important;
   color: #ffffff !important;
 }
 .ui.inverted.pink.table {
@@ -750,7 +750,7 @@
   cursor: pointer;
   white-space: nowrap;
   border-left: 1px solid #d0d0d0;
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
 }
 .ui.sortable.table thead th:first-child {
   border-left: none;

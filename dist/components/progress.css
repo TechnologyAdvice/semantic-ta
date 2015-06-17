@@ -154,7 +154,7 @@
   right: auto;
   left: 0%;
   bottom: auto;
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
   font-weight: bold;
   text-shadow: none;
   margin-top: 0.2em;
@@ -174,7 +174,7 @@
 ---------------*/
 
 .ui.progress.success .bar {
-  background-color: #5bbd72 !important;
+  background-color: #93c953 !important;
 }
 .ui.progress.success .bar,
 .ui.progress.success .bar::after {
@@ -290,13 +290,13 @@
   background: #888888;
 }
 .ui.inverted.progress .bar > .progress {
-  color: #fafafa;
+  color: #eeeeee;
 }
 .ui.inverted.progress > .label {
   color: #ffffff;
 }
 .ui.inverted.progress.success > .label {
-  color: #5bbd72;
+  color: #93c953;
 }
 .ui.inverted.progress.warning > .label {
   color: #f2c037;
@@ -362,13 +362,13 @@
   background-color: #1b1c1d;
 }
 .ui.blue.progress .bar {
-  background-color: #3b83c0;
+  background-color: #3d97d2;
 }
 .ui.green.progress .bar {
-  background-color: #5bbd72;
+  background-color: #93c953;
 }
 .ui.orange.progress .bar {
-  background-color: #e07b53;
+  background-color: #ec823e;
 }
 .ui.pink.progress .bar {
   background-color: #d9499a;
@@ -386,31 +386,31 @@
   background-color: #f2c61f;
 }
 .ui.black.inverted.progress .bar {
-  background-color: #333333;
+  background-color: #343637;
 }
 .ui.blue.inverted.progress .bar {
-  background-color: #54c8ff;
+  background-color: #66addc;
 }
 .ui.green.inverted.progress .bar {
-  background-color: #2ecc40;
+  background-color: #abd57a;
 }
 .ui.orange.inverted.progress .bar {
-  background-color: #ff851b;
+  background-color: #e6e6e6;
 }
 .ui.pink.inverted.progress .bar {
-  background-color: #ff8edf;
+  background-color: #f1a06c;
 }
 .ui.purple.inverted.progress .bar {
-  background-color: #cdc6ff;
+  background-color: #e273b1;
 }
 .ui.red.inverted.progress .bar {
-  background-color: #ff695e;
+  background-color: #6d65a7;
 }
 .ui.teal.inverted.progress .bar {
-  background-color: #6dffff;
+  background-color: #e38585;
 }
 .ui.yellow.inverted.progress .bar {
-  background-color: #ffe21f;
+  background-color: #00e8de;
 }
 
 /*--------------

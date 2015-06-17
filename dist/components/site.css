@@ -26,11 +26,11 @@ body {
   margin: 0px;
   padding: 0px;
   min-width: 320px;
-  background: #f7f7f7;
+  background: #f0f0f0;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.33;
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
   font-smoothing: antialiased;
 }
 
@@ -119,32 +119,32 @@ a:hover {
 /* Site */
 ::-webkit-selection {
   background-color: #cce2ff;
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
 }
 ::-moz-selection {
   background-color: #cce2ff;
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
 }
 ::selection {
   background-color: #cce2ff;
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
 }
 
 
@@ -158,3 +158,14 @@ input::selection {
          Site Overrides
 *******************************/
 
+body {
+  color: #303030;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f1f1f1;
+}

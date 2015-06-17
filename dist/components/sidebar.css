@@ -91,7 +91,7 @@
 
 /* Whole Page */
 body.pushable {
-  background: #333333 !important;
+  background: #343637 !important;
 }
 
 /* Page Context */
@@ -134,7 +134,7 @@ body.pushable {
   z-index: 2;
 }
 body.pushable > .pusher {
-  background: #f7f7f7;
+  background: #f0f0f0;
 }
 .pushable > .pusher {
   background: inherit;
