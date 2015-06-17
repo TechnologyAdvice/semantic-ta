@@ -51,4 +51,4 @@
 @pageBackground      : @darkWhite;
 
 @textColor           : #303030;
-@headerColor         : #F1F1F1;
+@headerColor         : #1F1F1F;

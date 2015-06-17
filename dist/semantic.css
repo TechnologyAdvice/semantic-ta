@@ -678,7 +678,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #f1f1f1;
+  color: #1f1f1f;
 }
 /*!
  * # Semantic UI 0.1.0 - Button
@@ -19083,7 +19083,7 @@ ol.ui.horizontal.list li:before,
   cursor: auto;
   background: #f0f0f0;
   text-align: left;
-  color: #f1f1f1;
+  color: #1f1f1f;
   padding: 0.7em 0.8em;
   vertical-align: middle;
   font-style: none;
@@ -20637,7 +20637,7 @@ ol.ui.horizontal.list li:before,
   display: block;
   margin: 0em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color: #f1f1f1;
+  color: #1f1f1f;
 }
 
 /* Default Header Size */
@@ -20782,7 +20782,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.cards > .card > .content > a.header,
 .ui.card > .content > a.header {
-  color: #f1f1f1;
+  color: #1f1f1f;
 }
 
 .ui.cards > .card > .content > a.header:hover,
@@ -22183,7 +22183,7 @@ a.ui.card:hover,
   margin: -0.165em 0em 0em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: #f1f1f1;
+  color: #1f1f1f;
 }
 
 /* Default Header Size */
@@ -22286,7 +22286,7 @@ a.ui.card:hover,
 /* Header */
 
 .ui.items > .item > .content > a.header {
-  color: #f1f1f1;
+  color: #1f1f1f;
 }
 
 .ui.items > .item > .content > a.header:hover {
@@ -25252,7 +25252,7 @@ select.ui.dropdown {
   font-size: 1.6em;
   line-height: 1.3em;
   font-weight: bold;
-  color: #f1f1f1;
+  color: #1f1f1f;
   border-bottom: 1px solid rgba(39, 41, 43, 0.15);
 }
 
@@ -28275,7 +28275,7 @@ html.ios {
   cursor: auto;
   background: #f0f0f0;
   text-align: left;
-  color: #f1f1f1;
+  color: #1f1f1f;
   padding: 0.7em 0.8em;
   vertical-align: middle;
   font-style: none;

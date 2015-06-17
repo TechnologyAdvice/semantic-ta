@@ -169,7 +169,7 @@
   display: block;
   margin: 0em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color: #f1f1f1;
+  color: #1f1f1f;
 }
 
 /* Default Header Size */
@@ -302,7 +302,7 @@
 /* Header */
 .ui.cards > .card > .content > a.header,
 .ui.card > .content > a.header {
-  color: #f1f1f1;
+  color: #1f1f1f;
 }
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {

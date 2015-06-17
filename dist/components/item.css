@@ -132,7 +132,7 @@
   margin: -0.165em 0em 0em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: #f1f1f1;
+  color: #1f1f1f;
 }
 
 /* Default Header Size */
@@ -226,7 +226,7 @@
 
 /* Header */
 .ui.items > .item > .content > a.header {
-  color: #f1f1f1;
+  color: #1f1f1f;
 }
 .ui.items > .item > .content > a.header:hover {
   color: #00b2f3;
