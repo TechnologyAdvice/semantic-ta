@@ -552,7 +552,7 @@
 --------------------*/
 
 .ui.black.table {
-  border-top: 0.2em solid #1b1c1d;
+  border-top: 0.2em solid #1f1f1f;
 }
 .ui.blue.table {
   border-top: 0.2em solid #3d97d2;
@@ -585,7 +585,7 @@
 
 .ui.inverted.table,
 .ui.inverted.black.table {
-  background-color: #1b1c1d !important;
+  background-color: #1f1f1f !important;
   color: #ffffff !important;
 }
 .ui.inverted.blue.table {

@@ -42,7 +42,7 @@
 --------------------*/
 
 /*---  Colors  ---*/
-@black            : #1b1c1d;
+@black            : #1f1f1f;
 @blue             : #3d97d2;
 @green            : #93c953;
 @orange           : #ec823e;
@@ -53,21 +53,21 @@
 @yellow           : #f1b800;
 
 /*---  Light Colors  ---*/
-@lightBlack       : lighten(@black, 15);
-@lightBlue        : lighten(@blue, 15);
-@lightGreen       : lighten(@green, 15);
-@lightOrange      : lighten(@grey, 15);
-@lightPink        : lighten(@orange, 15);
-@lightPurple      : lighten(@pink, 15);
-@lightRed         : lighten(@purple, 15);
-@lightTeal        : lighten(@red, 15);
-@lightYellow      : lighten(@teal, 15);
+@lightBlack       : lighten(@black, 10);
+@lightBlue        : lighten(@blue, 10);
+@lightGreen       : lighten(@green, 10);
+@lightOrange      : lighten(@orange, 10);
+@lightPink        : lighten(@pink, 10);
+@lightPurple      : lighten(@purple, 10);
+@lightRed         : lighten(@red , 10);
+@lightTeal        : lighten(@teal, 10);
+@lightYellow      : lighten(@yellow, 10);
 
 /*---   Neutrals  ---*/
 @fullBlack        : #000;
-@darkGrey         : #aaa;
-@grey             : #ccc;
-@lightGrey        : #dcddde;
+@darkGrey         : #4d4d4d;
+@grey             : #828282;
+@lightGrey        : #b7b6b7;
 @offWhite         : #eee;
 @darkWhite        : #f0f0f0;
 @white            : #fff;
@@ -93,6 +93,6 @@
 --------------------*/
 
 /* 4px @ default em */
-@relativeBorderRadius: 0;
-@absoluteBorderRadius: 0;
-@defaultBorderRadius: @absoluteBorderRadius;
+@relativeBorderRadius   : 0;
+@absoluteBorderRadius   : 0;
+@defaultBorderRadius    : @absoluteBorderRadius;

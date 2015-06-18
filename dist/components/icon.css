@@ -196,7 +196,7 @@ i.white.icon {
   color: #ffffff !important;
 }
 i.black.icon {
-  color: #1b1c1d !important;
+  color: #1f1f1f !important;
 }
 i.blue.icon {
   color: #3d97d2 !important;
@@ -231,31 +231,31 @@ i.inverted.icon {
   color: #ffffff;
 }
 i.inverted.black.icon {
-  color: #404245 !important;
+  color: #393939 !important;
 }
 i.inverted.blue.icon {
-  color: #7bb8e0 !important;
+  color: #66addc !important;
 }
 i.inverted.green.icon {
-  color: #b8db8d !important;
+  color: #abd57a !important;
 }
 i.inverted.orange.icon {
-  color: #f2f2f2 !important;
+  color: #f1a06c !important;
 }
 i.inverted.pink.icon {
-  color: #f3af84 !important;
+  color: #1a1a1a !important;
 }
 i.inverted.purple.icon {
-  color: #262626 !important;
+  color: #1a1a1a !important;
 }
 i.inverted.red.icon {
-  color: #262626 !important;
+  color: #fe6c75 !important;
 }
 i.inverted.teal.icon {
-  color: #fe868d !important;
+  color: #60c99a !important;
 }
 i.inverted.yellow.icon {
-  color: #73d0a6 !important;
+  color: #ffcb25 !important;
 }
 
 /* Inverted Shapes */
@@ -266,7 +266,7 @@ i.inverted.circular.icon {
 }
 i.inverted.bordered.black.icon,
 i.inverted.circular.black.icon {
-  background-color: #1b1c1d !important;
+  background-color: #1f1f1f !important;
   color: #FFFFFF !important;
 }
 i.inverted.bordered.blue.icon,
