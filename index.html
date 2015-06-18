@@ -6,26 +6,89 @@
   <link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
 </head>
 <body class="style guide">
-<div class="ui menu">
-  <div class="header item">
-    <i class="building outline icon"></i> TechnologyAdvice
-  </div>
-</div>
+<div class="ui menu"></div>
 <div class="ui stackable two column grid horizontally padded">
   <div class="four wide column">
-    <div class="ui secondary vertical following fluid accordion menu">
-      <div class="item active">
-        <a class="active title"><b>Design Elements</b></a>
-
-        <div class="active content menu">
-          <a class="item active" href="#palette">Color Palette</a>
-          <a class="item transition visible" href="#typography" style="">Typography</a>
-        </div>
+    <div class="ui top fixed secondary vertical pointing menu">
+      <div class="header item">
+        <h4 class="ui header">TechnologyAdvice</h4>
       </div>
+      <div class="header item">Design Elements</div>
+
+      <a class="item" href="#palette">Color Palette</a>
+      <a class="item" href="#buttons">Buttons</a>
+      <a class="item" href="#typography" style="">Typography</a>
+
     </div>
   </div>
   <div class="twelve wide column">
-    <div class="main container">
+    <div class="main container" id="main-container">
+
+      <div class="ui small icon message">
+        <i class="question icon"></i>
+
+        <div class="content">
+          <div class="header">Need more stuff?</div>
+          <p>
+            This is only a brief overview, checkout the
+            <a href="http://semantic-ui.com/"><i class="icon book"></i> Semantic UI Docs</a>
+            .
+          </p>
+        </div>
+      </div>
+
+      <div id="palette" class="ui segment">
+        <h1 class="ui dividing header">Color Palette</h1>
+
+        <div class="ui grid">
+          <div class="ui five wide computer sixteen wide tablet padded column">
+            <h3 class="ui header">Brand Colors</h3>
+
+            <div class="ui padded grid">
+              <div class="green center aligned sixteen wide computer eight wide tablet column">
+                <pre>@primaryColor</pre>
+              </div>
+              <div class="blue center aligned sixteen wide computer eight wide tablet column">
+                <pre>@secondaryColor</pre>
+              </div>
+            </div>
+          </div>
+          <div class="ui eleven wide computer sixteen wide tablet padded column">
+
+            <h3 class="ui header">Palette</h3>
+
+            <div class="ui four column stackable padded grid">
+              <div class="red center aligned column">
+                <pre>@red</pre>
+              </div>
+              <div class="yellow center aligned column">
+                <pre>@yellow</pre>
+              </div>
+              <div class="teal center aligned column">
+                <pre>@teal</pre>
+              </div>
+              <div class="black center aligned column">
+                <pre>@black</pre>
+              </div>
+            </div>
+            <div class="ui four column stackable padded grid">
+              <div class="orange center aligned column">
+                <pre>@orange</pre>
+              </div>
+              <div class="green center aligned column">
+                <pre>@green</pre>
+              </div>
+              <div class="blue center aligned column">
+                <pre>@blue</pre>
+              </div>
+              <div class="white center aligned column">
+                <pre>@white</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div id="buttons" class="ui segment">
         <h1 class="ui dividing header">Buttons</h1>
 
@@ -180,58 +243,6 @@
             <div class="ui right labeled icon button">
               <i class="right arrow icon"></i>
               Next
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="palette" class="ui segment">
-        <h1 class="ui dividing header">Color Palette</h1>
-
-        <div class="ui grid">
-          <div class="ui five wide computer sixteen wide tablet padded column">
-            <h3 class="ui header">Brand Colors</h3>
-
-            <div class="ui padded grid">
-              <div class="green center aligned sixteen wide computer eight wide tablet column">
-                <pre>@primaryColor</pre>
-              </div>
-              <div class="blue center aligned sixteen wide computer eight wide tablet column">
-                <pre>@secondaryColor</pre>
-              </div>
-            </div>
-          </div>
-          <div class="ui eleven wide computer sixteen wide tablet padded column">
-
-            <h3 class="ui header">Palette</h3>
-
-            <div class="ui four column stackable padded grid">
-              <div class="red center aligned column">
-                <pre>@red</pre>
-              </div>
-              <div class="yellow center aligned column">
-                <pre>@yellow</pre>
-              </div>
-              <div class="teal center aligned column">
-                <pre>@teal</pre>
-              </div>
-              <div class="black center aligned column">
-                <pre>@black</pre>
-              </div>
-            </div>
-            <div class="ui four column stackable padded grid">
-              <div class="orange center aligned column">
-                <pre>@orange</pre>
-              </div>
-              <div class="green center aligned column">
-                <pre>@green</pre>
-              </div>
-              <div class="blue center aligned column">
-                <pre>@blue</pre>
-              </div>
-              <div class="white center aligned column">
-                <pre>@white</pre>
-              </div>
             </div>
           </div>
         </div>
