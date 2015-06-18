@@ -354,24 +354,24 @@
 }
 .ui.pink.message {
   background-color: #ffe3fb;
-  color: #d9499a;
+  color: black;
 }
 .ui.pink.message .header {
-  color: #d5348e;
+  color: #000000;
 }
 .ui.purple.message {
   background-color: #eae7ff;
-  color: #564f8a;
+  color: black;
 }
 .ui.purple.message .header {
-  color: #4c467a;
+  color: #000000;
 }
 .ui.red.message {
   background-color: #ffe8e6;
-  color: #d95c5c;
+  color: #fd3a46;
 }
 .ui.red.message .header {
-  color: #d44747;
+  color: #fd212e;
 }
 .ui.teal.message {
   background-color: #e9ffff;

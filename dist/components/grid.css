@@ -1383,7 +1383,7 @@
 }
 .ui.grid > .pink.row,
 .ui.grid .pink.column {
-  background-color: #d9499a !important;
+  background-color: black !important;
   color: #ffffff;
 }
 .ui.grid > .row > .pink.column {
@@ -1395,7 +1395,7 @@
 .ui.grid > .purple.row,
 .ui.grid > .purple.column,
 .ui.grid > .row > .purple.column {
-  background-color: #564f8a !important;
+  background-color: black !important;
   color: #ffffff;
 }
 .ui.grid > .row > .purple.column {
@@ -1407,7 +1407,7 @@
 .ui.grid > .red.row,
 .ui.grid > .red.column,
 .ui.grid > .row > .red.column {
-  background-color: #d95c5c !important;
+  background-color: #fd3a46 !important;
   color: #ffffff;
 }
 .ui.grid > .row > .red.column {
@@ -1419,7 +1419,7 @@
 .ui.grid > .teal.row,
 .ui.grid > .teal.column,
 .ui.grid > .row > .teal.column {
-  background-color: #00b5ad !important;
+  background-color: #3eb881 !important;
   color: #ffffff;
 }
 .ui.grid > .row > .teal.column {
@@ -1431,7 +1431,7 @@
 .ui.grid > .yellow.row,
 .ui.grid > .yellow.column,
 .ui.grid > .row > .yellow.column {
-  background-color: #f2c61f !important;
+  background-color: #f1b800 !important;
   color: #ffffff;
 }
 .ui.grid > .row > .yellow.column {

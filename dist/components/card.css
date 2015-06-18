@@ -479,27 +479,27 @@ a.ui.card:hover,
 .ui.pink.cards > .card,
 .ui.cards > .pink.card,
 .ui.pink.card {
-  box-shadow: 0px 3px 0px 0px #d9499a, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px black, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.purple.cards > .card,
 .ui.cards > .purple.card,
 .ui.purple.card {
-  box-shadow: 0px 3px 0px 0px #564f8a, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px black, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.red.cards > .card,
 .ui.cards > .red.card,
 .ui.red.card {
-  box-shadow: 0px 3px 0px 0px #d95c5c, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #fd3a46, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.teal.cards > .card,
 .ui.cards > .teal.card,
 .ui.teal.card {
-  box-shadow: 0px 3px 0px 0px #00b5ad, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #3eb881, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.yellow.cards > .card,
 .ui.cards > .yellow.card,
 .ui.yellow.card {
-  box-shadow: 0px 3px 0px 0px #f2c61f, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #f1b800, 0px 0px 0px 1px #d4d4d5;
 }
 
 /* Hover */
@@ -526,27 +526,27 @@ a.ui.card:hover,
 .ui.pink.cards > .card:hover,
 .ui.cards > .pink.card:hover,
 .ui.pink.card:hover {
-  box-shadow: 0px 3px 0px 0px #dc56a1, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #080808, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.purple.cards > .card:hover,
 .ui.cards > .purple.card:hover,
 .ui.purple.card:hover {
-  box-shadow: 0px 3px 0px 0px #5c5594, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #080808, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.red.cards > .card:hover,
 .ui.cards > .red.card:hover,
 .ui.red.card:hover {
-  box-shadow: 0px 3px 0px 0px #dc6868, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #fd4954, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.teal.cards > .card:hover,
 .ui.cards > .teal.card:hover,
 .ui.teal.card:hover {
-  box-shadow: 0px 3px 0px 0px #00c4bc, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #45c089, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.yellow.cards > .card:hover,
 .ui.cards > .yellow.card:hover,
 .ui.yellow.card:hover {
-  box-shadow: 0px 3px 0px 0px #f3ca2d, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #ffc301, 0px 0px 0px 1px #d4d4d5;
 }
 
 /*--------------

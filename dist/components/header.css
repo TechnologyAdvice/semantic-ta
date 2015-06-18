@@ -293,34 +293,34 @@ a.ui.orange.header:hover {
   color: #ed8b4c !important;
 }
 .ui.pink.header {
-  color: #d9499a !important;
+  color: black !important;
 }
 a.ui.pink.header:hover {
-  color: #dc56a1 !important;
+  color: #080808 !important;
 }
 .ui.purple.header {
-  color: #564f8a !important;
+  color: black !important;
 }
 a.ui.purple.header:hover {
-  color: #5c5594 !important;
+  color: #080808 !important;
 }
 .ui.red.header {
-  color: #d95c5c !important;
+  color: #fd3a46 !important;
 }
 a.ui.red.header:hover {
-  color: #dc6868 !important;
+  color: #fd4954 !important;
 }
 .ui.teal.header {
-  color: #00b5ad !important;
+  color: #3eb881 !important;
 }
 a.ui.teal.header:hover {
-  color: #00c4bc !important;
+  color: #45c089 !important;
 }
 .ui.yellow.header {
-  color: #f2c61f !important;
+  color: #f1b800 !important;
 }
 a.ui.yellow.header:hover {
-  color: #f3ca2d !important;
+  color: #ffc301 !important;
 }
 .ui.black.dividing.header {
   border-bottom: 2px solid #1b1c1d;
@@ -335,19 +335,19 @@ a.ui.yellow.header:hover {
   border-bottom: 2px solid #ec823e;
 }
 .ui.pink.dividing.header {
-  border-bottom: 2px solid #d9499a;
+  border-bottom: 2px solid black;
 }
 .ui.purple.dividing.header {
-  border-bottom: 2px solid #564f8a;
+  border-bottom: 2px solid black;
 }
 .ui.red.dividing.header {
-  border-bottom: 2px solid #d95c5c;
+  border-bottom: 2px solid #fd3a46;
 }
 .ui.teal.dividing.header {
-  border-bottom: 2px solid #00b5ad;
+  border-bottom: 2px solid #3eb881;
 }
 .ui.yellow.dividing.header {
-  border-bottom: 2px solid #f2c61f;
+  border-bottom: 2px solid #f1b800;
 }
 
 /*-------------------
@@ -361,13 +361,13 @@ a.ui.yellow.header:hover {
   color: rgba(255, 255, 255, 0.85);
 }
 .ui.inverted.attached.header {
-  background: #343637 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #343637 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #404245 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #404245 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
 .ui.inverted.block.header {
-  background: #343637 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #343637 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #404245 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #404245 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
 
@@ -382,52 +382,52 @@ a.ui.inverted.black.header:hover {
   color: #b2b2b2 !important;
 }
 .ui.inverted.blue.header {
-  color: #66addc !important;
+  color: #7bb8e0 !important;
 }
 a.ui.inverted.blue.header:hover {
-  color: #73b4de !important;
+  color: #88bfe3 !important;
 }
 .ui.inverted.green.header {
-  color: #abd57a !important;
+  color: #b8db8d !important;
 }
 a.ui.inverted.green.header:hover {
-  color: #b3d985 !important;
+  color: #bfdf99 !important;
 }
 .ui.inverted.orange.header {
-  color: #e6e6e6 !important;
+  color: #f2f2f2 !important;
 }
 a.ui.inverted.orange.header:hover {
-  color: #ededed !important;
+  color: #fafafa !important;
 }
 .ui.inverted.pink.header {
-  color: #f1a06c !important;
+  color: #f3af84 !important;
 }
 a.ui.inverted.pink.header:hover {
-  color: #f2a97a !important;
+  color: #f4b892 !important;
 }
 .ui.inverted.purple.header {
-  color: #e273b1 !important;
+  color: #262626 !important;
 }
 a.ui.inverted.purple.header:hover {
-  color: #e480b8 !important;
+  color: #2e2e2e !important;
 }
 .ui.inverted.red.header {
-  color: #6d65a7 !important;
+  color: #262626 !important;
 }
 a.ui.inverted.red.header:hover {
-  color: #766fac !important;
+  color: #2e2e2e !important;
 }
 .ui.inverted.teal.header {
-  color: #e38585 !important;
+  color: #fe868d !important;
 }
 a.ui.inverted.teal.header:hover {
-  color: #e69292 !important;
+  color: #fe959b !important;
 }
 .ui.inverted.yellow.header {
-  color: #00e8de !important;
+  color: #73d0a6 !important;
 }
 a.ui.inverted.yellow.header:hover {
-  color: #00f7ec !important;
+  color: #7ed4ad !important;
 }
 .ui.inverted.block.header {
   border-bottom: none;

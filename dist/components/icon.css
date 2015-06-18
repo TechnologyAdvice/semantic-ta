@@ -208,19 +208,19 @@ i.orange.icon {
   color: #ec823e !important;
 }
 i.pink.icon {
-  color: #d9499a !important;
+  color: black !important;
 }
 i.purple.icon {
-  color: #564f8a !important;
+  color: black !important;
 }
 i.red.icon {
-  color: #d95c5c !important;
+  color: #fd3a46 !important;
 }
 i.teal.icon {
-  color: #00b5ad !important;
+  color: #3eb881 !important;
 }
 i.yellow.icon {
-  color: #f2c61f !important;
+  color: #f1b800 !important;
 }
 
 /*-------------------
@@ -231,31 +231,31 @@ i.inverted.icon {
   color: #ffffff;
 }
 i.inverted.black.icon {
-  color: #343637 !important;
+  color: #404245 !important;
 }
 i.inverted.blue.icon {
-  color: #66addc !important;
+  color: #7bb8e0 !important;
 }
 i.inverted.green.icon {
-  color: #abd57a !important;
+  color: #b8db8d !important;
 }
 i.inverted.orange.icon {
-  color: #e6e6e6 !important;
+  color: #f2f2f2 !important;
 }
 i.inverted.pink.icon {
-  color: #f1a06c !important;
+  color: #f3af84 !important;
 }
 i.inverted.purple.icon {
-  color: #e273b1 !important;
+  color: #262626 !important;
 }
 i.inverted.red.icon {
-  color: #6d65a7 !important;
+  color: #262626 !important;
 }
 i.inverted.teal.icon {
-  color: #e38585 !important;
+  color: #fe868d !important;
 }
 i.inverted.yellow.icon {
-  color: #00e8de !important;
+  color: #73d0a6 !important;
 }
 
 /* Inverted Shapes */
@@ -286,27 +286,27 @@ i.inverted.circular.orange.icon {
 }
 i.inverted.bordered.pink.icon,
 i.inverted.circular.pink.icon {
-  background-color: #d9499a !important;
+  background-color: black !important;
   color: #FFFFFF !important;
 }
 i.inverted.bordered.purple.icon,
 i.inverted.circular.purple.icon {
-  background-color: #564f8a !important;
+  background-color: black !important;
   color: #FFFFFF !important;
 }
 i.inverted.bordered.red.icon,
 i.inverted.circular.red.icon {
-  background-color: #d95c5c !important;
+  background-color: #fd3a46 !important;
   color: #FFFFFF !important;
 }
 i.inverted.bordered.teal.icon,
 i.inverted.circular.teal.icon {
-  background-color: #00b5ad !important;
+  background-color: #3eb881 !important;
   color: #FFFFFF !important;
 }
 i.inverted.bordered.yellow.icon,
 i.inverted.circular.yellow.icon {
-  background-color: #f2c61f !important;
+  background-color: #f1b800 !important;
   color: #FFFFFF !important;
 }
 

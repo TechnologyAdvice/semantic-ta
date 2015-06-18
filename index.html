@@ -87,8 +87,6 @@
         <div class="ui green button">Green</div>
         <div class="ui blue button">Blue</div>
         <div class="ui orange button">Orange</div>
-        <div class="ui purple button">Purple</div>
-        <div class="ui pink button">Pink</div>
         <div class="ui red button">Red</div>
         <div class="ui teal button">Teal</div>
 
@@ -99,8 +97,6 @@
         <div class="ui green basic button">Green</div>
         <div class="ui blue basic button">Blue</div>
         <div class="ui orange basic button">Orange</div>
-        <div class="ui purple basic button">Purple</div>
-        <div class="ui pink basic button">Pink</div>
         <div class="ui red basic button">Red</div>
         <div class="ui teal basic button">Teal</div>
 
@@ -150,8 +146,6 @@
             <div class="ui inverted green button">Green</div>
             <div class="ui inverted blue button">Blue</div>
             <div class="ui inverted orange button">Orange</div>
-            <div class="ui inverted purple button">Purple</div>
-            <div class="ui inverted pink button">Pink</div>
             <div class="ui inverted red button">Red</div>
             <div class="ui inverted teal button">Teal</div>
           </div>
@@ -163,8 +157,6 @@
             <div class="ui inverted green basic button">Basic Green</div>
             <div class="ui inverted blue basic button">Basic Blue</div>
             <div class="ui inverted orange basic button">Basic Orange</div>
-            <div class="ui inverted purple basic button">Basic Purple</div>
-            <div class="ui inverted pink basic button">Basic Pink</div>
             <div class="ui inverted red basic button">Basic Red</div>
             <div class="ui inverted teal basic button">Basic Teal</div>
           </div>
@@ -184,47 +176,51 @@
       <div id="palette" class="ui segment">
         <h1 class="ui dividing header">Color Palette</h1>
 
-        <h3 class="ui header">Brand Colors</h3>
+        <div class="ui stackable grid">
+          <div class="ui five wide column">
+            <h3 class="ui header">Brand Colors</h3>
 
-        <div class="ui primary button"> @primaryColor</div>
-        <div class="ui secondary button"> @secondaryColor</div>
+            <div class="ui one column padded grid">
+              <div class="green center aligned column">
+                <pre>@primaryColor</pre>
+              </div>
+              <div class="blue center aligned column">
+                <pre>@secondaryColor</pre>
+              </div>
+            </div>
+          </div>
+          <div class="ui eleven wide padded column">
 
-        <div class="ui divider"></div>
+            <h3 class="ui header">Palette</h3>
 
-        <h3 class="ui header">Palette</h3>
-
-        <div class="ui five column stackable padded grid">
-          <div class="green center aligned column">
-            <pre>@green</pre>
-          </div>
-          <div class="teal center aligned column">
-            <pre>@teal</pre>
-          </div>
-          <div class="purple center aligned column">
-            <pre>@purple</pre>
-          </div>
-          <div class="red center aligned column">
-            <pre>@red</pre>
-          </div>
-          <div class="black center aligned column">
-            <pre>@black</pre>
-          </div>
-        </div>
-        <div class="ui five column stackable padded grid">
-          <div class="blue center aligned column">
-            <pre>@blue</pre>
-          </div>
-          <div class="orange center aligned column">
-            <pre>@orange</pre>
-          </div>
-          <div class="pink center aligned column">
-            <pre>@pink</pre>
-          </div>
-          <div class="yellow center aligned column">
-            <pre>@yellow</pre>
-          </div>
-          <div class="white center aligned column">
-            <pre>@white</pre>
+            <div class="ui four column stackable padded grid">
+              <div class="red center aligned column">
+                <pre>@red</pre>
+              </div>
+              <div class="yellow center aligned column">
+                <pre>@yellow</pre>
+              </div>
+              <div class="teal center aligned column">
+                <pre>@teal</pre>
+              </div>
+              <div class="black center aligned column">
+                <pre>@black</pre>
+              </div>
+            </div>
+            <div class="ui four column stackable padded grid">
+              <div class="orange center aligned column">
+                <pre>@orange</pre>
+              </div>
+              <div class="green center aligned column">
+                <pre>@green</pre>
+              </div>
+              <div class="blue center aligned column">
+                <pre>@blue</pre>
+              </div>
+              <div class="white center aligned column">
+                <pre>@white</pre>
+              </div>
+            </div>
           </div>
         </div>
       </div>

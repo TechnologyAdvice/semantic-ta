@@ -11,3 +11,4 @@
 @coloredBoxShadow: @boxShadow;
 @positiveBoxShadow: @boxShadow;
 @negativeBoxShadow: @boxShadow;
+@fontFamily: @headerFont;
