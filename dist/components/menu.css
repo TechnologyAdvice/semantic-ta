@@ -25,7 +25,7 @@
   font-size: 0em;
   font-weight: normal;
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
-  border-radius: 0.2857rem;
+  border-radius: 0;
 }
 .ui.menu:after {
   content: '';
@@ -91,7 +91,7 @@
 
 /* Floated Content */
 .ui.menu > .item:first-child {
-  border-radius: 0.2857rem 0px 0px 0.2857rem;
+  border-radius: 0 0px 0px 0;
 }
 .ui.menu:not(.vertical) .item.left,
 .ui.menu:not(.vertical) .menu.left {
@@ -355,13 +355,13 @@
   box-shadow: 2px 0em 0em inset;
 }
 .ui.vertical.menu > .active.item:first-child {
-  border-radius: 0em 0.2857rem 0em 0em;
+  border-radius: 0em 0 0em 0em;
 }
 .ui.vertical.menu > .active.item:last-child {
-  border-radius: 0em 0em 0.2857rem 0em;
+  border-radius: 0em 0em 0 0em;
 }
 .ui.vertical.menu > .active.item:only-child {
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 0 0 0em;
 }
 .ui.vertical.menu .active.item .menu .active.item {
   border-left: none;
@@ -416,10 +416,10 @@
   border-right: none;
 }
 .ui.vertical.menu > .item:first-child {
-  border-radius: 0.2857rem 0.2857rem 0px 0px;
+  border-radius: 0 0 0px 0px;
 }
 .ui.vertical.menu > .item:last-child {
-  border-radius: 0px 0px 0.2857rem 0.2857rem;
+  border-radius: 0px 0px 0 0;
 }
 
 /*--- Label ---*/
@@ -473,7 +473,7 @@
   left: 100%;
   margin: 0px 0px 0px 0px;
   box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.08);
-  border-radius: 0em 0.2857rem 0.2857rem 0.2857rem;
+  border-radius: 0em 0 0 0;
 }
 .ui.vertical.menu .dropdown.item .menu .item {
   font-size: 1rem;
@@ -523,7 +523,7 @@
 /* Sub Menu */
 .ui.tiered.menu .sub.menu {
   background-color: #fcfcfc;
-  border-radius: 0em 0em 0.2857rem 0.2857rem;
+  border-radius: 0em 0em 0 0;
   border-top: 1px solid rgba(39, 41, 43, 0.15);
   box-shadow: none;
 }
@@ -691,7 +691,7 @@
   background: none;
   margin: 0em 0.25em;
   padding: 0.5em 0.8em;
-  border-radius: 0.2857rem;
+  border-radius: 0;
 }
 .ui.secondary.menu > .menu > .item:before,
 .ui.secondary.menu > .item:before {
@@ -727,7 +727,7 @@
   box-shadow: none;
 }
 .ui.secondary.vertical.menu > .active.item {
-  border-radius: 0.2857rem;
+  border-radius: 0;
 }
 
 /* Inverted */
@@ -758,7 +758,7 @@
 .ui.secondary.vertical.menu > .item {
   border: none;
   margin: 0em 0em 0.3em;
-  border-radius: 0.2857rem;
+  border-radius: 0;
 }
 .ui.secondary.vertical.menu > .header.item {
   border-radius: 0em;
@@ -1554,10 +1554,10 @@
   box-shadow: 0px 0px 0px 1px #dddddd;
 }
 .ui.top.attached.menu {
-  border-radius: 0.2857rem 0.2857rem 0em 0em;
+  border-radius: 0 0 0em 0em;
 }
 .ui.menu.bottom.attached {
-  border-radius: 0em 0em 0.2857rem 0.2857rem;
+  border-radius: 0em 0em 0 0;
 }
 
 /*--------------

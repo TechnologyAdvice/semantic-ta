@@ -3,6 +3,41 @@
 *******************************/
 
 /*-------------------
+     Fonts
+--------------------*/
+
+@headerFont        : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@fontSmoothing     : antialiased;
+
+@importGoogleFonts        : true;
+@googleBodyFontName       : 'Source+Sans+Pro';
+@googleBodyFontSizes      : '300,400,600';
+@googleHeaderFontName     : 'Roboto';
+@googleHeaderFontSizes    : '400,500,600,700';
+
+@googleFontRequest        : '@{googleBodyFontName}:@{googleBodyFontSizes}|@{googleHeaderFontName}:@{googleHeaderFontSizes}&subset=@{googleSubset}';
+
+/*-------------------
+      Base Sizes
+--------------------*/
+
+@emSize   : 16px;
+@fontSize : 16px;
+
+/*--------------
+  Page Heading
+---------------*/
+
+@headerFontWeight : 500;
+
+@h1               : 2rem;
+@h2               : 1.714rem;
+@h3               : 1.28rem;
+@h4               : 1.071rem;
+@h5               : 1rem;
+
+/*-------------------
       Site Colors
 --------------------*/
 
@@ -52,3 +87,12 @@
 
 @textColor           : #303030;
 @headerColor         : #1F1F1F;
+
+/*-------------------
+       Accents
+--------------------*/
+
+/* 4px @ default em */
+@relativeBorderRadius: 0;
+@absoluteBorderRadius: 0;
+@defaultBorderRadius: @absoluteBorderRadius;

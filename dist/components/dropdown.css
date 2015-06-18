@@ -52,7 +52,7 @@
   text-align: left;
   box-shadow: 0px 1px 4px 0px rgba(39, 41, 43, 0.15);
   border: 1px solid rgba(39, 41, 43, 0.15);
-  border-radius: 0em 0em 0.2857rem 0.2857rem;
+  border-radius: 0em 0em 0 0;
   -webkit-transition: opacity 0.2s ease;
           transition: opacity 0.2s ease;
   z-index: 11;
@@ -108,7 +108,7 @@
   border-top: none;
   line-height: 1em;
   color: #303030;
-  padding: 0.71428571em 1.14285714em !important;
+  padding: 0.6875em 1.125em !important;
   font-size: 1rem;
   text-transform: none;
   font-weight: normal;
@@ -148,7 +148,7 @@
 
 .ui.dropdown .menu > .header {
   margin: 1rem 0rem 0.75rem;
-  padding: 0em 1.14285714em;
+  padding: 0em 1.125em;
   color: rgba(0, 0, 0, 0.85);
   font-size: 0.7857rem;
   font-weight: bold;
@@ -160,7 +160,7 @@
   margin: 0.5em 0em;
 }
 .ui.dropdown .menu > .input {
-  margin: 0.75rem 1.14285714em;
+  margin: 0.75rem 1.125em;
   min-width: 200px;
 }
 .ui.dropdown .menu > .header + .input {
@@ -195,7 +195,7 @@
   left: 100% !important;
   right: auto !important;
   margin: 0em 0em 0em -0.5em !important;
-  border-radius: 0em 0.2857rem 0.2857rem 0em !important;
+  border-radius: 0em 0 0 0em !important;
   z-index: 21 !important;
 }
 
@@ -324,7 +324,7 @@
   color: #303030;
   box-shadow: none;
   border: 1px solid rgba(39, 41, 43, 0.15);
-  border-radius: 0.2857rem;
+  border-radius: 0;
   -webkit-transition: border-radius 0.1s ease, width 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
           transition: border-radius 0.1s ease, width 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
 }
@@ -392,29 +392,29 @@ select.ui.dropdown {
 }
 @media only screen and (max-width: 767px) {
   .ui.selection.dropdown .menu {
-    max-height: 7.49991429em;
+    max-height: 7.3392em;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.selection.dropdown .menu {
-    max-height: 9.99988571em;
+    max-height: 9.7856em;
   }
 }
 @media only screen and (min-width: 992px) {
   .ui.selection.dropdown .menu {
-    max-height: 14.99982857em;
+    max-height: 14.6784em;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.selection.dropdown .menu {
-    max-height: 19.99977143em;
+    max-height: 19.5712em;
   }
 }
 
 /* Menu Item */
 .ui.selection.dropdown .menu > .item {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
-  padding: 0.71428571em 1.14285714em !important;
+  padding: 0.6875em 1.125em !important;
   white-space: normal;
   word-wrap: normal;
 }
@@ -541,22 +541,22 @@ select.ui.dropdown {
 }
 @media only screen and (max-width: 767px) {
   .ui.search.dropdown .menu {
-    max-height: 7.49991429em;
+    max-height: 7.3392em;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.search.dropdown .menu {
-    max-height: 9.99988571em;
+    max-height: 9.7856em;
   }
 }
 @media only screen and (min-width: 992px) {
   .ui.search.dropdown .menu {
-    max-height: 14.99982857em;
+    max-height: 14.6784em;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.search.dropdown .menu {
-    max-height: 19.99977143em;
+    max-height: 19.5712em;
   }
 }
 
@@ -579,7 +579,7 @@ select.ui.dropdown {
 .ui.inline.dropdown .menu {
   cursor: auto;
   margin-top: 0.25em;
-  border-radius: 0.2857rem;
+  border-radius: 0;
 }
 
 
@@ -766,17 +766,17 @@ select.ui.dropdown {
   top: auto;
   bottom: 100%;
   box-shadow: 0px 0px 4px 0px rgba(39, 41, 43, 0.15);
-  border-radius: 0.2857rem 0.2857rem 0em 0em;
+  border-radius: 0 0 0em 0em;
 }
 
 /* Active Upward */
 .ui.simple.upward.active.dropdown,
 .ui.simple.upward.dropdown:hover {
-  border-radius: 0.2857rem 0.2857rem 0em 0em !important;
+  border-radius: 0 0 0em 0em !important;
 }
 .ui.upward.dropdown.button:not(.pointing):not(.floating).active,
 .ui.upward.dropdown.button:not(.pointing):not(.floating).visible {
-  border-radius: 0.2857rem 0.2857rem 0em 0em;
+  border-radius: 0 0 0em 0em;
 }
 
 /* Selection */
@@ -792,7 +792,7 @@ select.ui.dropdown {
 }
 .ui.active.upward.selection.dropdown,
 .ui.visible.upward.selection.dropdown {
-  border-radius: 0em 0em 0.2857rem 0.2857rem !important;
+  border-radius: 0em 0em 0 0 !important;
 }
 .ui.upward.selection.dropdown.visible {
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
@@ -877,7 +877,7 @@ select.ui.dropdown {
   left: 0;
   right: auto;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 0.2857rem;
+  border-radius: 0;
 }
 .ui.floating.dropdown > .menu {
   margin-top: 0.5em !important;
@@ -890,7 +890,7 @@ select.ui.dropdown {
 .ui.pointing.dropdown > .menu {
   top: 100%;
   margin-top: 0.75em;
-  border-radius: 0.2857rem;
+  border-radius: 0;
 }
 .ui.pointing.dropdown > .menu:after {
   display: block;

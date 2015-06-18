@@ -1,3 +1,13 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@backgroundColor: @offWhite;
+@borderRadius: 0;
+
+@boxShadow: inset 0 -0.15em 0 0 fade(#000, 15);
+@primaryBoxShadow: @boxShadow;
+@secondaryBoxShadow: @boxShadow;
+@coloredBoxShadow: @boxShadow;
+@positiveBoxShadow: @boxShadow;
+@negativeBoxShadow: @boxShadow;

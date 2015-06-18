@@ -21,9 +21,9 @@
   outline: none;
   border: none;
   vertical-align: baseline;
-  background-color: #e0e0e0;
+  background-color: #eeeeee;
   color: #303030;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571em 1.5em 0.78571em;
   text-transform: none;
@@ -34,8 +34,8 @@
   text-align: center;
   text-decoration: none;
   background-image: none;
-  border-radius: 0.2857rem;
-  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  border-radius: 0;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -373,7 +373,7 @@
   color: #ffffff;
   text-shadow: none;
   background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.facebook.button:hover {
   background-color: #3f5da8;
@@ -392,7 +392,7 @@
   color: #ffffff;
   text-shadow: none;
   background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.twitter.button:hover {
   background-color: #4c99cf;
@@ -411,7 +411,7 @@
   color: #ffffff;
   text-shadow: none;
   background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.google.plus.button:hover {
   background-color: #d65343;
@@ -447,7 +447,7 @@
   color: #ffffff;
   text-shadow: none;
   background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.youtube.button:hover {
   background-color: #da1a20;
@@ -466,7 +466,7 @@
   color: #ffffff;
   text-shadow: none;
   background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.instagram.button:hover {
   background-color: #4e7ea6;
@@ -485,7 +485,7 @@
   color: #ffffff;
   text-shadow: none;
   background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.pinterest.button:hover {
   background-color: #00b7fc;
@@ -503,7 +503,7 @@
   background-color: #4D7198;
   color: #ffffff;
   background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.vk.button:hover {
   background-color: #5279a2;
@@ -577,17 +577,17 @@
 .ui.mini.buttons .button,
 .ui.mini.buttons .or,
 .ui.mini.button {
-  font-size: 0.71428571rem;
+  font-size: 0.6875rem;
 }
 .ui.tiny.buttons .button,
 .ui.tiny.buttons .or,
 .ui.tiny.button {
-  font-size: 0.85714286rem;
+  font-size: 0.875rem;
 }
 .ui.small.buttons .button,
 .ui.small.buttons .or,
 .ui.small.button {
-  font-size: 0.92857143rem;
+  font-size: 0.9375rem;
 }
 .ui.buttons .button,
 .ui.buttons .or,
@@ -597,22 +597,22 @@
 .ui.large.buttons .button,
 .ui.large.buttons .or,
 .ui.large.button {
-  font-size: 1.14285714rem;
+  font-size: 1.125rem;
 }
 .ui.big.buttons .button,
 .ui.big.buttons .or,
 .ui.big.button {
-  font-size: 1.28571429rem;
+  font-size: 1.3125rem;
 }
 .ui.huge.buttons .button,
 .ui.huge.buttons .or,
 .ui.huge.button {
-  font-size: 1.42857143rem;
+  font-size: 1.4375rem;
 }
 .ui.massive.buttons .button,
 .ui.massive.buttons .or,
 .ui.massive.button {
-  font-size: 1.71428571rem;
+  font-size: 1.6875rem;
 }
 
 /*--------------
@@ -640,14 +640,14 @@
   background-image: none;
   color: #303030 !important;
   font-weight: normal;
-  border-radius: 0.2857rem;
+  border-radius: 0;
   text-transform: none;
   text-shadow: none !important;
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
 }
 .ui.basic.buttons {
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15);
-  border-radius: 0.2857rem;
+  border-radius: 0;
 }
 .ui.basic.buttons .button {
   border-radius: 0em;
@@ -754,7 +754,7 @@
   background-color: rgba(0, 0, 0, 0.05);
   text-align: center;
   color: '';
-  border-radius: 0.2857rem 0px 0px 0.2857rem;
+  border-radius: 0 0px 0px 0;
   line-height: 1;
   box-shadow: -1px 0px 0px 0px transparent inset;
 }
@@ -774,7 +774,7 @@
 .ui[class*="right labeled"].icon.button > .icon {
   left: auto;
   right: 0em;
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 0 0 0em;
   box-shadow: 1px 0px 0px 0px transparent inset;
 }
 .ui.labeled.icon.buttons > .button > .icon:before,
@@ -792,20 +792,20 @@
   border-radius: 0em;
 }
 .ui.labeled.icon.buttons .button:first-child > .icon {
-  border-top-left-radius: 0.2857rem;
-  border-bottom-left-radius: 0.2857rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .ui.labeled.icon.buttons .button:last-child > .icon {
-  border-top-right-radius: 0.2857rem;
-  border-bottom-right-radius: 0.2857rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .ui.vertical.labeled.icon.buttons .button:first-child > .icon {
   border-radius: 0em;
-  border-top-left-radius: 0.2857rem;
+  border-top-left-radius: 0;
 }
 .ui.vertical.labeled.icon.buttons .button:last-child > .icon {
   border-radius: 0em;
-  border-bottom-left-radius: 0.2857rem;
+  border-bottom-left-radius: 0;
 }
 
 /* Fluid Labeled */
@@ -858,23 +858,23 @@
   border-radius: 0em;
 }
 .ui.attached.top.button {
-  border-radius: 0.2857rem 0.2857rem 0em 0em;
+  border-radius: 0 0 0em 0em;
 }
 .ui.attached.bottom.button {
-  border-radius: 0em 0em 0.2857rem 0.2857rem;
+  border-radius: 0em 0em 0 0;
 }
 .ui.attached.left.button {
   display: inline-block;
   border-left: none;
   padding-right: 0.75em;
   text-align: right;
-  border-radius: 0.2857rem 0em 0em 0.2857rem;
+  border-radius: 0 0em 0em 0;
 }
 .ui.attached.right.button {
   display: inline-block;
   padding-left: 0.75em;
   text-align: left;
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 0 0 0em;
 }
 
 /*-------------------
@@ -942,54 +942,54 @@
 /* Top Side */
 [class*="top attached"].ui.buttons {
   margin-bottom: -1px;
-  border-radius: 0.2857rem 0.2857rem 0em 0em;
+  border-radius: 0 0 0em 0em;
 }
 [class*="top attached"].ui.buttons .button:first-child {
-  border-radius: 0.2857rem 0em 0em 0em;
+  border-radius: 0 0em 0em 0em;
 }
 [class*="top attached"].ui.buttons .button:last-child {
-  border-radius: 0em 0.2857rem 0em 0em;
+  border-radius: 0em 0 0em 0em;
 }
 
 /* Bottom Side */
 [class*="bottom attached"].ui.buttons {
   margin-top: -1px;
-  border-radius: 0em 0em 0.2857rem 0.2857rem;
+  border-radius: 0em 0em 0 0;
 }
 [class*="bottom attached"].ui.buttons .button:first-child {
-  border-radius: 0em 0em 0em 0.2857rem;
+  border-radius: 0em 0em 0em 0;
 }
 [class*="bottom attached"].ui.buttons .button:last-child {
-  border-radius: 0em 0em 0.2857rem 0em;
+  border-radius: 0em 0em 0 0em;
 }
 
 /* Left Side */
 [class*="left attached"].ui.buttons {
   margin-left: -1px;
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 0 0 0em;
 }
 [class*="left attached"].ui.buttons .button:first-child {
   margin-left: -1px;
-  border-radius: 0em 0.2857rem 0em 0em;
+  border-radius: 0em 0 0em 0em;
 }
 [class*="left attached"].ui.buttons .button:last-child {
   margin-left: -1px;
-  border-radius: 0em 0em 0.2857rem 0em;
+  border-radius: 0em 0em 0 0em;
 }
 
 /* Right Side */
 [class*="right attached"].ui.buttons,
 [class*="right attached"].ui.buttons .button {
   margin-right: -1px;
-  border-radius: 0.2857rem 0em 0em 0.2857rem;
+  border-radius: 0 0em 0em 0;
 }
 [class*="right attached"].ui.buttons .button:first-child {
   margin-left: -1px;
-  border-radius: 0.2857rem 0em 0em 0em;
+  border-radius: 0 0em 0em 0em;
 }
 [class*="right attached"].ui.buttons .button:last-child {
   margin-left: -1px;
-  border-radius: 0em 0em 0em 0.2857rem;
+  border-radius: 0em 0em 0em 0;
 }
 
 /* Fluid */
@@ -1154,7 +1154,7 @@
   background-image: none;
 }
 .ui.black.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.black.buttons .button:hover,
 .ui.black.button:hover {
@@ -1267,7 +1267,7 @@
   background-image: none;
 }
 .ui.blue.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.blue.buttons .button:hover,
 .ui.blue.button:hover {
@@ -1380,7 +1380,7 @@
   background-image: none;
 }
 .ui.green.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.green.buttons .button:hover,
 .ui.green.button:hover {
@@ -1493,7 +1493,7 @@
   background-image: none;
 }
 .ui.orange.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.orange.buttons .button:hover,
 .ui.orange.button:hover {
@@ -1606,7 +1606,7 @@
   background-image: none;
 }
 .ui.pink.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.pink.buttons .button:hover,
 .ui.pink.button:hover {
@@ -1719,7 +1719,7 @@
   background-image: none;
 }
 .ui.purple.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.purple.buttons .button:hover,
 .ui.purple.button:hover {
@@ -1832,7 +1832,7 @@
   background-image: none;
 }
 .ui.red.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.red.buttons .button:hover,
 .ui.red.button:hover {
@@ -1945,7 +1945,7 @@
   background-image: none;
 }
 .ui.teal.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.teal.buttons .button:hover,
 .ui.teal.button:hover {
@@ -2058,7 +2058,7 @@
   background-image: none;
 }
 .ui.yellow.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.yellow.buttons .button:hover,
 .ui.yellow.button:hover {
@@ -2173,7 +2173,7 @@
   background-image: none;
 }
 .ui.primary.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
@@ -2206,7 +2206,7 @@
   background-image: none;
 }
 .ui.secondary.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
@@ -2239,7 +2239,7 @@
   background-image: none;
 }
 .ui.positive.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.positive.buttons .button:hover,
 .ui.positive.button:hover,
@@ -2276,7 +2276,7 @@
   background-image: none;
 }
 .ui.negative.button {
-  box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.negative.buttons .button:hover,
 .ui.negative.button:hover,
@@ -2330,7 +2330,7 @@
 }
 .ui.buttons > .ui.button:not(.basic):not(.inverted),
 .ui.buttons:not(.basic):not(.inverted) > .button {
-  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 }
 .ui.buttons .button {
   margin: 0em;
@@ -2340,12 +2340,12 @@
 }
 .ui.buttons .button:first-child {
   margin-left: 0em;
-  border-top-left-radius: 0.2857rem;
-  border-bottom-left-radius: 0.2857rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .ui.buttons .button:last-child {
-  border-top-right-radius: 0.2857rem;
-  border-bottom-right-radius: 0.2857rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* Vertical  Style */
@@ -2365,7 +2365,7 @@
 .ui.vertical.buttons .small.button:first-child,
 .ui.vertical.buttons .massive.button:first-child,
 .ui.vertical.buttons .huge.button:first-child {
-  border-radius: 0.2857rem 0.2857rem 0px 0px;
+  border-radius: 0 0 0px 0px;
 }
 .ui.vertical.buttons .button:last-child,
 .ui.vertical.buttons .mini.button:last-child,
@@ -2375,7 +2375,7 @@
 .ui.vertical.buttons .huge.button:last-child,
 .ui.vertical.buttons .gigantic.button:last-child {
   margin-bottom: 0px;
-  border-radius: 0px 0px 0.2857rem 0.2857rem;
+  border-radius: 0px 0px 0 0;
 }
 
 
