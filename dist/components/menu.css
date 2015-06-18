@@ -1094,28 +1094,28 @@
 }
 .ui.menu .pink.active.item,
 .ui.pink.menu .active.item {
-  border-color: #d9499a !important;
-  color: #d9499a !important;
+  border-color: black !important;
+  color: black !important;
 }
 .ui.menu .purple.active.item,
 .ui.purple.menu .active.item {
-  border-color: #564f8a !important;
-  color: #564f8a !important;
+  border-color: black !important;
+  color: black !important;
 }
 .ui.menu .red.active.item,
 .ui.red.menu .active.item {
-  border-color: #d95c5c !important;
-  color: #d95c5c !important;
+  border-color: #fd3a46 !important;
+  color: #fd3a46 !important;
 }
 .ui.menu .teal.active.item,
 .ui.teal.menu .active.item {
-  border-color: #00b5ad !important;
-  color: #00b5ad !important;
+  border-color: #3eb881 !important;
+  color: #3eb881 !important;
 }
 .ui.menu .yellow.active.item,
 .ui.yellow.menu .active.item {
-  border-color: #f2c61f !important;
-  color: #f2c61f !important;
+  border-color: #f1b800 !important;
+  color: #f1b800 !important;
 }
 
 /*--------------
@@ -1290,42 +1290,42 @@
 
 /* Pink */
 .ui.inverted.pink.menu {
-  background-color: #d9499a;
+  background-color: black;
 }
 .ui.inverted.pink.pointing.menu .active.item:after {
-  background-color: #d9499a;
+  background-color: black;
 }
 
 /* Purple */
 .ui.inverted.purple.menu {
-  background-color: #564f8a;
+  background-color: black;
 }
 .ui.inverted.purple.pointing.menu .active.item:after {
-  background-color: #564f8a;
+  background-color: black;
 }
 
 /* Red */
 .ui.inverted.red.menu {
-  background-color: #d95c5c;
+  background-color: #fd3a46;
 }
 .ui.inverted.red.pointing.menu .active.item:after {
-  background-color: #d95c5c;
+  background-color: #fd3a46;
 }
 
 /* Teal */
 .ui.inverted.teal.menu {
-  background-color: #00b5ad;
+  background-color: #3eb881;
 }
 .ui.inverted.teal.pointing.menu .active.item:after {
-  background-color: #00b5ad;
+  background-color: #3eb881;
 }
 
 /* Yellow */
 .ui.inverted.yellow.menu {
-  background-color: #f2c61f;
+  background-color: #f1b800;
 }
 .ui.inverted.yellow.pointing.menu .active.item:after {
-  background-color: #f2c61f;
+  background-color: #f1b800;
 }
 
 /*--------------
