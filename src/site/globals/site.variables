@@ -31,8 +31,8 @@
 /*---   Neutrals  ---*/
 @fullBlack        : #000;
 @darkGrey         : #4d4d4d;
-@grey             : #b7b6b7;
-@lightGrey        : #DCDDDE;
+@grey             : #828282;
+@lightGrey        : #b7b6b7;
 @offWhite         : #EEE;
 @darkWhite        : #F0F0F0;
 @white            : #FFF;

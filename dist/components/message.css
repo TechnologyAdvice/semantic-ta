@@ -238,7 +238,7 @@
 ---------------*/
 
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #1f1f1f;
   color: #ffffff;
 }
 
@@ -328,7 +328,7 @@
 /* Colors */
 .ui.inverted.message,
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #1f1f1f;
   color: #ffffff;
 }
 .ui.blue.message {
