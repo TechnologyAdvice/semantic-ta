@@ -38,12 +38,12 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.2142em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.67861em 1em;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.15);
   color: #303030;
-  border-radius: 0.2857rem;
+  border-radius: 0;
   -webkit-transition: background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
           transition: background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   box-shadow: none;
@@ -235,7 +235,7 @@
   height: 100%;
   width: 2.82142em;
   opacity: 0.5;
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 0 0 0em;
   -webkit-transition: opacity 0.3s ease;
           transition: opacity 0.3s ease;
 }
@@ -263,7 +263,7 @@
 .ui[class*="left icon"].input > i.icon {
   right: auto;
   left: 1px;
-  border-radius: 0.2857rem 0em 0em 0.2857rem;
+  border-radius: 0 0em 0em 0;
 }
 .ui[class*="left icon"].input > i.circular.icon {
   right: auto;
@@ -325,7 +325,7 @@
   top: 1px;
   right: 1px;
   font-size: 0.75em;
-  border-radius: 0em 0.2857rem 0em 0em;
+  border-radius: 0em 0 0em 0em;
 }
 .ui.labeled.input input {
   padding-right: 2.5em !important;
@@ -418,25 +418,25 @@
 ---------------------*/
 
 .ui.mini.input {
-  font-size: 0.71428571em;
+  font-size: 0.6875em;
 }
 .ui.small.input {
-  font-size: 0.92857143em;
+  font-size: 0.9375em;
 }
 .ui.input {
   font-size: 1em;
 }
 .ui.large.input {
-  font-size: 1.14285714em;
+  font-size: 1.125em;
 }
 .ui.big.input {
-  font-size: 1.28571429em;
+  font-size: 1.3125em;
 }
 .ui.huge.input {
-  font-size: 1.42857143em;
+  font-size: 1.4375em;
 }
 .ui.massive.input {
-  font-size: 1.71428571em;
+  font-size: 1.6875em;
 }
 
 

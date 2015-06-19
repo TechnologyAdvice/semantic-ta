@@ -14,21 +14,21 @@
              Page
 *******************************/
 
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin';
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto:400,500,700';
 html,
 body {
   height: 100%;
 }
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 body {
   margin: 0px;
   padding: 0px;
   min-width: 320px;
   background: #f0f0f0;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 16px;
   line-height: 1.33;
   color: #303030;
   font-smoothing: antialiased;
@@ -44,11 +44,11 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.33em;
   margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
   margin: calc(2rem -  0.165em ) 0em 1rem;
-  font-weight: bold;
+  font-weight: 500;
   padding: 0em;
 }
 h1 {
@@ -158,14 +158,3 @@ input::selection {
          Site Overrides
 *******************************/
 
-body {
-  color: #303030;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #1f1f1f;
-}

@@ -59,17 +59,17 @@
   box-shadow: '';
   line-height: 1.142rem;
   box-sizing: border-box;
-  border-radius: 0.2857rem;
+  border-radius: 0;
 }
 .ui.steps .step:first-child {
   padding-left: 1.5em;
-  border-radius: 0.2857rem 0em 0em 0.2857rem;
+  border-radius: 0 0em 0em 0;
 }
 .ui.steps .step:last-child {
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 0 0 0em;
 }
 .ui.steps .step:only-child {
-  border-radius: 0.2857rem;
+  border-radius: 0;
 }
 .ui.steps .step:last-child {
   margin-right: 0em;
@@ -86,7 +86,7 @@
 
 /* Title */
 .ui.steps .step .title {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1.0714em;
   font-weight: bold;
 }
@@ -162,10 +162,10 @@
 }
 .ui.vertical.steps .step:first-child {
   padding: 0.9285em 1.5em;
-  border-radius: 0.2857rem 0.2857rem 0em 0em;
+  border-radius: 0 0 0em 0em;
 }
 .ui.vertical.steps .step:last-child {
-  border-radius: 0em 0em 0.2857rem 0.2857rem;
+  border-radius: 0em 0em 0 0;
 }
 
 /* Arrow */
@@ -195,10 +195,10 @@
   }
   .ui.steps .step:first-child {
     padding: 0.9285em 1.5em;
-    border-radius: 0.2857rem 0.2857rem 0em 0em;
+    border-radius: 0 0 0em 0em;
   }
   .ui.steps .step:last-child {
-    border-radius: 0em 0em 0.2857rem 0.2857rem;
+    border-radius: 0em 0em 0 0;
   }
   
 /* Arrow */
@@ -301,10 +301,10 @@
   }
   .ui[class*="tablet stackable"].steps .step:first-child {
     padding: 0.9285em 1.5em;
-    border-radius: 0.2857rem 0.2857rem 0em 0em;
+    border-radius: 0 0 0em 0em;
   }
   .ui[class*="tablet stackable"].steps .step:last-child {
-    border-radius: 0em 0em 0.2857rem 0.2857rem;
+    border-radius: 0em 0em 0 0;
   }
   
 /* Arrow */
@@ -331,25 +331,25 @@
 /* Top */
 .attached.ui.steps {
   margin: 0em;
-  border-radius: 0.2857rem 0.2857rem 0em 0em;
+  border-radius: 0 0 0em 0em;
 }
 .attached.ui.steps .step:first-child {
-  border-radius: 0.2857rem 0em 0em 0em;
+  border-radius: 0 0em 0em 0em;
 }
 .attached.ui.steps .step:last-child {
-  border-radius: 0em 0.2857rem 0em 0em;
+  border-radius: 0em 0 0em 0em;
 }
 
 /* Bottom */
 .bottom.attached.ui.steps {
   margin: -1px 0em 0em;
-  border-radius: 0em 0em 0.2857rem 0.2857rem;
+  border-radius: 0em 0em 0 0;
 }
 .bottom.attached.ui.steps .step:first-child {
-  border-radius: 0em 0em 0em 0.2857rem;
+  border-radius: 0em 0em 0em 0;
 }
 .bottom.attached.ui.steps .step:last-child {
-  border-radius: 0em 0em 0.2857rem 0em;
+  border-radius: 0em 0em 0 0em;
 }
 
 /*-------------------
@@ -397,7 +397,7 @@
 
 .ui.small.step,
 .ui.small.steps .step {
-  font-size: 0.92857143rem;
+  font-size: 0.9375rem;
 }
 .ui.step,
 .ui.steps .step {
@@ -405,7 +405,7 @@
 }
 .ui.large.step,
 .ui.large.steps .step {
-  font-size: 1.14285714rem;
+  font-size: 1.125rem;
 }
 
 
