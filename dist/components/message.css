@@ -21,7 +21,7 @@
   background: #efefef;
   padding: 1em 1.5em;
   line-height: 1.3;
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
   -webkit-transition: opacity 0.2s ease, color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
           transition: opacity 0.2s ease, color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   border-radius: 0.2857rem;
@@ -238,7 +238,7 @@
 ---------------*/
 
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #1f1f1f;
   color: #ffffff;
 }
 
@@ -328,15 +328,15 @@
 /* Colors */
 .ui.inverted.message,
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #1f1f1f;
   color: #ffffff;
 }
 .ui.blue.message {
   background-color: #dff0ff;
-  color: #3b83c0;
+  color: #3d97d2;
 }
 .ui.blue.message .header {
-  color: #3576ac;
+  color: #2e8bc7;
 }
 .ui.green.message {
   background-color: #ebffed;
@@ -347,31 +347,31 @@
 }
 .ui.orange.message {
   background-color: #ffedde;
-  color: #e07b53;
+  color: #ec823e;
 }
 .ui.orange.message .header {
-  color: #dc6a3d;
+  color: #ea7327;
 }
 .ui.pink.message {
   background-color: #ffe3fb;
-  color: #d9499a;
+  color: black;
 }
 .ui.pink.message .header {
-  color: #d5348e;
+  color: #000000;
 }
 .ui.purple.message {
   background-color: #eae7ff;
-  color: #564f8a;
+  color: black;
 }
 .ui.purple.message .header {
-  color: #4c467a;
+  color: #000000;
 }
 .ui.red.message {
   background-color: #ffe8e6;
-  color: #d95c5c;
+  color: #fd3a46;
 }
 .ui.red.message .header {
-  color: #d44747;
+  color: #fd212e;
 }
 .ui.teal.message {
   background-color: #e9ffff;

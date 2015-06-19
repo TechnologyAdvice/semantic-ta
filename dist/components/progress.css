@@ -154,7 +154,7 @@
   right: auto;
   left: 0%;
   bottom: auto;
-  color: rgba(0, 0, 0, 0.8);
+  color: #303030;
   font-weight: bold;
   text-shadow: none;
   margin-top: 0.2em;
@@ -174,7 +174,7 @@
 ---------------*/
 
 .ui.progress.success .bar {
-  background-color: #5bbd72 !important;
+  background-color: #93c953 !important;
 }
 .ui.progress.success .bar,
 .ui.progress.success .bar::after {
@@ -206,7 +206,7 @@
 ---------------*/
 
 .ui.progress.error .bar {
-  background-color: #d95c5c !important;
+  background-color: #fd3a46 !important;
 }
 .ui.progress.error .bar,
 .ui.progress.error .bar::after {
@@ -290,19 +290,19 @@
   background: #888888;
 }
 .ui.inverted.progress .bar > .progress {
-  color: #fafafa;
+  color: #eeeeee;
 }
 .ui.inverted.progress > .label {
   color: #ffffff;
 }
 .ui.inverted.progress.success > .label {
-  color: #5bbd72;
+  color: #93c953;
 }
 .ui.inverted.progress.warning > .label {
   color: #f2c037;
 }
 .ui.inverted.progress.error > .label {
-  color: #d95c5c;
+  color: #fd3a46;
 }
 
 /*--------------
@@ -359,58 +359,58 @@
 ---------------*/
 
 .ui.black.progress .bar {
-  background-color: #1b1c1d;
+  background-color: #1f1f1f;
 }
 .ui.blue.progress .bar {
-  background-color: #3b83c0;
+  background-color: #3d97d2;
 }
 .ui.green.progress .bar {
-  background-color: #5bbd72;
+  background-color: #93c953;
 }
 .ui.orange.progress .bar {
-  background-color: #e07b53;
+  background-color: #ec823e;
 }
 .ui.pink.progress .bar {
-  background-color: #d9499a;
+  background-color: black;
 }
 .ui.purple.progress .bar {
-  background-color: #564f8a;
+  background-color: black;
 }
 .ui.red.progress .bar {
-  background-color: #d95c5c;
+  background-color: #fd3a46;
 }
 .ui.teal.progress .bar {
-  background-color: #00b5ad;
+  background-color: #3eb881;
 }
 .ui.yellow.progress .bar {
-  background-color: #f2c61f;
+  background-color: #f1b800;
 }
 .ui.black.inverted.progress .bar {
-  background-color: #333333;
+  background-color: #393939;
 }
 .ui.blue.inverted.progress .bar {
-  background-color: #54c8ff;
+  background-color: #66addc;
 }
 .ui.green.inverted.progress .bar {
-  background-color: #2ecc40;
+  background-color: #abd57a;
 }
 .ui.orange.inverted.progress .bar {
-  background-color: #ff851b;
+  background-color: #f1a06c;
 }
 .ui.pink.inverted.progress .bar {
-  background-color: #ff8edf;
+  background-color: #1a1a1a;
 }
 .ui.purple.inverted.progress .bar {
-  background-color: #cdc6ff;
+  background-color: #1a1a1a;
 }
 .ui.red.inverted.progress .bar {
-  background-color: #ff695e;
+  background-color: #fe6c75;
 }
 .ui.teal.inverted.progress .bar {
-  background-color: #6dffff;
+  background-color: #60c99a;
 }
 .ui.yellow.inverted.progress .bar {
-  background-color: #ffe21f;
+  background-color: #ffcb25;
 }
 
 /*--------------

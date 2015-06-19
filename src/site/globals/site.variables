@@ -1,3 +1,54 @@
 /*******************************
      User Global Variables
 *******************************/
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@black            : #1f1f1f;
+@blue             : #3d97d2;
+@green            : #93c953;
+@orange           : #ec823e;
+@pink             : black;
+@purple           : black;
+@red              : #fd3a46;
+@teal             : #3eb881;
+@yellow           : #f1b800;
+
+/*---  Light Colors  ---*/
+@lightBlack       : lighten(@black, 10);
+@lightBlue        : lighten(@blue, 10);
+@lightGreen       : lighten(@green, 10);
+@lightOrange      : lighten(@orange, 10);
+@lightPink        : lighten(@pink, 10);
+@lightPurple      : lighten(@purple, 10);
+@lightRed         : lighten(@red, 10);
+@lightTeal        : lighten(@teal, 10);
+@lightYellow      : lighten(@yellow, 10);
+
+/*---   Neutrals  ---*/
+@fullBlack        : #000;
+@darkGrey         : #4d4d4d;
+@grey             : #828282;
+@lightGrey        : #b7b6b7;
+@offWhite         : #EEE;
+@darkWhite        : #F0F0F0;
+@white            : #FFF;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor        : @green;
+@secondaryColor      : @blue;
+
+/*-------------------
+        Page
+--------------------*/
+
+@pageBackground      : @darkWhite;
+
+@textColor           : #303030;
+@headerColor         : #1F1F1F;

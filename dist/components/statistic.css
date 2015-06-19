@@ -81,7 +81,7 @@
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
-  color: #1b1c1d;
+  color: #1f1f1f;
   text-transform: uppercase;
   text-align: center;
 }
@@ -202,42 +202,42 @@
 .ui.blue.statistics .statistic > .value,
 .ui.statistics .blue.statistic > .value,
 .ui.blue.statistic > .value {
-  color: #3b83c0;
+  color: #3d97d2;
 }
 .ui.green.statistics .statistic > .value,
 .ui.statistics .green.statistic > .value,
 .ui.green.statistic > .value {
-  color: #5bbd72;
+  color: #93c953;
 }
 .ui.orange.statistics .statistic > .value,
 .ui.statistics .orange.statistic > .value,
 .ui.orange.statistic > .value {
-  color: #e07b53;
+  color: #ec823e;
 }
 .ui.pink.statistics .statistic > .value,
 .ui.statistics .pink.statistic > .value,
 .ui.pink.statistic > .value {
-  color: #d9499a;
+  color: black;
 }
 .ui.purple.statistics .statistic > .value,
 .ui.statistics .purple.statistic > .value,
 .ui.purple.statistic > .value {
-  color: #564f8a;
+  color: black;
 }
 .ui.red.statistics .statistic > .value,
 .ui.statistics .red.statistic > .value,
 .ui.red.statistic > .value {
-  color: #d95c5c;
+  color: #fd3a46;
 }
 .ui.teal.statistics .statistic > .value,
 .ui.statistics .teal.statistic > .value,
 .ui.teal.statistic > .value {
-  color: #00b5ad;
+  color: #3eb881;
 }
 .ui.yellow.statistics .statistic > .value,
 .ui.statistics .yellow.statistic > .value,
 .ui.yellow.statistic > .value {
-  color: #f2c61f;
+  color: #f1b800;
 }
 
 /*--------------
@@ -269,42 +269,42 @@
 .ui.inverted.blue.statistics .statistic > .value,
 .ui.statistics .inverted.blue.statistic > .value,
 .ui.inverted.blue.statistic > .value {
-  color: #54c8ff;
+  color: #66addc;
 }
 .ui.inverted.green.statistics .statistic > .value,
 .ui.statistics .inverted.green.statistic > .value,
 .ui.inverted.green.statistic > .value {
-  color: #2ecc40;
+  color: #abd57a;
 }
 .ui.inverted.orange.statistics .statistic > .value,
 .ui.statistics .inverted.orange.statistic > .value,
 .ui.inverted.orange.statistic > .value {
-  color: #ff851b;
+  color: #f1a06c;
 }
 .ui.inverted.pink.statistics .statistic > .value,
 .ui.statistics .inverted.pink.statistic > .value,
 .ui.inverted.pink.statistic > .value {
-  color: #ff8edf;
+  color: #1a1a1a;
 }
 .ui.inverted.purple.statistics .statistic > .value,
 .ui.statistics .inverted.purple.statistic > .value,
 .ui.inverted.purple.statistic > .value {
-  color: #cdc6ff;
+  color: #1a1a1a;
 }
 .ui.inverted.red.statistics .statistic > .value,
 .ui.statistics .inverted.red.statistic > .value,
 .ui.inverted.red.statistic > .value {
-  color: #ff695e;
+  color: #fe6c75;
 }
 .ui.inverted.teal.statistics .statistic > .value,
 .ui.statistics .inverted.teal.statistic > .value,
 .ui.inverted.teal.statistic > .value {
-  color: #6dffff;
+  color: #60c99a;
 }
 .ui.inverted.yellow.statistics .statistic > .value,
 .ui.statistics .inverted.yellow.statistic > .value,
 .ui.inverted.yellow.statistic > .value {
-  color: #ffe21f;
+  color: #ffcb25;
 }
 
 /*--------------
