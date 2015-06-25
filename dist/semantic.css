@@ -23239,10 +23239,19 @@ a.ui.card:hover,
 .ui.accordion .title i {
   float: right;
   color: #b7b6b7;
+  margin-top: 7px;
 }
 
 .ui.accordion .title:hover i {
   color: #9e9c9e;
+}
+
+.ui.accordion .title:not(.ui) {
+  padding: 10px 0;
+}
+
+.ui.accordion:not(.styled) .title ~ .content:not(.ui) {
+  margin-top: 15px;
 }
 /*!
  * # Semantic UI 0.1.0 - Checkbox

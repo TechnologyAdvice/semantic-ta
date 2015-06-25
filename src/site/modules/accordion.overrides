@@ -7,9 +7,18 @@
     i {
       float: right;
       color: @accordionGrey;
+      margin-top: 7px;
     }
     &:hover i {
       color: darken(@accordionGrey, 10%);
+    }
+    &:not(.ui) {
+      padding: 10px 0;
+    }
+  }
+  &:not(.styled) {
+    .title~.content:not(.ui) {
+      margin-top: 15px;
     }
   }
 }
