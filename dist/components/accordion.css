@@ -254,3 +254,13 @@
         User Overrides
 *******************************/
 
+.ui.accordion .title {
+  border-bottom: 1px solid #b7b6b7;
+}
+.ui.accordion .title i {
+  float: right;
+  color: #b7b6b7;
+}
+.ui.accordion .title:hover i {
+  color: #9e9c9e;
+}
