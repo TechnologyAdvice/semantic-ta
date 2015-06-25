@@ -1,3 +1,10 @@
 /*******************************
     User Variable Overrides
 *******************************/
+.ui.comments {
+  .comment {
+    .comments {
+      margin-left: 40px;
+    }
+  }
+}

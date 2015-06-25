@@ -21732,6 +21732,10 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
+
+.ui.comments .comment .comments {
+  margin-left: 40px;
+}
 /*!
  * # Semantic UI 0.1.0 - Feed
  * http://github.com/semantic-org/semantic-ui/
