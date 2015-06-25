@@ -22,3 +22,10 @@
     }
   }
 }
+.ui.styled.accordion .accordion,
+.ui.styled.accordion {
+  .title {
+    padding: 10px;
+    border-bottom: none;
+  }
+}

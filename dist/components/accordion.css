@@ -271,3 +271,8 @@
 .ui.accordion:not(.styled) .title ~ .content:not(.ui) {
   margin-top: 15px;
 }
+.ui.styled.accordion .accordion .title,
+.ui.styled.accordion .title {
+  padding: 10px;
+  border-bottom: none;
+}

@@ -23253,6 +23253,12 @@ a.ui.card:hover,
 .ui.accordion:not(.styled) .title ~ .content:not(.ui) {
   margin-top: 15px;
 }
+
+.ui.styled.accordion .accordion .title,
+.ui.styled.accordion .title {
+  padding: 10px;
+  border-bottom: none;
+}
 /*!
  * # Semantic UI 0.1.0 - Checkbox
  * http://github.com/semantic-org/semantic-ui/
