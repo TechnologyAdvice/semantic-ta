@@ -2,4 +2,4 @@
     User Variable Overrides
 *******************************/
 @authorHoverColor: lighten(@textColor, 20%);
-@replyHeight: 130px;
+@replyHeight: 8.125em;

@@ -4,7 +4,7 @@
 .ui.comments {
   .comment {
     .comments {
-      margin-left: 40px;
+      margin-left: 2.5em;
     }
   }
 }

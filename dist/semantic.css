@@ -21658,7 +21658,7 @@ a.ui.card:hover,
 
 .ui.comments .reply.form textarea {
   font-size: 1em;
-  height: 130px;
+  height: 8.125em;
 }
 
 /*******************************
@@ -21734,7 +21734,7 @@ a.ui.card:hover,
 *******************************/
 
 .ui.comments .comment .comments {
-  margin-left: 40px;
+  margin-left: 2.5em;
 }
 /*!
  * # Semantic UI 0.1.0 - Feed
