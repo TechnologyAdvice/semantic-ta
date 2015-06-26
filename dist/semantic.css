@@ -21518,7 +21518,7 @@ a.ui.card:hover,
 ---------------------*/
 
 .ui.comments .comment .comments {
-  margin: 0em 0em 0.5em 0.5em;
+  margin: 0em 0em 0.5em 2.5em;
   padding: 1em 0em 1em 1em;
 }
 
@@ -21584,7 +21584,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #00b2f3;
+  color: #636363;
 }
 
 /*--------------
@@ -21658,7 +21658,7 @@ a.ui.card:hover,
 
 .ui.comments .reply.form textarea {
   font-size: 1em;
-  height: 12em;
+  height: 8.125em;
 }
 
 /*******************************
