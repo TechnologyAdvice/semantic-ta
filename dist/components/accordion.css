@@ -257,12 +257,12 @@
 .ui.accordion .title {
   border-bottom: 1px solid #b7b6b7;
 }
-.ui.accordion .title i {
+.ui.accordion .title .icon {
   float: right;
   color: #b7b6b7;
   margin-top: 0.5em;
 }
-.ui.accordion .title:hover i {
+.ui.accordion .title:hover .icon {
   color: #9e9c9e;
 }
 .ui.styled.accordion .accordion .title,

@@ -4,12 +4,12 @@
 .ui.accordion {
   .title {
     border-bottom: 1px solid @accordionGrey;
-    i {
+    .icon {
       float: right;
       color: @accordionGrey;
       margin-top: 0.5em;
     }
-    &:hover i {
+    &:hover .icon {
       color: darken(@accordionGrey, 10%);
     }
   }
