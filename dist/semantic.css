@@ -23232,7 +23232,7 @@ a.ui.card:hover,
         User Overrides
 *******************************/
 
-.ui.accordion .title {
+.ui.accordion:not(.styled) .title {
   border-bottom: 1px solid #b7b6b7;
 }
 
@@ -23244,11 +23244,6 @@ a.ui.card:hover,
 
 .ui.accordion .title:hover .icon {
   color: #9e9c9e;
-}
-
-.ui.styled.accordion .accordion .title,
-.ui.styled.accordion .title {
-  border-bottom: none;
 }
 /*!
  * # Semantic UI 0.1.0 - Checkbox
