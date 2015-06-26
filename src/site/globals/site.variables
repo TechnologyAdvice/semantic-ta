@@ -89,6 +89,14 @@
 @headerColor         : #1f1f1f;
 
 /*-------------------
+        Links
+--------------------*/
+
+@linkColor: @blue;
+@linkUnderline: underline;
+@linkHoverColor: darken(@blue, 10%);
+
+/*-------------------
        Accents
 --------------------*/
 
