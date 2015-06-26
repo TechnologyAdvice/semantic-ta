@@ -1,4 +1,7 @@
 /*******************************
     User Variable Overrides
 *******************************/
+@contentMargin: 1em 0 0;
+@titlePadding: 10px 0;
 @accordionGrey: #b7b6b7;
+@styledTitlePadding: 10px;

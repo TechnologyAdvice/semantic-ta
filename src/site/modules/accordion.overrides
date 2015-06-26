@@ -7,25 +7,16 @@
     i {
       float: right;
       color: @accordionGrey;
-      margin-top: 7px;
+      margin-top: 0.5em;
     }
     &:hover i {
       color: darken(@accordionGrey, 10%);
-    }
-    &:not(.ui) {
-      padding: 10px 0;
-    }
-  }
-  &:not(.styled) {
-    .title~.content:not(.ui) {
-      margin-top: 15px;
     }
   }
 }
 .ui.styled.accordion .accordion,
 .ui.styled.accordion {
   .title {
-    padding: 10px;
     border-bottom: none;
   }
 }
