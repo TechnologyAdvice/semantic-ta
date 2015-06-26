@@ -21518,7 +21518,7 @@ a.ui.card:hover,
 ---------------------*/
 
 .ui.comments .comment .comments {
-  margin: 0em 0em 0.5em 0.5em;
+  margin: 0em 0em 0.5em 2.5em;
   padding: 1em 0em 1em 1em;
 }
 
@@ -21732,10 +21732,6 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
-
-.ui.comments .comment .comments {
-  margin-left: 2.5em;
-}
 /*!
  * # Semantic UI 0.1.0 - Feed
  * http://github.com/semantic-org/semantic-ui/
