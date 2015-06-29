@@ -5,3 +5,4 @@
 @titlePadding: 10px 0;
 @accordionGrey: #b7b6b7;
 @styledTitlePadding: 10px;
+@iconFontSize: 0.75em;

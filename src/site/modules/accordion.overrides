@@ -9,7 +9,8 @@
     .icon {
       float: right;
       color: @accordionGrey;
-      margin-top: 0.5em;
+      font-size: @iconFontSize;
+      margin-top: 0.75em;
     }
     &:hover .icon {
       color: darken(@accordionGrey, 10%);
