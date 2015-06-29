@@ -1,3 +1,19 @@
 /*******************************
         User Overrides
 *******************************/
+.ui.accordion {
+  &:not(.styled) .title {
+    border-bottom: 1px solid @accordionGrey;
+  }
+  .title {
+    .icon {
+      float: right;
+      color: @accordionGrey;
+      font-size: @iconFontSize;
+      margin-top: 0.75em;
+    }
+    &:hover .icon {
+      color: darken(@accordionGrey, 10%);
+    }
+  }
+}
