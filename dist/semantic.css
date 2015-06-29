@@ -21518,7 +21518,7 @@ a.ui.card:hover,
 ---------------------*/
 
 .ui.comments .comment .comments {
-  margin: 0em 0em 0.5em 0.5em;
+  margin: 0em 0em 0.5em 2.5em;
   padding: 1em 0em 1em 1em;
 }
 
@@ -21584,7 +21584,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #297cb3;
+  color: #636363;
 }
 
 /*--------------
@@ -21658,7 +21658,7 @@ a.ui.card:hover,
 
 .ui.comments .reply.form textarea {
   font-size: 1em;
-  height: 12em;
+  height: 8.125em;
 }
 
 /*******************************
@@ -23001,7 +23001,7 @@ a.ui.card:hover,
 /* Default Styling */
 
 .ui.accordion .title:not(.ui) {
-  padding: 0.5em 0em;
+  padding: 10px 0;
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   color: #303030;
@@ -23018,7 +23018,7 @@ a.ui.card:hover,
 
 .ui.accordion:not(.styled) .title ~ .content:not(.ui),
 .ui.accordion:not(.styled) .accordion .title ~ .content:not(.ui) {
-  margin: 0em;
+  margin: 1em 0 0;
   padding: 0.5em 0em 1em;
 }
 
@@ -23037,7 +23037,7 @@ a.ui.card:hover,
   height: 1em;
   margin: 0em 0.25rem 0em 0rem;
   padding: 0em;
-  font-size: 1em;
+  font-size: 0.75em;
   -webkit-transition: -webkit-transform 0.2s ease, opacity 0.2s ease;
   transition: transform 0.2s ease, opacity 0.2s ease;
   vertical-align: baseline;
@@ -23068,7 +23068,7 @@ a.ui.card:hover,
 /* Header */
 
 .ui.accordion .ui.header .dropdown.icon {
-  font-size: 1em;
+  font-size: 0.75em;
   margin: 0em 0.25rem 0em 0rem;
 }
 
@@ -23111,7 +23111,7 @@ a.ui.card:hover,
 .ui.styled.accordion .title,
 .ui.styled.accordion .accordion .title {
   margin: 0em;
-  padding: 0.75em 1em;
+  padding: 10px;
   color: rgba(0, 0, 0, 0.4);
   font-weight: bold;
   border-top: 1px solid rgba(39, 41, 43, 0.15);
@@ -23231,6 +23231,21 @@ a.ui.card:hover,
 /*******************************
         User Overrides
 *******************************/
+
+.ui.accordion:not(.styled) .title {
+  border-bottom: 1px solid #b7b6b7;
+}
+
+.ui.accordion .title .icon {
+  float: right;
+  color: #b7b6b7;
+  font-size: 0.75em;
+  margin-top: 0.75em;
+}
+
+.ui.accordion .title:hover .icon {
+  color: #9e9c9e;
+}
 /*!
  * # Semantic UI 0.1.0 - Checkbox
  * http://github.com/semantic-org/semantic-ui/
