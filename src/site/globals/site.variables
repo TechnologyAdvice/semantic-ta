@@ -95,6 +95,7 @@
 @linkColor: @blue;
 @linkUnderline: underline;
 @linkHoverColor: darken(@blue, 10%);
+@linkTransition: all 0.2s ease-in-out;
 
 /*-------------------
        Accents
