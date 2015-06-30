@@ -439,3 +439,6 @@
   text-align: center;
   background: #ffffff;
 }
+.ui.image.modal > .content {
+  padding: 1rem;
+}

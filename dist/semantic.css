@@ -25646,6 +25646,10 @@ select.ui.dropdown {
   text-align: center;
   background: #ffffff;
 }
+
+.ui.image.modal > .content {
+  padding: 1rem;
+}
 /*!
  * # Semantic UI 0.1.0 - Nag
  * http://github.com/semantic-org/semantic-ui/
