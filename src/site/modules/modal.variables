@@ -3,3 +3,4 @@
 *******************************/
 @secondaryHeaderAlign: center;
 @secondaryHeaderBackground: @contentBackground;
+@imageModalPadding: 1rem;

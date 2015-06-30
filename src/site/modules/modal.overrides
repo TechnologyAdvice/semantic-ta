@@ -11,3 +11,8 @@
     background: @secondaryHeaderBackground;
   }
 }
+.ui.image.modal {
+  & > .content {
+    padding: @imageModalPadding;
+  }
+}
