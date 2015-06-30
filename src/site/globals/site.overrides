@@ -1,3 +1,10 @@
 /*******************************
          Site Overrides
 *******************************/
+.blog.copy {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.light {
+  font-weight: @lightFontWeight;
+}
