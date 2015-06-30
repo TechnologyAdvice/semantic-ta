@@ -23858,7 +23858,7 @@ a.ui.card:hover,
 .dimmed.dimmable > .ui.visible.dimmer,
 .ui.active.dimmer {
   display: block;
-  opacity: 1;
+  opacity: 0.65;
 }
 
 .ui.disabled.dimmer {
@@ -25637,6 +25637,15 @@ select.ui.dropdown {
 /*******************************
          Site Overrides
 *******************************/
+
+/*--------------
+     Header
+---------------*/
+
+.ui.secondary.modal > .header {
+  text-align: center;
+  background: #ffffff;
+}
 /*!
  * # Semantic UI 0.1.0 - Nag
  * http://github.com/semantic-org/semantic-ui/

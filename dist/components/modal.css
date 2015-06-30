@@ -430,3 +430,12 @@
          Site Overrides
 *******************************/
 
+
+/*--------------
+     Header
+---------------*/
+
+.ui.secondary.modal > .header {
+  text-align: center;
+  background: #ffffff;
+}
