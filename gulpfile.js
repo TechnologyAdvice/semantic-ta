@@ -7,8 +7,10 @@ var tasks = requireDir('./tasks');
 
 gulp.task('default', function(cb) {
   runSequence(
-    'build',
-    'watch',
+    [
+      'build',
+      'watch'
+    ],
     cb
   )
 });
