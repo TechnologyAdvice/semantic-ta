@@ -427,3 +427,8 @@ th {
          Site Overrides
 *******************************/
 
+b,
+optgroup,
+strong {
+  font-weight: 600;
+}

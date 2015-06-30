@@ -57,7 +57,7 @@
   table-layout: fixed;
   background: '';
   box-shadow: '';
-  line-height: 1.142rem;
+  line-height: 1.5rem;
   box-sizing: border-box;
   border-radius: 0;
 }
@@ -397,7 +397,7 @@
 
 .ui.small.step,
 .ui.small.steps .step {
-  font-size: 0.9375rem;
+  font-size: 1rem;
 }
 .ui.step,
 .ui.steps .step {
@@ -405,7 +405,7 @@
 }
 .ui.large.step,
 .ui.large.steps .step {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 

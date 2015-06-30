@@ -37,9 +37,9 @@
   outline: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
-  line-height: 1.2142em;
+  line-height: 1.5rem;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  padding: 0.67861em 1em;
+  padding: 0.53571em 1em;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.15);
   color: #303030;
@@ -418,25 +418,25 @@
 ---------------------*/
 
 .ui.mini.input {
-  font-size: 0.6875em;
+  font-size: 1em;
 }
 .ui.small.input {
-  font-size: 0.9375em;
+  font-size: 1em;
 }
 .ui.input {
   font-size: 1em;
 }
 .ui.large.input {
-  font-size: 1.125em;
+  font-size: 1em;
 }
 .ui.big.input {
-  font-size: 1.3125em;
+  font-size: 1em;
 }
 .ui.huge.input {
-  font-size: 1.4375em;
+  font-size: 1em;
 }
 .ui.massive.input {
-  font-size: 1.6875em;
+  font-size: 2em;
 }
 
 

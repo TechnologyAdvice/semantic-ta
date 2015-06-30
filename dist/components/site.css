@@ -20,7 +20,7 @@ body {
   height: 100%;
 }
 html {
-  font-size: 16px;
+  font-size: 1rem;
 }
 body {
   margin: 0px;
@@ -28,8 +28,8 @@ body {
   min-width: 320px;
   background: #f0f0f0;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.33;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #303030;
   font-smoothing: antialiased;
 }
@@ -45,9 +45,9 @@ h3,
 h4,
 h5 {
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  line-height: 1.33em;
-  margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
-  margin: calc(2rem -  0.165em ) 0em 1rem;
+  line-height: 2.3rem;
+  margin: -webkit-calc(2rem -  0.65rem ) 0em 1rem;
+  margin: calc(2rem -  0.65rem ) 0em 1rem;
   font-weight: 500;
   padding: 0em;
 }
@@ -89,7 +89,7 @@ h5:last-child {
 
 p {
   margin: 0em 0em 1em;
-  line-height: 1.33;
+  line-height: 1.5rem;
 }
 p:first-child {
   margin-top: 0em;
@@ -158,3 +158,10 @@ input::selection {
          Site Overrides
 *******************************/
 
+.blog.copy {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.light {
+  font-weight: 300;
+}

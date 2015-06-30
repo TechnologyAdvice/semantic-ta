@@ -177,8 +177,8 @@
 .ui.card > .content > .header:not(.ui) {
   font-weight: 500;
   font-size: 1.2em;
-  margin-top: -0.165em;
-  line-height: 1.33em;
+  margin-top: -0.25rem;
+  line-height: 2.3rem;
 }
 .ui.cards > .card > .content > .meta + .description,
 .ui.cards > .card > .content > .header + .description,

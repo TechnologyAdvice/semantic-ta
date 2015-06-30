@@ -18,17 +18,17 @@
 /* Standard */
 .ui.header {
   border: none;
-  margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
-  margin: calc(2rem -  0.165em ) 0em 1rem;
+  margin: -webkit-calc(2rem -  0.65rem ) 0em 1rem;
+  margin: calc(2rem -  0.65rem ) 0em 1rem;
   padding: 0em 0em;
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: 500;
-  line-height: 1.33em;
+  line-height: 2.3rem;
   text-transform: none;
   color: #1f1f1f;
 }
 .ui.header:first-child {
-  margin-top: -0.165em;
+  margin-top: -0.65rem;
 }
 .ui.header:last-child {
   margin-bottom: 0em;
@@ -55,7 +55,7 @@
   display: table-cell;
   opacity: 1;
   font-size: 1.5em;
-  padding-top: 0.165em;
+  padding-top: 0.65rem;
   vertical-align: middle;
 }
 
@@ -73,7 +73,7 @@
 .ui.header > .image,
 .ui.header > img {
   display: inline-block;
-  margin-top: 0.165em;
+  margin-top: 0.65rem;
   width: 2.5em;
   height: auto;
   vertical-align: middle;

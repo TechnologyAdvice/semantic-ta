@@ -17,7 +17,7 @@
 .ui.accordion,
 .ui.accordion .accordion {
   max-width: 100%;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .ui.accordion .accordion {
   margin: 1em 0em 0em;
@@ -85,7 +85,7 @@
 }
 .ui.accordion.menu .item .title > .dropdown.icon {
   float: right;
-  margin: 0.165em 0em 0em 1em;
+  margin: 0.25rem 0em 0em 1em;
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
