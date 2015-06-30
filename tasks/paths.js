@@ -9,7 +9,7 @@ module.exports = {
   ],
   assetFiles: [
     // icons
-    './src/themes/default/assets/**/*.{eot,svg,ttf,woff,woff2}',
+    './src/themes/default/assets/**/icons.{eot,svg,ttf,woff,woff2}',
 
     // images
     './src/themes/default/assets/**/*.{png,jpg,jpeg,gif,bmp}'
