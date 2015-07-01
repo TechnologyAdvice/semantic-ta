@@ -132,19 +132,19 @@
 ---------------*/
 
 h1.ui.header {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 h2.ui.header {
-  font-size: 1.714rem;
+  font-size: 1.8125rem;
 }
 h3.ui.header {
-  font-size: 1.28rem;
+  font-size: 1.5rem;
 }
 h4.ui.header {
-  font-size: 1.071rem;
+  font-size: 1.25rem;
 }
 h5.ui.header {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 /* Sub Header */
@@ -170,19 +170,19 @@ h5.ui.header .sub.header {
 
 .ui.huge.header {
   min-height: 1em;
-  font-size: 2em;
+  font-size: 3em;
 }
 .ui.large.header {
-  font-size: 1.714em;
+  font-size: 1.8125em;
 }
 .ui.medium.header {
-  font-size: 1.28em;
+  font-size: 1.5em;
 }
 .ui.small.header {
-  font-size: 1.071em;
+  font-size: 1.25em;
 }
 .ui.tiny.header {
-  font-size: 1em;
+  font-size: 1.125em;
 }
 
 /* Sub Header */
@@ -510,19 +510,19 @@ a.ui.inverted.yellow.header:hover {
   border-radius: 0.3125rem;
 }
 .ui.tiny.block.header {
-  font-size: 1em;
+  font-size: 1.125em;
 }
 .ui.small.block.header {
-  font-size: 1.071em;
+  font-size: 1.25em;
 }
 .ui.block.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-size: 1.28em;
+  font-size: 1.5em;
 }
 .ui.large.block.header {
-  font-size: 1.714em;
+  font-size: 1.8125em;
 }
 .ui.huge.block.header {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 /*-------------------
@@ -580,7 +580,7 @@ a.ui.inverted.yellow.header:hover {
 --------------------*/
 
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-size: 1.28em;
+  font-size: 1.5em;
 }
 
 
@@ -594,3 +594,38 @@ a.ui.inverted.yellow.header:hover {
          Site Overrides
 *******************************/
 
+h1.plus.ui.header {
+  font-size: 3.55rem;
+}
+h1.minus.ui.header {
+  font-size: 2.25rem;
+}
+h2.plus.ui.header {
+  font-size: 2rem;
+}
+
+/* Mobily Only */
+@media only screen and (max-width: 767px) {
+  h1.plus.ui.header {
+    font-size: 2.5rem;
+  }
+  h1.ui.header,
+  h1.minus.ui.header {
+    font-size: 1.45rem;
+  }
+  h2.plus.ui.header {
+    font-size: 1.25rem;
+  }
+  h2.ui.header {
+    font-size: 1.125rem;
+  }
+  h4.ui.header {
+    font-size: 1rem;
+  }
+  h5.ui.header {
+    font-size: 0.875rem;
+  }
+  h6.ui.header {
+    font-size: 0.6rem;
+  }
+}
