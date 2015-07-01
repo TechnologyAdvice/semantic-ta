@@ -8,7 +8,7 @@ var paths = require('./paths');
  * @param tasks - gulp.tasks to run when the `src` change.
  * @param cacheKey - gulp-cache to clean up when the file is deleted.
  */
-function watchCachedFiles(src, tasks, cacheKey) {
+function watchCachedFiles(cacheKey, src, tasks) {
   var watcher = gulp.watch(src, tasks);
 
   watcher.on('change', function(e) {
@@ -20,7 +20,12 @@ function watchCachedFiles(src, tasks, cacheKey) {
 }
 
 gulp.task('watch', function(cb) {
-  watchCachedFiles(paths.lessFiles, ['build-less'], 'less');
-  watchCachedFiles(paths.assetFiles, ['build-assets'], 'assets');
+  watchCachedFiles('assets', paths.assetFiles, ['build-assets']);
+
+  watchCachedFiles('less', [
+    paths.lessFiles,
+    paths.overrideFiles,
+    paths.variableFiles
+  ], ['build-less']);
   cb();
 });
