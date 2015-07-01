@@ -92,6 +92,7 @@
 @lineHeight          : 1.5rem;
 
 @lightFontWeight     : 300;
+@boldFontWeight      : 600;
 
 /*-------------------
         Links
