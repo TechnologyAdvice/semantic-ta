@@ -21,11 +21,6 @@ function watchCachedFiles(cacheKey, src, tasks) {
 
 gulp.task('watch', function(cb) {
   watchCachedFiles('assets', paths.assetFiles, ['build-assets']);
-
-  watchCachedFiles('less', [
-    paths.lessFiles,
-    paths.overrideFiles,
-    paths.variableFiles
-  ], ['build-less']);
+  watchCachedFiles('less', paths.lessFiles, ['build-less']);
   cb();
 });

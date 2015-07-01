@@ -3,6 +3,7 @@ var g = require('gulp-load-plugins')();
 var del = require('del');
 var paths = require('./paths');
 var runSequence = require('run-sequence');
+var getSemanticLessFile = require('./getSemanticLessFile');
 
 gulp.task('build', 'clean dist, run all build-* tasks', function(cb) {
   runSequence(
@@ -26,15 +27,11 @@ gulp.task('build-less', 'build less files', function() {
 
   return gulp.src(paths.lessFiles)
     .pipe(g.plumber())              // don't kill watchers on error
-    .pipe(function(file) {
-      // todo: do that...
-      // if `filename` *.variables ||  *.override
-      // then replace with src/def/**/`filename`.less
-    })
-    //.pipe(g.cached('less'))         // only pass files changed since last build
+    .pipe(g.cached('less'))         // only pass files changed since last build
+    .pipe(getSemanticLessFile())    // for *.variables/overrides use the *.less
     .pipe(g.less())                 // compile to css
     .pipe(g.autoprefixer())         // autoprefix for browser support
-    //.pipe(g.remember('less'))       // add back files that didn't change
+    .pipe(g.remember('less'))       // add back files that didn't change
     .pipe(g.concat('ta.css'))       // concat all css files
     .pipe(gulp.dest(paths.dist))    // put in dist
     .pipe(g.minifyCss(minifyOpts))  // minify the build

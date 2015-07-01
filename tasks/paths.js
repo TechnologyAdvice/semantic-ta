@@ -2,9 +2,10 @@ module.exports = {
   dist: './dist/',
   definitions: './src/definitions/',
   site: './src/site/',
-  variableFiles: './src/site/**/*.variables',
-  overrideFiles: './src/site/**/*.overrides',
   lessFiles: [
+    './src/site/**/*.variables',
+    './src/site/**/*.overrides',
+
     './src/definitions/globals/reset.less',   // global reset
     './src/definitions/globals/site.less',    // global site base
     './src/definitions/**/*.less'             // all other less files
