@@ -554,23 +554,23 @@ h5 {
 
 h1 {
   min-height: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.8125rem;
+  font-size: 1.714rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.28rem;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.071rem;
 }
 
 h5 {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 h1:first-child,
@@ -667,30 +667,6 @@ input::selection {
 /*******************************
          Site Overrides
 *******************************/
-
-/* Mobily Only */
-
-@media only screen and (max-width: 767px) {
-  h1 {
-    font-size: 1.45rem;
-  }
-
-  h2 {
-    font-size: 1.125rem;
-  }
-
-  h4 {
-    font-size: 1rem;
-  }
-
-  h5 {
-    font-size: 0.875rem;
-  }
-
-  h6 {
-    font-size: 0.6rem;
-  }
-}
 /*!
  * # Semantic UI 0.1.0 - Button
  * http://github.com/semantic-org/semantic-ui/
@@ -5057,23 +5033,23 @@ i.flag.zimbabwe:before {
 ---------------*/
 
 h1.ui.header {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h2.ui.header {
-  font-size: 1.8125rem;
+  font-size: 1.714rem;
 }
 
 h3.ui.header {
-  font-size: 1.5rem;
+  font-size: 1.28rem;
 }
 
 h4.ui.header {
-  font-size: 1.25rem;
+  font-size: 1.071rem;
 }
 
 h5.ui.header {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 /* Sub Header */
@@ -5104,23 +5080,23 @@ h5.ui.header .sub.header {
 
 .ui.huge.header {
   min-height: 1em;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .ui.large.header {
-  font-size: 1.8125em;
+  font-size: 1.714em;
 }
 
 .ui.medium.header {
-  font-size: 1.5em;
+  font-size: 1.28em;
 }
 
 .ui.small.header {
-  font-size: 1.25em;
+  font-size: 1.071em;
 }
 
 .ui.tiny.header {
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 /* Sub Header */
@@ -5514,23 +5490,23 @@ a.ui.inverted.yellow.header:hover {
 }
 
 .ui.tiny.block.header {
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 .ui.small.block.header {
-  font-size: 1.25em;
+  font-size: 1.071em;
 }
 
 .ui.block.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-size: 1.5em;
+  font-size: 1.28em;
 }
 
 .ui.large.block.header {
-  font-size: 1.8125em;
+  font-size: 1.714em;
 }
 
 .ui.huge.block.header {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 /*-------------------
@@ -5597,7 +5573,7 @@ a.ui.inverted.yellow.header:hover {
 --------------------*/
 
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-size: 1.5em;
+  font-size: 1.28em;
 }
 
 /*******************************
@@ -5607,51 +5583,6 @@ a.ui.inverted.yellow.header:hover {
 /*******************************
          Site Overrides
 *******************************/
-
-h1.plus.ui.header {
-  font-size: 3.55rem;
-}
-
-h1.minus.ui.header {
-  font-size: 2.25rem;
-}
-
-h2.plus.ui.header {
-  font-size: 2rem;
-}
-
-/* Mobily Only */
-
-@media only screen and (max-width: 767px) {
-  h1.plus.ui.header {
-    font-size: 2.5rem;
-  }
-
-  h1.ui.header,
-  h1.minus.ui.header {
-    font-size: 1.45rem;
-  }
-
-  h2.plus.ui.header {
-    font-size: 1.25rem;
-  }
-
-  h2.ui.header {
-    font-size: 1.125rem;
-  }
-
-  h4.ui.header {
-    font-size: 1rem;
-  }
-
-  h5.ui.header {
-    font-size: 0.875rem;
-  }
-
-  h6.ui.header {
-    font-size: 0.6rem;
-  }
-}
 /*!
  * # Semantic UI 0.1.0 - Icon
  * http://github.com/semantic-org/semantic-ui/
@@ -9673,8 +9604,8 @@ a.ui.label {
   cursor: pointer;
   color: inherit;
   opacity: 0.8;
-  -webkit-transition: 0.2s opacity ease;
-  transition: 0.2s opacity ease;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .ui.label a:hover {
@@ -23927,7 +23858,7 @@ a.ui.card:hover,
 .dimmed.dimmable > .ui.visible.dimmer,
 .ui.active.dimmer {
   display: block;
-  opacity: 1;
+  opacity: 0.65;
 }
 
 .ui.disabled.dimmer {
@@ -25706,6 +25637,19 @@ select.ui.dropdown {
 /*******************************
          Site Overrides
 *******************************/
+
+/*--------------
+     Header
+---------------*/
+
+.ui.secondary.modal > .header {
+  text-align: center;
+  background: #ffffff;
+}
+
+.ui.image.modal > .content {
+  padding: 1rem;
+}
 /*!
  * # Semantic UI 0.1.0 - Nag
  * http://github.com/semantic-org/semantic-ui/
