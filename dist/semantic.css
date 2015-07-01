@@ -9604,8 +9604,8 @@ a.ui.label {
   cursor: pointer;
   color: inherit;
   opacity: 0.8;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: 0.2s opacity ease;
+  transition: 0.2s opacity ease;
 }
 
 .ui.label a:hover {
