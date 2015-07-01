@@ -609,6 +609,7 @@ h2.plus.ui.header {
 @media only screen and (max-width: 767px) {
   h1.plus.ui.header {
     font-size: 2.5rem;
+    line-height: 2.7rem;
   }
   h1.ui.header,
   h1.minus.ui.header {

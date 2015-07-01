@@ -545,9 +545,9 @@ h3,
 h4,
 h5 {
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  line-height: 3.75rem;
-  margin: -webkit-calc(2rem -  1.375rem ) 0em 1rem;
-  margin: calc(2rem -  1.375rem ) 0em 1rem;
+  line-height: 3rem;
+  margin: -webkit-calc(2rem -  1rem ) 0em 1rem;
+  margin: calc(2rem -  1rem ) 0em 1rem;
   font-weight: 500;
   padding: 0em;
 }
@@ -671,10 +671,6 @@ input::selection {
 .blog.copy {
   font-size: 1.2rem;
   line-height: 1.8rem;
-}
-
-.light {
-  font-weight: 300;
 }
 
 /* Mobily Only */
@@ -5635,6 +5631,7 @@ h2.plus.ui.header {
 @media only screen and (max-width: 767px) {
   h1.plus.ui.header {
     font-size: 2.5rem;
+    line-height: 2.7rem;
   }
 
   h1.ui.header,
