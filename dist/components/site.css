@@ -158,3 +158,10 @@ input::selection {
          Site Overrides
 *******************************/
 
+
+/* Mobily Only */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.45rem;
+  }
+}
