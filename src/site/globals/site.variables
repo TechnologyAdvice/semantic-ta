@@ -31,11 +31,11 @@
 
 @headerFontWeight : 500;
 
-@h1               : 2rem;
-@h2               : 1.714rem;
-@h3               : 1.28rem;
-@h4               : 1.071rem;
-@h5               : 1rem;
+@h1               : 3rem;
+@h2               : 1.8125rem;
+@h3               : 1.5rem;
+@h4               : 1.25rem;
+@h5               : 1.125rem;
 
 /*-------------------
       Site Colors
@@ -88,7 +88,7 @@
 @textColor           : #303030;
 @headerColor         : #1f1f1f;
 
-@headerLineHeight    : 2.3rem;
+@headerLineHeight    : 3rem;
 @lineHeight          : 1.5rem;
 
 @lightFontWeight     : 300;
