@@ -600,6 +600,9 @@ h1.plus.ui.header {
 h1.minus.ui.header {
   font-size: 2.25rem;
 }
+h2.plus.ui.header {
+  font-size: 2rem;
+}
 
 /* Mobily Only */
 @media only screen and (max-width: 767px) {
@@ -609,5 +612,20 @@ h1.minus.ui.header {
   h1.ui.header,
   h1.minus.ui.header {
     font-size: 1.45rem;
+  }
+  h2.plus.ui.header {
+    font-size: 1.25rem;
+  }
+  h2.ui.header {
+    font-size: 1.125rem;
+  }
+  h4.ui.header {
+    font-size: 1rem;
+  }
+  h5.ui.header {
+    font-size: 0.875rem;
+  }
+  h6.ui.header {
+    font-size: 0.6rem;
   }
 }
