@@ -1,14 +1,16 @@
-var gulp = require('gulp-help')(require('gulp'));
 var g = require('gulp-load-plugins')();
+var gulp = g.help(require('gulp'), require('../gulphelp'));
 var del = require('del');
-var paths = require('./paths');
 var runSequence = require('run-sequence');
-var getSemanticLessFile = require('./getSemanticLessFile');
+var paths = require('../paths');
+var getSemanticLessFile = require('../plugins/getSemanticLessFile');
 
-gulp.task('build', 'clean dist, run all build-* tasks', function(cb) {
+gulp.task('build', 'build the theme and doc page', function(cb) {
   runSequence(
     'clean-build',
+    'clean-docs-dist',
     [
+      'build-docs-less',
       'build-assets',
       'build-less'
     ],
@@ -16,13 +18,42 @@ gulp.task('build', 'clean dist, run all build-* tasks', function(cb) {
   )
 });
 
-gulp.task('build-assets', 'copies default theme assets to dist', function() {
+//
+// Docs
+//
+gulp.task('clean-docs-dist', false, function(cb) {
+  del(paths.docs.dist, cb);
+});
+
+gulp.task('build-docs-less', false, function(cb) {
+  var minifyOpts = {keepSpecialComments: 0};
+
+  gulp.src(paths.docs.src + '*.less')
+    .pipe(g.plumber())
+    .pipe(g.cached('doc-less'))
+    .pipe(g.less())
+    .pipe(g.autoprefixer())
+    .pipe(g.remember('doc-less'))
+    .pipe(g.concat('doc-overrides.css'))
+    .pipe(gulp.dest(paths.docs.dist));
+});
+
+
+//
+// Theme
+//
+
+gulp.task('clean-build', false, function(cb) {
+  del('dist', cb);
+});
+
+gulp.task('build-assets', false, function() {
   return gulp.src(paths.assetFiles)
     .pipe(g.cached('assets'))
     .pipe(gulp.dest(paths.dist));
 });
 
-gulp.task('build-less', 'build less files', function() {
+gulp.task('build-less', false, function() {
   var minifyOpts = {keepSpecialComments: 0};
 
   return gulp.src(paths.lessFiles)
@@ -37,8 +68,4 @@ gulp.task('build-less', 'build less files', function() {
     .pipe(g.minifyCss(minifyOpts))  // minify the build
     .pipe(g.rename('ta.min.css'))   // rename
     .pipe(gulp.dest(paths.dist));   // put that in dist also
-});
-
-gulp.task('clean-build', 'clean out the build dir', function(cb) {
-  del('dist', cb);
 });

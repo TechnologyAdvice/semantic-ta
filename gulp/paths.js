@@ -1,5 +1,9 @@
 module.exports = {
   dist: './dist/',
+  docs: {
+    dist: './docs/dist/',
+    src: './docs/src/'
+  },
   definitions: './src/definitions/',
   site: './src/site/',
   lessFiles: [
