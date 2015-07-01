@@ -10,5 +10,7 @@ See [learn semantic](http://learnsemantic.com/) for understanding this project.
 ## Development
 
 `npm i` - install dependencies  
+`npm start` - start dev server
+
 `gulp` - build `/dist` from `/src` and start watchers  
 `gulp help` - list gulp commands and help

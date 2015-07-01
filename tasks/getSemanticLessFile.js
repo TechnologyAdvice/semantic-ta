@@ -32,14 +32,16 @@ module.exports = function() {
         lessContents = fs.readFileSync(lessPath)
       } catch (err) {
         gutil.log(
-          chalk.yellow(path.basename(file.path) + ' has no less definition')
+          chalk.yellow(path.basename(file.path)),
+          chalk.grey('exists without'),
+          chalk.red(path.basename(lessPath))
         );
         cb(null, file);
         return;
       }
 
       gutil.log(
-        chalk.gray('replace'),
+        chalk.gray('substitute'),
         path.basename(file.path),
         chalk.gray('->'),
         chalk.green(path.basename(lessPath))
