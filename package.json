@@ -44,7 +44,6 @@
     "require-dir": "^0.3.0",
     "require-dot-file": "^0.4.0",
     "run-sequence": "^1.1.1",
-    "semantic-ui": "^1.12.3",
     "through2": "^2.0.0",
     "vinyl": "^0.5.0"
   }
