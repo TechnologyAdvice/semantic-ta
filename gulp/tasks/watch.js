@@ -1,6 +1,6 @@
-var gulp = require('gulp');
 var g = require('gulp-load-plugins')();
-var paths = require('./paths');
+var gulp = g.help(require('gulp'), require('../gulphelp'));
+var paths = require('../paths');
 
 /**
  * gulp.watch wrapper, removes deleted files from gulp-cache and gulp-remember.
@@ -8,7 +8,7 @@ var paths = require('./paths');
  * @param tasks - gulp.tasks to run when the `src` change.
  * @param cacheKey - gulp-cache to clean up when the file is deleted.
  */
-function watchCachedFiles(src, tasks, cacheKey) {
+function watchCachedFiles(cacheKey, src, tasks) {
   var watcher = gulp.watch(src, tasks);
 
   watcher.on('change', function(e) {
@@ -19,8 +19,9 @@ function watchCachedFiles(src, tasks, cacheKey) {
   });
 }
 
-gulp.task('watch', function(cb) {
-  watchCachedFiles(paths.lessFiles, ['build-less'], 'less');
-  watchCachedFiles(paths.assetFiles, ['build-assets'], 'assets');
+gulp.task('watch', 'watch for changes and rebuild ', function(cb) {
+  watchCachedFiles('assets', paths.assetFiles, ['build-assets']);
+  watchCachedFiles('less', paths.lessFiles, ['build-less']);
+  watchCachedFiles('less', paths.docs.src, ['build-less']);
   cb();
 });

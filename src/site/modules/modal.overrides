@@ -1,3 +1,18 @@
 /*******************************
          Site Overrides
 *******************************/
+/*--------------
+     Header
+---------------*/
+
+.ui.secondary.modal {
+  & > .header {
+    text-align: @secondaryHeaderAlign;
+    background: @secondaryHeaderBackground;
+  }
+}
+.ui.image.modal {
+  & > .content {
+    padding: @imageModalPadding;
+  }
+}

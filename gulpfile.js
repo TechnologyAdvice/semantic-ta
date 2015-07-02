@@ -1,16 +1,6 @@
-var gulp = require('gulp');
-var g = require('gulp-load-plugins')();
-var runSequence = require('run-sequence');
+/**
+ * Tasks live in the tasks directory.
+ * This file just loads all the gulp tasks.
+ */
 
-var requireDir = require('require-dir');
-var tasks = requireDir('./tasks');
-
-gulp.task('default', function(cb) {
-  runSequence(
-    [
-      'build',
-      'watch'
-    ],
-    cb
-  )
-});
+require('require-dir')('./gulp/tasks');
