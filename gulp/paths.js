@@ -10,13 +10,11 @@ module.exports = {
     // must build reset and site first
     './src/definitions/globals/reset.less',   // site reset
     './src/definitions/globals/site.less',    // site site base
+    './src/definitions/**/*.less',            // all other less files
 
-    // then all other less files
-    './src/definitions/**/*.less',
-
-    // .variables and .overrides are substituted for their corresponding
-    //  definition .less file during build.
-    //
+    // .variables and .overrides are replaced with their corresponding .less
+    //  definition file during build. We add them so they are watched and
+    // trigger rebuilds of their corresponding less files.
     './src/site/**/*.variables',              // variables files
     './src/site/**/*.overrides'               // overrides files
   ],

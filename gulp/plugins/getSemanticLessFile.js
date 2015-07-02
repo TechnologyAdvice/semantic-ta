@@ -15,7 +15,7 @@ var cache = {};
 
 var log = {
   hasNoLessFile: function(configFile, lessFile) {
-    gutil.log(c.yellow(configFile), c.grey('exists without'), c.red(lessFile));
+    gutil.log(c.yellow(configFile), 'exists without', c.red(lessFile));
   },
   fileReplaced: function(configFile, lessFile) {
     gutil.log(c.gray('replace'), configFile, c.gray('->'), c.green(lessFile));
