@@ -1382,6 +1382,9 @@ th {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -1411,6 +1414,9 @@ th {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -1562,6 +1568,9 @@ input::selection {
     font-size: 1.45rem;
   }
   h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
     font-size: 1.125rem;
   }
   h4 {
@@ -15116,10 +15125,11 @@ h2.plus.ui.header {
   h1.minus.ui.header {
     font-size: 1.45rem;
   }
-  h2.plus.ui.header {
+  h2.plus.ui.header,
+  h2.ui.header {
     font-size: 1.25rem;
   }
-  h2.ui.header {
+  h3.ui.header {
     font-size: 1.125rem;
   }
   h4.ui.header {
