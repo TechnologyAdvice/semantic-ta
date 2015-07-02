@@ -1,3 +1,7 @@
 /*******************************
     User Variable Overrides
 *******************************/
+@selectionPadding: 0.5em 0.7em;
+@selectionItemPadding: 0.5em 0.7em;
+@selectionBorder: 1px solid #b7b6b7;
+@selectionItemDivider: none;
