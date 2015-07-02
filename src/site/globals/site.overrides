@@ -1,12 +1,19 @@
 /*******************************
          Site Overrides
 *******************************/
+.blog.copy {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
 /* Mobily Only */
 @media only screen and (max-width : @largestMobileScreen) {
   h1 {
     font-size: 1.45rem;
   }
   h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
     font-size: 1.125rem;
   }
   h4 {

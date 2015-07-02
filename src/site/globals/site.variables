@@ -23,8 +23,8 @@
       Base Sizes
 --------------------*/
 
-@emSize   : 16px;
-@fontSize : 16px;
+@emSize   : 1rem;
+@fontSize : 1rem;
 
 /*--------------
   Page Heading
@@ -88,6 +88,19 @@
 
 @textColor           : #303030;
 @headerColor         : #1f1f1f;
+
+@headerLineHeight    : 3rem;
+@lineHeight          : 1.5rem;
+
+@lightFontWeight     : 300;
+@boldFontWeight      : 600;
+
+/*-------------------
+  Sidebar Typography
+--------------------*/
+@sidebarFontColor    : @headerColor;
+@sidebarHeaderSize   : 1.25rem;
+@sidebarBodyColor    : #787878;
 
 /*-------------------
         Links
