@@ -355,6 +355,9 @@
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -1957,6 +1960,9 @@ input::selection {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -2505,6 +2511,9 @@ input::selection {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -3720,6 +3729,9 @@ input::selection {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -5946,6 +5958,9 @@ input::selection {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -7754,6 +7769,9 @@ input::selection {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -8567,6 +8585,9 @@ input::selection {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -9921,6 +9942,9 @@ input::selection {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -9963,7 +9987,7 @@ input::selection {
   text-align: center;
   text-decoration: none;
   background-image: none;
-  border-radius: 10px;
+  border-radius: 0;
   box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -10517,14 +10541,14 @@ input::selection {
   background-image: none;
   color: #303030 !important;
   font-weight: normal;
-  border-radius: 10px;
+  border-radius: 0;
   text-transform: none;
   text-shadow: none !important;
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
 }
 .ui.basic.buttons {
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15);
-  border-radius: 10px;
+  border-radius: 0;
 }
 .ui.basic.buttons .button {
   border-radius: 0em;
@@ -10625,7 +10649,7 @@ input::selection {
   background-color: rgba(0, 0, 0, 0.05);
   text-align: center;
   color: '';
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 0 0px 0px 0;
   line-height: 1;
   box-shadow: -1px 0px 0px 0px transparent inset;
 }
@@ -10643,7 +10667,7 @@ input::selection {
 .ui[class*="right labeled"].icon.button > .icon {
   left: auto;
   right: 0em;
-  border-radius: 0em 10px 10px 0em;
+  border-radius: 0em 0 0 0em;
   box-shadow: 1px 0px 0px 0px transparent inset;
 }
 .ui.labeled.icon.buttons > .button > .icon:before,
@@ -10661,20 +10685,20 @@ input::selection {
   border-radius: 0em;
 }
 .ui.labeled.icon.buttons .button:first-child > .icon {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .ui.labeled.icon.buttons .button:last-child > .icon {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .ui.vertical.labeled.icon.buttons .button:first-child > .icon {
   border-radius: 0em;
-  border-top-left-radius: 10px;
+  border-top-left-radius: 0;
 }
 .ui.vertical.labeled.icon.buttons .button:last-child > .icon {
   border-radius: 0em;
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 0;
 }
 /* Fluid Labeled */
 .ui.fluid[class*="left labeled"].icon.button,
@@ -10719,23 +10743,23 @@ input::selection {
   border-radius: 0em;
 }
 .ui.attached.top.button {
-  border-radius: 10px 10px 0em 0em;
+  border-radius: 0 0 0em 0em;
 }
 .ui.attached.bottom.button {
-  border-radius: 0em 0em 10px 10px;
+  border-radius: 0em 0em 0 0;
 }
 .ui.attached.left.button {
   display: inline-block;
   border-left: none;
   padding-right: 0.75em;
   text-align: right;
-  border-radius: 10px 0em 0em 10px;
+  border-radius: 0 0em 0em 0;
 }
 .ui.attached.right.button {
   display: inline-block;
   padding-left: 0.75em;
   text-align: left;
-  border-radius: 0em 10px 10px 0em;
+  border-radius: 0em 0 0 0em;
 }
 /*-------------------
       Or Buttons
@@ -10796,51 +10820,51 @@ input::selection {
 /* Top Side */
 [class*="top attached"].ui.buttons {
   margin-bottom: -1px;
-  border-radius: 10px 10px 0em 0em;
+  border-radius: 0 0 0em 0em;
 }
 [class*="top attached"].ui.buttons .button:first-child {
-  border-radius: 10px 0em 0em 0em;
+  border-radius: 0 0em 0em 0em;
 }
 [class*="top attached"].ui.buttons .button:last-child {
-  border-radius: 0em 10px 0em 0em;
+  border-radius: 0em 0 0em 0em;
 }
 /* Bottom Side */
 [class*="bottom attached"].ui.buttons {
   margin-top: -1px;
-  border-radius: 0em 0em 10px 10px;
+  border-radius: 0em 0em 0 0;
 }
 [class*="bottom attached"].ui.buttons .button:first-child {
-  border-radius: 0em 0em 0em 10px;
+  border-radius: 0em 0em 0em 0;
 }
 [class*="bottom attached"].ui.buttons .button:last-child {
-  border-radius: 0em 0em 10px 0em;
+  border-radius: 0em 0em 0 0em;
 }
 /* Left Side */
 [class*="left attached"].ui.buttons {
   margin-left: -1px;
-  border-radius: 0em 10px 10px 0em;
+  border-radius: 0em 0 0 0em;
 }
 [class*="left attached"].ui.buttons .button:first-child {
   margin-left: -1px;
-  border-radius: 0em 10px 0em 0em;
+  border-radius: 0em 0 0em 0em;
 }
 [class*="left attached"].ui.buttons .button:last-child {
   margin-left: -1px;
-  border-radius: 0em 0em 10px 0em;
+  border-radius: 0em 0em 0 0em;
 }
 /* Right Side */
 [class*="right attached"].ui.buttons,
 [class*="right attached"].ui.buttons .button {
   margin-right: -1px;
-  border-radius: 10px 0em 0em 10px;
+  border-radius: 0 0em 0em 0;
 }
 [class*="right attached"].ui.buttons .button:first-child {
   margin-left: -1px;
-  border-radius: 10px 0em 0em 0em;
+  border-radius: 0 0em 0em 0em;
 }
 [class*="right attached"].ui.buttons .button:last-child {
   margin-left: -1px;
-  border-radius: 0em 0em 0em 10px;
+  border-radius: 0em 0em 0em 0;
 }
 /* Fluid */
 .ui.fluid.buttons,
@@ -12131,12 +12155,12 @@ input::selection {
 }
 .ui.buttons .button:first-child {
   margin-left: 0em;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .ui.buttons .button:last-child {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 /* Vertical  Style */
 .ui.vertical.buttons {
@@ -12155,7 +12179,7 @@ input::selection {
 .ui.vertical.buttons .small.button:first-child,
 .ui.vertical.buttons .massive.button:first-child,
 .ui.vertical.buttons .huge.button:first-child {
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 0 0 0px 0px;
 }
 .ui.vertical.buttons .button:last-child,
 .ui.vertical.buttons .mini.button:last-child,
@@ -12165,7 +12189,7 @@ input::selection {
 .ui.vertical.buttons .huge.button:last-child,
 .ui.vertical.buttons .gigantic.button:last-child {
   margin-bottom: 0px;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 0 0;
 }
 /*******************************
          Theme Overrides
@@ -12559,6 +12583,9 @@ input::selection {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -13136,6 +13163,9 @@ input::selection {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -15504,6 +15534,9 @@ h2.plus.ui.header {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -18300,6 +18333,9 @@ i.icon.bed:before {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -18961,6 +18997,9 @@ img.ui.bordered.image {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -19788,6 +19827,9 @@ img.ui.bordered.image {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -21100,6 +21142,9 @@ a.ui.yellow.label:hover:before {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -22290,6 +22335,9 @@ ol.ui.horizontal.list li:before,
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -22918,6 +22966,9 @@ ol.ui.horizontal.list li:before,
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -23385,6 +23436,9 @@ ol.ui.horizontal.list li:before,
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -24056,6 +24110,9 @@ ol.ui.horizontal.list li:before,
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -25036,6 +25093,9 @@ ol.ui.horizontal.list li:before,
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -25775,6 +25835,9 @@ ol.ui.horizontal.list li:before,
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -26422,6 +26485,9 @@ ol.ui.horizontal.list li:before,
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -27647,6 +27713,9 @@ a.ui.card:hover,
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -28283,6 +28352,9 @@ a.ui.card:hover,
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -28943,6 +29015,9 @@ a.ui.card:hover,
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -29745,6 +29820,9 @@ a.ui.card:hover,
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -30509,6 +30587,9 @@ a.ui.card:hover,
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -31140,6 +31221,9 @@ a.ui.card:hover,
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -31985,6 +32069,9 @@ a.ui.card:hover,
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -32612,6 +32699,9 @@ body.dimmed.dimmable > :not(.dimmer) {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -33985,6 +34075,9 @@ select.ui.dropdown {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -34783,6 +34876,9 @@ select.ui.dropdown {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -35317,6 +35413,9 @@ a.ui.nag {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -35964,6 +36063,9 @@ a.ui.nag {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -36770,6 +36872,9 @@ a.ui.nag {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -37381,6 +37486,9 @@ a.ui.nag {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -38044,6 +38152,9 @@ a.ui.nag {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -38563,6 +38674,9 @@ a.ui.nag {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -39472,6 +39586,9 @@ html.ios {
         Page
 --------------------*/
 /*-------------------
+  Sidebar Typography
+--------------------*/
+/*-------------------
         Links
 --------------------*/
 /*-------------------
@@ -39900,6 +40017,9 @@ html.ios {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -40343,6 +40463,9 @@ html.ios {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
@@ -42636,6 +42759,9 @@ html.ios {
 --------------------*/
 /*-------------------
         Page
+--------------------*/
+/*-------------------
+  Sidebar Typography
 --------------------*/
 /*-------------------
         Links
