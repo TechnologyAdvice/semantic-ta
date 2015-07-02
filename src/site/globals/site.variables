@@ -93,9 +93,9 @@
         Links
 --------------------*/
 
-@linkColor: @blue;
-@linkUnderline: underline;
-@linkHoverColor: darken(@blue, 10%);
+@linkColor           : @blue;
+@linkUnderline       : underline;
+@linkHoverColor      : darken(@blue, 10%);
 
 /*-------------------
        Accents
@@ -143,13 +143,15 @@
 @easeOutBack      : cubic-bezier(0.175, 0.885, 0.32, 1.275);
 @easeInOutBack    : cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-@defaultEasing: @easeOutSine;  // for snappier interfaces
+@defaultEasing    : @easeOutQuart;  // for snappier interfaces
 
 /*-------------------
      Transitions
 --------------------*/
 
-@transitionDuration     : 0.2s;
-@transitionEasing       : @defaultEasing;
-@transitionEaseEnter    : @easeOutQuart;  // for elements entering the scene
-@transitionEaseLeave    : @easeInQuart;   // for elements leaving the scene
+@transitionDurationSlow     : 0.5s;
+@transitionDuration         : 0.2s;
+@transitionDurationFast     : 0.1s;
+@transitionEasing           : @defaultEasing;
+@transitionEaseEnter        : @easeOutQuart;   // elements entering the scene
+@transitionEaseLeave        : @easeInQuart;    // elements leaving the scene
