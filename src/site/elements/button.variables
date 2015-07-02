@@ -3,7 +3,7 @@
 *******************************/
 
 @backgroundColor: @offWhite;
-@borderRadius: 10px;
+@borderRadius: 0;
 
 @boxShadow: inset 0 -0.15em 0 0 fade(#000, 15);
 @primaryBoxShadow: @boxShadow;
