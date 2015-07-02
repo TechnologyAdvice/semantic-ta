@@ -21,10 +21,11 @@ h2.plus.ui.header {
   h1.minus.ui.header {
     font-size: 1.45rem;
   }
-  h2.plus.ui.header {
+  h2.plus.ui.header,
+  h2.ui.header {
     font-size: 1.25rem;
   }
-  h2.ui.header {
+  h3.ui.header {
     font-size: 1.125rem;
   }
   h4.ui.header {
