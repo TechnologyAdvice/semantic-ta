@@ -90,6 +90,13 @@
 @headerColor         : #1f1f1f;
 
 /*-------------------
+  Sidebar Typography
+--------------------*/
+@sidebarFontColor    : @headerColor;
+@sidebarHeaderSize   : 20px;
+@sidebarBodyColor    : #787878;
+
+/*-------------------
         Links
 --------------------*/
 
