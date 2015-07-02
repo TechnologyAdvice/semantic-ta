@@ -7313,8 +7313,8 @@ input::selection {
   border-bottom: 1px solid #d4d4d5;
   border-right: 1px solid #d4d4d5;
   z-index: 11;
-  -webkit-transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 /* Don't double up pointers */
 .ui.pointing.menu .active.item .menu .active.item:after {
@@ -8660,8 +8660,8 @@ input::selection {
 /* Table Content */
 .ui.table th,
 .ui.table td {
-  -webkit-transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), border-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), border-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 /* Headers */
 .ui.table thead {
@@ -10020,8 +10020,8 @@ input::selection {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: opacity 0.1s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.1s cubic-bezier(0.39, 0.575, 0.565, 1), color 0.1s cubic-bezier(0.39, 0.575, 0.565, 1), box-shadow 0.1s cubic-bezier(0.39, 0.575, 0.565, 1), background 0.1s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: opacity 0.1s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.1s cubic-bezier(0.39, 0.575, 0.565, 1), color 0.1s cubic-bezier(0.39, 0.575, 0.565, 1), box-shadow 0.1s cubic-bezier(0.39, 0.575, 0.565, 1), background 0.1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), background 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), background 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
   will-change: '';
   -webkit-tap-highlight-color: transparent;
 }
@@ -10091,8 +10091,8 @@ input::selection {
   color: transparent !important;
   opacity: 1;
   pointer-events: none;
-  -webkit-transition: all 0s linear, opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: all 0s linear, opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: all 0s linear, opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: all 0s linear, opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.loading.button:before {
   position: absolute;
@@ -10462,8 +10462,8 @@ input::selection {
 .ui.button > .icon {
   opacity: 0.8;
   margin: 0em 0.4em 0em -0.2em;
-  -webkit-transition: opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   vertical-align: baseline;
   color: '';
 }
@@ -15686,8 +15686,8 @@ i.disabled.icon {
 i.link.icon {
   cursor: pointer;
   opacity: 0.8;
-  -webkit-transition: opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 i.link.icon:hover {
   opacity: 1 !important;
@@ -19096,8 +19096,8 @@ img.ui.bordered.image {
   border: 1px solid rgba(0, 0, 0, 0.15);
   color: #303030;
   border-radius: 0;
-  -webkit-transition: background-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), border-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: background-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), border-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   box-shadow: none;
 }
 /*--------------------
@@ -19263,8 +19263,8 @@ img.ui.bordered.image {
   width: 2.82142em;
   opacity: 0.5;
   border-radius: 0em 0 0 0em;
-  -webkit-transition: opacity 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: opacity 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.icon.input input {
   padding-right: 2.82142em !important;
@@ -19915,8 +19915,8 @@ img.ui.bordered.image {
   font-weight: bold;
   border-radius: 0;
   box-sizing: border-box;
-  -webkit-transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.label:first-child {
   margin-left: 0em;
@@ -19933,8 +19933,8 @@ a.ui.label {
   cursor: pointer;
   color: inherit;
   opacity: 0.8;
-  -webkit-transition: 0.2s opacity cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: 0.2s opacity cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: 0.2s opacity cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: 0.2s opacity cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.label a:hover {
   opacity: 1;
@@ -19962,8 +19962,8 @@ a.ui.label {
   margin-right: 0em;
   margin-left: 0.5em;
   opacity: 0.8;
-  -webkit-transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.label .delete.icon:hover {
   opacity: 1;
@@ -20052,8 +20052,8 @@ a.ui.label {
   background-image: none;
   width: 1.56em;
   height: 1.56em;
-  -webkit-transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.tag.labels .label:after,
 .ui.tag.label:after {
@@ -20081,8 +20081,8 @@ a.ui.label {
   width: 3.25em;
   height: 3.25em;
   z-index: 1;
-  -webkit-transition: border-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: border-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: border-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: border-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 /* Icon Label */
 .ui.corner.label {
@@ -20102,8 +20102,8 @@ a.ui.label {
   border-bottom: 3.25em solid transparent;
   border-left: 0em solid transparent;
   border-right-color: inherit;
-  -webkit-transition: border-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: border-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: border-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: border-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.corner.label .icon {
   position: relative;
@@ -20642,8 +20642,8 @@ a.ui.yellow.label:hover:before {
   z-index: 2;
   width: 0.6em;
   height: 0.6em;
-  -webkit-transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 /*--- Above ---*/
 .ui.pointing.label:before {
@@ -21536,8 +21536,8 @@ ol.ui.list ol,
 .ui.link.list a.item,
 .ui.link.list .item a {
   color: rgba(0, 0, 0, 0.4);
-  -webkit-transition: 0.2s color cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: 0.2s color cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: 0.2s color cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: 0.2s color cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.link.list a.item:hover,
 .ui.link.list .item a:hover {
@@ -21580,8 +21580,8 @@ ol.ui.list ol,
   margin: 0em;
   color: rgba(0, 0, 0, 0.4);
   border-radius: 0.5em;
-  -webkit-transition: 0.2s color cubic-bezier(0.39, 0.575, 0.565, 1), 0.2s padding-left cubic-bezier(0.39, 0.575, 0.565, 1), 0.2s background-color cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: 0.2s color cubic-bezier(0.39, 0.575, 0.565, 1), 0.2s padding-left cubic-bezier(0.39, 0.575, 0.565, 1), 0.2s background-color cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: 0.2s color cubic-bezier(0.165, 0.84, 0.44, 1), 0.2s padding-left cubic-bezier(0.165, 0.84, 0.44, 1), 0.2s background-color cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: 0.2s color cubic-bezier(0.165, 0.84, 0.44, 1), 0.2s padding-left cubic-bezier(0.165, 0.84, 0.44, 1), 0.2s background-color cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.selection.list .list > .item:last-child,
 .ui.selection.list > .item:last-child {
@@ -23532,8 +23532,8 @@ ol.ui.horizontal.list li:before,
   top: 0em !important;
   left: 0em !important;
   z-index: 3 !important;
-  -webkit-transition: all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
-          transition: all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
+  -webkit-transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0.15s;
+          transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0.15s;
 }
 .ui.reveal > .hidden.content {
   position: relative !important;
@@ -23558,8 +23558,8 @@ ol.ui.horizontal.list li:before,
   display: block;
   float: left;
   margin: 0em;
-  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
-          transition: transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0.15s;
+          transition: transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0.15s;
 }
 .ui.slide.reveal > .visible.content {
   position: relative !important;
@@ -23653,8 +23653,8 @@ ol.ui.horizontal.list li:before,
   display: block;
   float: left;
   margin: 0em;
-  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
-          transition: transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0.15s;
+          transition: transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0.15s;
 }
 .ui.move.reveal > .visible.content {
   position: relative !important;
@@ -25212,8 +25212,8 @@ ol.ui.horizontal.list li:before,
 }
 .ui.steps .step,
 .ui.steps .step:after {
-  -webkit-transition: background-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: background-color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 /*******************************
             Plural
@@ -26606,8 +26606,8 @@ ol.ui.horizontal.list li:before,
   border: none;
   border-radius: 0;
   box-shadow: 0px 3px 0px 0px #d4d4d5, 0px 0px 0px 1px #d4d4d5;
-  -webkit-transition: box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   z-index: '';
 }
 .ui.card {
@@ -26832,8 +26832,8 @@ ol.ui.horizontal.list li:before,
 .ui.cards > .card > .content a:not(.ui),
 .ui.card > .content a:not(.ui) {
   color: '';
-  -webkit-transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.cards > .card > .content a:not(.ui):hover,
 .ui.card > .content a:not(.ui):hover {
@@ -26884,8 +26884,8 @@ ol.ui.horizontal.list li:before,
 .ui.card > .content .star.icon {
   cursor: pointer;
   opacity: 0.75;
-  -webkit-transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.cards > .card > .content .star.icon:hover,
 .ui.card > .content .star.icon:hover {
@@ -26902,8 +26902,8 @@ ol.ui.horizontal.list li:before,
 .ui.card > .content .like.icon {
   cursor: pointer;
   opacity: 0.75;
-  -webkit-transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.cards > .card > .content .like.icon:hover,
 .ui.card > .content .like.icon:hover {
@@ -26934,8 +26934,8 @@ ol.ui.horizontal.list li:before,
   left: 0em;
   color: rgba(0, 0, 0, 0.4);
   box-shadow: none;
-  -webkit-transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 .ui.cards > .card > .extra a:not(.ui),
@@ -27987,8 +27987,8 @@ a.ui.card:hover,
   top: 0px;
   right: 0px;
   left: auto;
-  -webkit-transition: opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
 }
@@ -28656,8 +28656,8 @@ a.ui.card:hover,
   cursor: pointer;
   opacity: 1;
   color: rgba(0, 0, 0, 0.5);
-  -webkit-transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.feed > .event > .content .meta a:hover,
 .ui.feed > .event > .content .meta a:hover .icon,
@@ -29136,8 +29136,8 @@ a.ui.card:hover,
   border: none;
   border-radius: 0rem;
   box-shadow: none;
-  -webkit-transition: box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   z-index: '';
 }
 .ui.items > .item a {
@@ -29301,8 +29301,8 @@ a.ui.card:hover,
 /* Generic */
 .ui.items > .item > .content a:not(.ui) {
   color: '';
-  -webkit-transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.items > .item > .content a:not(.ui):hover {
   color: '';
@@ -29329,8 +29329,8 @@ a.ui.card:hover,
 .ui.items > .item > .content .favorite.icon {
   cursor: pointer;
   opacity: 0.75;
-  -webkit-transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.items > .item > .content .favorite.icon:hover {
   opacity: 1;
@@ -29344,8 +29344,8 @@ a.ui.card:hover,
 .ui.items > .item > .content .like.icon {
   cursor: pointer;
   opacity: 0.75;
-  -webkit-transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.items > .item > .content .like.icon:hover {
   opacity: 1;
@@ -29368,8 +29368,8 @@ a.ui.card:hover,
   left: 0em;
   color: rgba(0, 0, 0, 0.4);
   box-shadow: none;
-  -webkit-transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   border-top: none;
 }
 .ui.items > .item .extra > * {
@@ -30744,8 +30744,8 @@ a.ui.card:hover,
   margin: 0em 0.25rem 0em 0rem;
   padding: 0em;
   font-size: 0.75em;
-  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   vertical-align: baseline;
   -webkit-transform: none;
       -ms-transform: none;
@@ -30807,8 +30807,8 @@ a.ui.card:hover,
   color: rgba(0, 0, 0, 0.4);
   font-weight: bold;
   border-top: 1px solid rgba(39, 41, 43, 0.15);
-  -webkit-transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: background 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.styled.accordion > .title:first-child,
 .ui.styled.accordion .accordion .title:first-child {
@@ -32887,8 +32887,8 @@ body.dimmed.dimmable > :not(.dimmer) {
 ---------------*/
 .ui.dropdown > .text {
   display: inline-block;
-  -webkit-transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 /*--------------
     Menu Item
@@ -33088,8 +33088,8 @@ body.dimmed.dimmable > :not(.dimmer) {
   box-shadow: none;
   border: 1px solid rgba(39, 41, 43, 0.15);
   border-radius: 0;
-  -webkit-transition: border-radius 0.1s ease, width 0.2s ease, box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), border 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: border-radius 0.1s ease, width 0.2s ease, box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), border 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: border-radius 0.1s ease, width 0.2s ease, box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), border 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: border-radius 0.1s ease, width 0.2s ease, box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), border 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.selection.dropdown.visible,
 .ui.selection.dropdown.active {
@@ -33135,8 +33135,8 @@ select.ui.dropdown {
   min-width: calc(100% +  2px );
   outline: none;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
-  -webkit-transition: box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), border 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: box-shadow 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), border 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), border 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), border 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.selection.dropdown .menu:after,
 .ui.selection.dropdown .menu:before {
@@ -33518,8 +33518,8 @@ select.ui.dropdown {
   opacity: 0;
   width: 0;
   height: 0;
-  -webkit-transition: opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: opacity 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .ui.simple.active.dropdown,
 .ui.simple.dropdown:hover {
@@ -36332,8 +36332,8 @@ a.ui.nag {
   text-shadow: none;
   margin-top: 0.2em;
   text-align: center;
-  -webkit-transition: color 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: color 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 /*******************************
              States
@@ -36397,8 +36397,8 @@ a.ui.nag {
   bottom: 0px;
   background: #ffffff;
   border-radius: 0;
-  -webkit-animation: progress-active 2s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
-          animation: progress-active 2s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+  -webkit-animation: progress-active 2s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+          animation: progress-active 2s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
 }
 @-webkit-keyframes progress-active {
   0% {
@@ -39735,8 +39735,8 @@ html.ios {
 *******************************/
 .ui.sticky {
   position: static;
-  -webkit-transition: width 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), height 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), top 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), bottom 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
-          transition: width 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), height 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), top 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), bottom 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition: width 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), height 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), top 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), bottom 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: width 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), height 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), top 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), bottom 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   z-index: 800;
 }
 /*******************************
@@ -40623,8 +40623,8 @@ html.ios {
           animation-iteration-count: 1;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
-  -webkit-animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
-          animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+          animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
