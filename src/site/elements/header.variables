@@ -4,3 +4,5 @@
 
 @textColor: @headerColor;
 @fontWeight: @headerFontWeight;
+@lineHeight: 3rem;
+@firstMargin: 0;
