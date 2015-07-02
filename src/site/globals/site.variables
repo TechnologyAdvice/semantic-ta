@@ -93,7 +93,7 @@
   Sidebar Typography
 --------------------*/
 @sidebarFontColor    : @headerColor;
-@sidebarHeaderSize   : 20px;
+@sidebarHeaderSize   : 1.25rem;
 @sidebarBodyColor    : #787878;
 
 /*-------------------
