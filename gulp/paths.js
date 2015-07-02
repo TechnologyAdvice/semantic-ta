@@ -7,12 +7,18 @@ module.exports = {
   definitions: './src/definitions/',
   site: './src/site/',
   lessFiles: [
-    './src/site/**/*.variables',
-    './src/site/**/*.overrides',
+    // must build reset and site first
+    './src/definitions/globals/reset.less',   // site reset
+    './src/definitions/globals/site.less',    // site site base
 
-    './src/definitions/globals/reset.less',   // global reset
-    './src/definitions/globals/site.less',    // global site base
-    './src/definitions/**/*.less'             // all other less files
+    // then all other less files
+    './src/definitions/**/*.less',
+
+    // .variables and .overrides are substituted for their corresponding
+    //  definition .less file during build.
+    //
+    './src/site/**/*.variables',              // variables files
+    './src/site/**/*.overrides'               // overrides files
   ],
   assetFiles: [
     // icons

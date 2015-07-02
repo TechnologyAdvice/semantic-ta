@@ -5,6 +5,8 @@ var runSequence = require('run-sequence');
 var paths = require('../paths');
 var getSemanticLessFile = require('../plugins/getSemanticLessFile');
 
+var minifyOpts = {keepSpecialComments: 0};
+
 gulp.task('build', 'build the theme and doc page', function(cb) {
   runSequence(
     'clean-build',
@@ -26,9 +28,7 @@ gulp.task('clean-docs-dist', false, function(cb) {
 });
 
 gulp.task('build-docs-less', false, function(cb) {
-  var minifyOpts = {keepSpecialComments: 0};
-
-  gulp.src(paths.docs.src + '*.less')
+  return gulp.src(paths.docs.src + '*.less')
     .pipe(g.plumber())
     .pipe(g.cached('doc-less'))
     .pipe(g.less())
@@ -54,8 +54,6 @@ gulp.task('build-assets', false, function() {
 });
 
 gulp.task('build-less', false, function() {
-  var minifyOpts = {keepSpecialComments: 0};
-
   return gulp.src(paths.lessFiles)
     .pipe(g.plumber())              // don't kill watchers on error
     .pipe(g.cached('less'))         // only pass files changed since last build
