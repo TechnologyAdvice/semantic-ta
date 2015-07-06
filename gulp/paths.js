@@ -1,28 +1,41 @@
+var path = require('path');
+var PROJECT_ROOT = path.dirname(__dirname);
+
 module.exports = {
-  dist: './dist/',
-  docs: {
-    dist: './docs/dist/',
-    src: './docs/src/'
-  },
-  definitions: './src/definitions/',
-  site: './src/site/',
+  root: PROJECT_ROOT,
+  src: PROJECT_ROOT + '/src',
+  definitions: PROJECT_ROOT + '/src/definitions',
+  dist: PROJECT_ROOT + '/dist',
+  docs: PROJECT_ROOT + '/docs/dist',
+  docsDist: PROJECT_ROOT + '/docs/dist',
+  docsSrc: PROJECT_ROOT + '/docs/src',
+  nodeModules: PROJECT_ROOT + '/node_modules',
+  site: PROJECT_ROOT + '/src/site',
+  componentVariables: [
+    PROJECT_ROOT + '/src/site/**/*.variables',
+    '!' + PROJECT_ROOT + '/src/site/globals/*.variables'
+  ],
+  componentOverrides: [
+    PROJECT_ROOT + '/src/site/**/*.overrides',
+    '!' + PROJECT_ROOT + '/src/site/globals/*.overrides'
+  ],
+  globalVariables: [
+    PROJECT_ROOT + '/src/site/globals/*.variables'
+  ],
+  globalOverrides: [
+    PROJECT_ROOT + '/src/site/globals/*.overrides'
+  ],
   lessFiles: [
     // must build reset and site first
-    './src/definitions/globals/reset.less',   // site reset
-    './src/definitions/globals/site.less',    // site site base
-    './src/definitions/**/*.less',            // all other less files
-
-    // .variables and .overrides are replaced with their corresponding .less
-    //  definition file during build. We add them so they are watched and
-    // trigger rebuilds of their corresponding less files.
-    './src/site/**/*.variables',              // variables files
-    './src/site/**/*.overrides'               // overrides files
+    PROJECT_ROOT + '/src/definitions/globals/reset.less',   // site reset
+    PROJECT_ROOT + '/src/definitions/globals/site.less',    // site site base
+    PROJECT_ROOT + '/src/definitions/**/*.less'             // all other less
   ],
   assetFiles: [
     // icons
-    './src/themes/default/assets/**/icons.{eot,svg,ttf,woff,woff2}',
+    PROJECT_ROOT + '/src/themes/default/assets/**/icons.{eot,svg,ttf,woff,woff2}',
 
     // images
-    './src/themes/default/assets/**/*.{png,jpg,jpeg,gif,bmp}'
+    PROJECT_ROOT + '/src/themes/default/assets/**/*.{png,jpg,jpeg,gif,bmp}'
   ]
 };
