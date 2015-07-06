@@ -3,13 +3,13 @@ var PROJECT_ROOT = path.dirname(__dirname);
 
 module.exports = {
   root: PROJECT_ROOT,
-  dist: PROJECT_ROOT + '/dist',
   src: PROJECT_ROOT + '/src',
-  docs: {
-    dist: PROJECT_ROOT + '/docs/dist',
-    src: PROJECT_ROOT + '/docs/src'
-  },
   definitions: PROJECT_ROOT + '/src/definitions',
+  dist: PROJECT_ROOT + '/dist',
+  docs: PROJECT_ROOT + '/docs/dist',
+  docsDist: PROJECT_ROOT + '/docs/dist',
+  docsSrc: PROJECT_ROOT + '/docs/src',
+  nodeModules: PROJECT_ROOT + '/node_modules',
   site: PROJECT_ROOT + '/src/site',
   componentVariables: [
     PROJECT_ROOT + '/src/site/**/*.variables',
@@ -29,7 +29,7 @@ module.exports = {
     // must build reset and site first
     PROJECT_ROOT + '/src/definitions/globals/reset.less',   // site reset
     PROJECT_ROOT + '/src/definitions/globals/site.less',    // site site base
-    PROJECT_ROOT + '/src/definitions/**/*.less'             // all other less files
+    PROJECT_ROOT + '/src/definitions/**/*.less'             // all other less
   ],
   assetFiles: [
     // icons

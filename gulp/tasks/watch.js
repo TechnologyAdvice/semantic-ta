@@ -21,6 +21,17 @@ function watchCachedFiles(cacheKey, src, tasks) {
 }
 
 gulp.task('watch', 'watch for changes and rebuild ', function(cb) {
+  //
+  // Docs
+  //
+
+  gulp.watch([paths.docsSrc + '**/*.html'], ['docs-html']);
+  watchCachedFiles('docs-less', paths.docsSrc + '/**/*.less', ['docs-less']);
+
+  //
+  // Theme
+  //
+
   // Changes to global *.variables and *.overrides changes require rebuilding
   // the entire theme
   gulp.watch(_.union(
@@ -28,15 +39,15 @@ gulp.task('watch', 'watch for changes and rebuild ', function(cb) {
     paths.globalOverrides
   ), ['build-all-less']);
 
-  watchCachedFiles('assets', paths.assetFiles, ['build-assets']);
-
-  watchCachedFiles('doc-less', paths.docs.src, ['build-doc-less']);
+  watchCachedFiles('assets', [
+    paths.assetFiles
+  ], ['build-assets']);
 
   watchCachedFiles('less', _.union(
     paths.lessFiles,
     paths.componentVariables,
     paths.componentOverrides
-  ), ['build-less-cached']);
+  ), ['build-cached-less']);
 
   cb();
 });

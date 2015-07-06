@@ -11,38 +11,13 @@ var minifyOpts = {keepSpecialComments: 0};
 gulp.task('build', 'build the theme and doc page', function(cb) {
   runSequence(
     'clean-build',
-    'clean-docs-dist',
     [
-      'build-docs-less',
       'build-assets',
-      'build-less-cached'
+      'build-cached-less'
     ],
     cb
   )
 });
-
-//
-// Docs
-//
-gulp.task('clean-docs-dist', function(cb) {
-  del(paths.docs.dist, cb);
-});
-
-gulp.task('build-docs-less', function(cb) {
-  return gulp.src(paths.docs.src + '/*.less')
-    .pipe(g.plumber())
-    .pipe(g.cached('doc-less'))
-    .pipe(g.less())
-    .pipe(g.autoprefixer())
-    .pipe(g.remember('doc-less'))
-    .pipe(g.concat('doc-overrides.css'))
-    .pipe(gulp.dest(paths.docs.dist));
-});
-
-
-//
-// Theme
-//
 
 gulp.task('clean-build', function(cb) {
   del(paths.dist, cb);
@@ -54,7 +29,7 @@ gulp.task('build-assets', function() {
     .pipe(gulp.dest(paths.dist));
 });
 
-gulp.task('build-less-cached', function() {
+gulp.task('build-cached-less', function() {
   return gulp.src(_.union(
     paths.lessFiles,
 
