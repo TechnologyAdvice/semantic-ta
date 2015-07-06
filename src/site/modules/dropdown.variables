@@ -3,10 +3,8 @@
 *******************************/
 @selectionPadding: 0.5em 0.7em;
 @selectionItemPadding: 0.5em 0.7em;
-@selectionBorder: 1px solid #b7b6b7;
 @selectionItemDivider: none;
 @selectionTabletMaxMenuHeight: 20.284em;
 @selectionComputerMaxMenuHeight: 20.284em;
-@menuBorder: 1px solid #b7b6b7;
-@selectionVisibleBorderColor: #b7b6b7;
-@selectionVisibleHoverBorderColor: #b7b6b7;
+@selectionVisibleBorderColor: @lightGrey;
+@selectionVisibleHoverBorderColor: @lightGrey;
