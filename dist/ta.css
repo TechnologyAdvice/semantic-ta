@@ -2660,7 +2660,7 @@ input::selection {
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
   line-height: 1.2142em;
-  padding: 0.67861em 1em;
+  padding: 0.5em 0.7em;
   font-size: 1em;
   background: #ffffff;
   border: 1px solid rgba(39, 41, 43, 0.15);
@@ -28473,7 +28473,7 @@ select.ui.dropdown {
   top: auto;
   width: auto;
   margin: -0.8em;
-  padding: 0.8em;
+  padding: 1em;
   right: 1.1em;
   opacity: 0.8;
   -webkit-transition: opacity 0.2s ease;
@@ -29137,6 +29137,9 @@ select.ui.dropdown {
 /*******************************
         User Overrides
 *******************************/
+.ui.dropdown {
+  line-height: 1.2142em;
+}
 
 /*!
  * # Semantic UI - Modal
