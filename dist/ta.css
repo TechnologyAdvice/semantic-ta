@@ -3372,6 +3372,7 @@ input::selection {
   font-size: 0.875rem;
   color: #3d97d2;
   font-weight: 300;
+  font-style: italic;
 }
 .fields .field .optional.label {
   top: 0.4rem;

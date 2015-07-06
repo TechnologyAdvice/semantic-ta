@@ -12,6 +12,7 @@
   font-size: 0.875rem;
   color: @blue;
   font-weight: @lightFontWeight;
+  font-style: italic;
 }
 .fields {
   .field {
