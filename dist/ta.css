@@ -2817,14 +2817,14 @@ input::selection {
   border-color: rgba(39, 41, 43, 0.3);
   border-radius: 0em 0 0 0em;
   background: #ffffff;
-  box-shadow: 1px 0em 0em 0em rgba(39, 41, 43, 0.3) inset;
+  box-shadow: 3px 0em 0em 0em rgba(61, 151, 210, 0.8) inset;
 }
 .ui.form textarea:focus {
   color: rgba(0, 0, 0, 0.85);
   border-color: rgba(39, 41, 43, 0.3);
   border-radius: 0em 0 0 0em;
   background: #ffffff;
-  box-shadow: 1px 0em 0em 0em rgba(39, 41, 43, 0.3) inset;
+  box-shadow: 3px 0em 0em 0em rgba(61, 151, 210, 0.8) inset;
   -webkit-appearance: none;
 }
 /*--------------------
@@ -3361,6 +3361,24 @@ input::selection {
 /*******************************
          Site Overrides
 *******************************/
+.ui.form .fields .field,
+.ui.form .field {
+  position: relative;
+}
+.optional.label {
+  position: absolute;
+  right: 0.5rem;
+  top: 2.1762rem;
+  font-size: 0.875rem;
+  color: #3d97d2;
+  font-weight: 300;
+}
+.fields .field .optional.label {
+  top: 0.4rem;
+}
+.fields .field:not(:last-child) .optional.label {
+  right: 1rem;
+}
 
 /*!
  * # Semantic UI - Grid
