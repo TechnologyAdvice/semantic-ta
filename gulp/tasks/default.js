@@ -4,11 +4,9 @@ var runSequence = require('run-sequence');
 
 gulp.task('default', 'build, serve, watch', function(cb) {
   runSequence(
-    [
-      'build',
-      'serve',
-      'watch'
-    ],
-    cb
+    'serve',
+    'build',
+    'watch',
+  cb
   )
 });
