@@ -3369,16 +3369,21 @@ input::selection {
   content: 'optional';
   position: absolute;
   right: 0.5rem;
-  top: 2.1762rem;
+  top: 0.4rem;
   font-size: 0.875rem;
   color: #3d97d2;
   font-weight: 300;
   font-style: italic;
 }
-.ui.form .fields:not(.grouped) > .optional.field:after {
+.ui.labeled.form .optional.field:after {
+  top: 2.1762rem;
+}
+.ui.form .fields:not(.grouped) > .optional.field:after,
+.ui.labeled.form .fields:not(.grouped) > .optional.field:after {
   top: 0.4rem;
 }
-.ui.form .fields:not(.grouped) > .optional.field:not(:last-child):after {
+.ui.form .fields:not(.grouped) > .optional.field:not(:last-child):after,
+.ui.labeled.form .fields:not(.grouped) > .optional.field:not(:last-child):after {
   right: 1rem;
 }
 .ui.form .required.fields:not(.grouped) > .field:after,

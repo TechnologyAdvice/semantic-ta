@@ -10,14 +10,20 @@
     content: 'optional';
     position: absolute;
     right: 0.5rem;
-    top: 2.1762rem;
+    top: 0.4rem;
     font-size: 0.875rem;
     color: @blue;
     font-weight: @lightFontWeight;
     font-style: italic;
   }
 }
-.ui.form {
+.ui.labeled.form {
+  .optional.field:after {
+    top: 2.1762rem;
+  }
+}
+.ui.form,
+.ui.labeled.form {
   .fields:not(.grouped) {
     & > .optional.field {
       &:after {
