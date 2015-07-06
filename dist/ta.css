@@ -3365,7 +3365,8 @@ input::selection {
 .ui.form .field {
   position: relative;
 }
-.optional.label {
+.ui.form .optional.field:after {
+  content: 'optional';
   position: absolute;
   right: 0.5rem;
   top: 2.1762rem;
@@ -3374,11 +3375,22 @@ input::selection {
   font-weight: 300;
   font-style: italic;
 }
-.fields .field .optional.label {
+.ui.form .fields:not(.grouped) > .optional.field:after {
   top: 0.4rem;
 }
-.fields .field:not(:last-child) .optional.label {
+.ui.form .fields:not(.grouped) > .optional.field:not(:last-child):after {
   right: 1rem;
+}
+.ui.form .required.fields:not(.grouped) > .field:after,
+.ui.form .required.field:after {
+  content: 'required';
+  position: absolute;
+  right: 0.5rem;
+  top: 2.1762rem;
+  font-size: 0.875rem;
+  color: #3d97d2;
+  font-weight: 300;
+  font-style: italic;
 }
 
 /*!
