@@ -1,3 +1,27 @@
 /*******************************
          Site Overrides
 *******************************/
+.ui.form .fields .field,
+.ui.form .field {
+  position: relative;
+}
+.optional.label {
+  position: absolute;
+  right: 0.5rem;
+  top: 2.1762rem;
+  font-size: 0.875rem;
+  color: @blue;
+  font-weight: @lightFontWeight;
+}
+.fields {
+  .field {
+    .optional.label {
+      top: 0.4rem;
+    }
+    &:not(:last-child) {
+      .optional.label {
+        right: 1rem;
+      }
+    }
+  }
+}
