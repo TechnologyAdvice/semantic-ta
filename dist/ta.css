@@ -28214,7 +28214,7 @@ body.dimmed.dimmable > :not(.dimmer) {
   text-shadow: none;
   text-align: left;
   box-shadow: 0px 1px 4px 0px rgba(39, 41, 43, 0.15);
-  border: 1px solid #b7b6b7;
+  border: 1px solid rgba(39, 41, 43, 0.15);
   border-radius: 0em 0em 0 0;
   -webkit-transition: opacity 0.2s ease;
           transition: opacity 0.2s ease;
@@ -28447,7 +28447,7 @@ body.dimmed.dimmable > :not(.dimmer) {
   padding: 0.5em 0.7em;
   color: #303030;
   box-shadow: none;
-  border: 1px solid #b7b6b7;
+  border: 1px solid rgba(39, 41, 43, 0.15);
   border-radius: 0;
   -webkit-transition: border-radius 0.1s ease, width 0.2s ease, box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), border 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
           transition: border-radius 0.1s ease, width 0.2s ease, box-shadow 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), border 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -28547,7 +28547,7 @@ select.ui.dropdown {
   cursor: default;
   box-shadow: none;
   color: #303030;
-  border: 1px solid #b7b6b7;
+  border: 1px solid rgba(39, 41, 43, 0.15);
   opacity: 0.3 !important;
 }
 /* Visible */
