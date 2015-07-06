@@ -29,7 +29,6 @@ gulp.task('serve', 'start the dev server with livereload', function() {
           //  g.util.colors.gray(fileName)
           //].join(' '));
 
-          // only reload for dist file changes
           return shouldReload;
         }
       },
