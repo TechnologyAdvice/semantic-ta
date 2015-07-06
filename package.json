@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server"
+    "prestart": "npm i",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -40,7 +41,7 @@
     "gulp-remember": "^0.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-util": "^3.0.5",
-    "live-server": "^0.7.1",
+    "gulp-webserver": "^0.9.1",
     "require-dir": "^0.3.0",
     "require-dot-file": "^0.4.0",
     "run-sequence": "^1.1.1",
