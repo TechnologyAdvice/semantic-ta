@@ -6,5 +6,3 @@
 @selectionItemDivider: none;
 @selectionTabletMaxMenuHeight: 20.284em;
 @selectionComputerMaxMenuHeight: 20.284em;
-@selectionVisibleBorderColor: @lightGrey;
-@selectionVisibleHoverBorderColor: @lightGrey;

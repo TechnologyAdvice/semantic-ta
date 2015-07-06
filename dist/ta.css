@@ -28552,20 +28552,20 @@ select.ui.dropdown {
 }
 /* Visible */
 .ui.selection.dropdown.visible {
-  border-color: #b7b6b7;
+  border-color: rgba(39, 41, 43, 0.3);
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
 }
 .ui.selection.visible.dropdown .menu {
-  border-color: #b7b6b7;
+  border-color: rgba(39, 41, 43, 0.3);
   box-shadow: 0px 2px 6px 0px rgba(39, 41, 43, 0.15);
 }
 /* Visible Hover */
 .ui.selection.visible.dropdown:hover {
-  border-color: #b7b6b7;
+  border-color: rgba(39, 41, 43, 0.3);
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
 }
 .ui.selection.visible.dropdown .menu {
-  border-color: #b7b6b7;
+  border-color: rgba(39, 41, 43, 0.3);
   box-shadow: 0px 2px 6px 0px rgba(39, 41, 43, 0.15);
 }
 /* Active Item */
