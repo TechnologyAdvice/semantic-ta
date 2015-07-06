@@ -3376,27 +3376,31 @@ input::selection {
   font-weight: 300;
   font-style: italic;
 }
-.ui.labeled.form .optional.field:after {
-  top: 2.5em;
-}
-.ui.form .fields:not(.grouped) > .optional.field:after,
-.ui.labeled.form .fields:not(.grouped) > .optional.field:after {
-  top: 0.5em;
-}
-.ui.form .fields:not(.grouped) > .optional.field:not(:last-child):after,
-.ui.labeled.form .fields:not(.grouped) > .optional.field:not(:last-child):after {
-  right: 1em;
-}
-.ui.form .required.fields:not(.grouped) > .field:after,
 .ui.form .required.field:after {
   content: 'required';
   position: absolute;
   right: 0.5em;
-  top: 2.1762em;
+  top: 0.5em;
   font-size: 0.875em;
-  color: #3d97d2;
+  color: #fd3a46;
   font-weight: 300;
   font-style: italic;
+}
+.ui.labeled.form .optional.field:after,
+.ui.labeled.form .required.field:after {
+  top: 2.5em;
+}
+.ui.form .fields:not(.grouped) > .optional.field:after,
+.ui.labeled.form .fields:not(.grouped) > .optional.field:after,
+.ui.form .fields:not(.grouped) > .required.field:after,
+.ui.labeled.form .fields:not(.grouped) > .required.field:after {
+  top: 0.5em;
+}
+.ui.form .fields:not(.grouped) > .optional.field:not(:last-child):after,
+.ui.labeled.form .fields:not(.grouped) > .optional.field:not(:last-child):after,
+.ui.form .fields:not(.grouped) > .required.field:not(:last-child):after,
+.ui.labeled.form .fields:not(.grouped) > .required.field:not(:last-child):after {
+  right: 1em;
 }
 
 /*!
