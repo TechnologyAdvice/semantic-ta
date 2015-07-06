@@ -9,9 +9,9 @@
   .optional.field:after {
     content: 'optional';
     position: absolute;
-    right: 0.5rem;
-    top: 0.4rem;
-    font-size: 0.875rem;
+    right: 0.5em;
+    top: 0.5em;
+    font-size: 0.875em;
     color: @blue;
     font-weight: @lightFontWeight;
     font-style: italic;
@@ -19,7 +19,7 @@
 }
 .ui.labeled.form {
   .optional.field:after {
-    top: 2.1762rem;
+    top: 2.5em;
   }
 }
 .ui.form,
@@ -27,10 +27,10 @@
   .fields:not(.grouped) {
     & > .optional.field {
       &:after {
-        top: 0.4rem;
+        top: 0.5em;
       }
       &:not(:last-child):after {
-        right: 1rem;
+        right: 1em;
       }
     }
   }
@@ -40,9 +40,9 @@
   .required.field:after {
     content: 'required';
     position: absolute;
-    right: 0.5rem;
-    top: 2.1762rem;
-    font-size: 0.875rem;
+    right: 0.5em;
+    top: 2.1762em;
+    font-size: 0.875em;
     color: @blue;
     font-weight: @lightFontWeight;
     font-style: italic;
