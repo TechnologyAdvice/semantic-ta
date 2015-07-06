@@ -5,3 +5,5 @@
 @selectionItemPadding: 0.5em 0.7em;
 @selectionBorder: 1px solid #b7b6b7;
 @selectionItemDivider: none;
+@selectionTabletMaxMenuHeight: 20.284em;
+@selectionComputerMaxMenuHeight: 20.284em;
