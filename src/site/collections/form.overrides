@@ -5,24 +5,40 @@
 .ui.form .field {
   position: relative;
 }
-.optional.label {
-  position: absolute;
-  right: 0.5rem;
-  top: 2.1762rem;
-  font-size: 0.875rem;
-  color: @blue;
-  font-weight: @lightFontWeight;
-  font-style: italic;
+.ui.form {
+  .optional.field:after {
+    content: 'optional';
+    position: absolute;
+    right: 0.5rem;
+    top: 2.1762rem;
+    font-size: 0.875rem;
+    color: @blue;
+    font-weight: @lightFontWeight;
+    font-style: italic;
+  }
 }
-.fields {
-  .field {
-    .optional.label {
-      top: 0.4rem;
-    }
-    &:not(:last-child) {
-      .optional.label {
+.ui.form {
+  .fields:not(.grouped) {
+    & > .optional.field {
+      &:after {
+        top: 0.4rem;
+      }
+      &:not(:last-child):after {
         right: 1rem;
       }
     }
+  }
+}
+.ui.form {
+  .required.fields:not(.grouped) > .field:after,
+  .required.field:after {
+    content: 'required';
+    position: absolute;
+    right: 0.5rem;
+    top: 2.1762rem;
+    font-size: 0.875rem;
+    color: @blue;
+    font-weight: @lightFontWeight;
+    font-style: italic;
   }
 }
