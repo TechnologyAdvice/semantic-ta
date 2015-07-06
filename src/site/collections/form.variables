@@ -2,6 +2,5 @@
     User Variable Overrides
 *******************************/
 @inputPadding: 0.5em 0.7em;
-
-@inputFocusBoxShadow: 3px 0em 0em 0em rgba(61, 151, 210, 0.8) inset;
-@textAreaFocusBoxShadow: @inputFocusBoxShadow;
+@inputFocusPointerSize: 0.1875em;
+@inputErrorPointerSize: 0.1875em;
