@@ -1,3 +1,6 @@
 /*******************************
     User Variable Overrides
 *******************************/
+@inputPadding: 0.5em 0.7em;
+@inputFocusPointerSize: 0.1875em;
+@inputErrorPointerSize: 0.1875em;

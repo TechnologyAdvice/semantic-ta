@@ -1,3 +1,57 @@
 /*******************************
          Site Overrides
 *******************************/
+.ui.form .fields .field,
+.ui.form .field {
+  position: relative;
+}
+.ui.form {
+  .optional.field:after {
+    content: 'optional';
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+    font-size: 0.875em;
+    color: @blue;
+    font-weight: @lightFontWeight;
+    font-style: italic;
+    background-color: @white;
+    user-select: none;
+    pointer-events: none;
+    padding-right: 1px;
+  }
+  .required.field:after {
+    content: 'required';
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+    font-size: 0.875em;
+    color: @red;
+    font-weight: @lightFontWeight;
+    font-style: italic;
+    background-color: @white;
+    user-select: none;
+    pointer-events: none;
+    padding-right: 1px;
+  }
+}
+.ui.labeled.form {
+  .optional.field:after,
+  .required.field:after {
+    top: 2.5em;
+  }
+}
+.ui.form,
+.ui.labeled.form {
+  .fields:not(.grouped) {
+    & > .optional.field,
+    & > .required.field {
+      &:after {
+        top: 0.5em;
+      }
+      &:not(:last-child):after {
+        right: 1em;
+      }
+    }
+  }
+}
