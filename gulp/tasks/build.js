@@ -4,57 +4,41 @@ var del = require('del');
 var runSequence = require('run-sequence');
 var paths = require('../paths');
 var getSemanticLessFile = require('../plugins/getSemanticLessFile');
+var _ = require('lodash');
 
 var minifyOpts = {keepSpecialComments: 0};
 
 gulp.task('build', 'build the theme and doc page', function(cb) {
   runSequence(
     'clean-build',
-    'clean-docs-dist',
     [
-      'build-docs-less',
       'build-assets',
-      'build-less'
+      'build-cached-less'
     ],
     cb
   )
 });
 
-//
-// Docs
-//
-gulp.task('clean-docs-dist', false, function(cb) {
-  del(paths.docs.dist, cb);
+gulp.task('clean-build', function(cb) {
+  del(paths.dist, cb);
 });
 
-gulp.task('build-docs-less', false, function(cb) {
-  return gulp.src(paths.docs.src + '*.less')
-    .pipe(g.plumber())
-    .pipe(g.cached('doc-less'))
-    .pipe(g.less())
-    .pipe(g.autoprefixer())
-    .pipe(g.remember('doc-less'))
-    .pipe(g.concat('doc-overrides.css'))
-    .pipe(gulp.dest(paths.docs.dist));
-});
-
-
-//
-// Theme
-//
-
-gulp.task('clean-build', false, function(cb) {
-  del('dist', cb);
-});
-
-gulp.task('build-assets', false, function() {
+gulp.task('build-assets', function() {
   return gulp.src(paths.assetFiles)
     .pipe(g.cached('assets'))
     .pipe(gulp.dest(paths.dist));
 });
 
-gulp.task('build-less', false, function() {
-  return gulp.src(paths.lessFiles)
+gulp.task('build-cached-less', function() {
+  return gulp.src(_.union(
+    paths.lessFiles,
+
+    // .variables and .overrides are replaced with their corresponding .less
+    //  definition file during build. We add them so they are watched and
+    // trigger rebuilds of their corresponding less files.
+    paths.componentVariables,
+    paths.componentOverrides
+  ))
     .pipe(g.plumber())              // don't kill watchers on error
     .pipe(g.cached('less'))         // only pass files changed since last build
     .pipe(getSemanticLessFile())    // for *.variables/overrides use the *.less
@@ -66,4 +50,18 @@ gulp.task('build-less', false, function() {
     .pipe(g.minifyCss(minifyOpts))  // minify the build
     .pipe(g.rename('ta.min.css'))   // rename
     .pipe(gulp.dest(paths.dist));   // put that in dist also
+});
+
+gulp.task('build-all-less', function(cb) {
+  g.util.log(g.util.colors.yellow('rebuilding all less'));
+
+  return gulp.src(paths.lessFiles)
+    .pipe(g.plumber())
+    .pipe(g.less())
+    .pipe(g.autoprefixer())
+    .pipe(g.concat('ta.css'))
+    .pipe(gulp.dest(paths.dist))
+    .pipe(g.minifyCss(minifyOpts))
+    .pipe(g.rename('ta.min.css'))
+    .pipe(gulp.dest(paths.dist));
 });

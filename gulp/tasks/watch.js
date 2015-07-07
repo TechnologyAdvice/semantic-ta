@@ -1,6 +1,7 @@
 var g = require('gulp-load-plugins')();
 var gulp = g.help(require('gulp'), require('../gulphelp'));
 var paths = require('../paths');
+var _ = require('lodash');
 
 /**
  * gulp.watch wrapper, removes deleted files from gulp-cache and gulp-remember.
@@ -20,8 +21,33 @@ function watchCachedFiles(cacheKey, src, tasks) {
 }
 
 gulp.task('watch', 'watch for changes and rebuild ', function(cb) {
-  watchCachedFiles('assets', paths.assetFiles, ['build-assets']);
-  watchCachedFiles('less', paths.lessFiles, ['build-less']);
-  watchCachedFiles('less', paths.docs.src, ['build-less']);
+  //
+  // Docs
+  //
+
+  gulp.watch([paths.docsSrc + '**/*.html'], ['docs-html']);
+  watchCachedFiles('docs-less', paths.docsSrc + '/**/*.less', ['docs-less']);
+
+  //
+  // Theme
+  //
+
+  // Changes to global *.variables and *.overrides changes require rebuilding
+  // the entire theme
+  gulp.watch(_.union(
+    paths.globalVariables,
+    paths.globalOverrides
+  ), ['build-all-less']);
+
+  watchCachedFiles('assets', [
+    paths.assetFiles
+  ], ['build-assets']);
+
+  watchCachedFiles('less', _.union(
+    paths.lessFiles,
+    paths.componentVariables,
+    paths.componentOverrides
+  ), ['build-cached-less']);
+
   cb();
 });

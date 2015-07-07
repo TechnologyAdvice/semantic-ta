@@ -9,11 +9,10 @@ See [learn semantic](http://learnsemantic.com/) for understanding this project.
 
 ## Development
 
-`npm i` - install dependencies  
-`npm start` - start dev server
+`npm start` - Installs dependencies and runs gulp.
 
-`gulp` - build `/dist` from `/src` and start watchers  
-`gulp help` - list gulp commands and help
+`gulp` - Sets up everything needed for development, see the task for details.  
+`gulp help` - List gulp commands and help.
 
 ## Updating Semantic
 This project uses a custom build.  **Do not** use Semantic's build or update.
