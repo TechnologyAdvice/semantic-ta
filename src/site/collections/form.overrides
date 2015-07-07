@@ -15,6 +15,10 @@
     color: @blue;
     font-weight: @lightFontWeight;
     font-style: italic;
+    background-color: @white;
+    user-select: none;
+    pointer-events: none;
+    padding-right: 1px;
   }
   .required.field:after {
     content: 'required';
@@ -25,6 +29,10 @@
     color: @red;
     font-weight: @lightFontWeight;
     font-style: italic;
+    background-color: @white;
+    user-select: none;
+    pointer-events: none;
+    padding-right: 1px;
   }
 }
 .ui.labeled.form {
