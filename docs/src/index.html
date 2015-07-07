@@ -24,6 +24,7 @@
       <a class="item" href="#accordions">Accordions</a>
       <a class="item" href="#modals">Modals</a>
       <a class="item" href="#dropdowns">Dropdowns</a>
+      <a class="item" href="#forms">Forms</a>
 
     </div>
 
@@ -887,6 +888,135 @@
           </div>
         </div>
       </div>
+
+      <div id="forms" class="ui segment">
+        <h1 class="ui dividing header">Forms</h1>
+
+        <h3 class="ui header">Standard Forms:</h3>
+        <form class="ui form">
+          <div class="field">
+            <input type="text" name="shipping[first-name]" placeholder="First Name">
+          </div>
+          <div class="field">
+            <input type="text" name="shipping[last-name]" placeholder="Last Name">
+          </div>
+          <div class="optional field">
+            <input type="text" name="shipping[phone-number]" placeholder="Phone Number">
+          </div>
+          <div class="optional field">
+            <input type="text" name="shipping[phone-number]" placeholder="Email Address">
+          </div>
+          <div class="ui orange button" tabindex="0">Get Results</div>
+        </form>
+
+        <h3 class="ui header">Labeled Forms:</h3>
+        <form class="ui labeled form">
+          <div class="required field">
+            <label>First Name</label>
+            <input type="text" name="shipping[first-name]" placeholder="First Name">
+          </div>
+          <div class="required field">
+            <label>Last Name</label>
+            <input type="text" name="shipping[last-name]" placeholder="Last Name">
+          </div>
+          <div class="optional field">
+            <label>Phone Number</label>
+            <input type="text" name="shipping[phone-number]" placeholder="Phone Number">
+          </div>
+          <div class="field">
+            <label>Billing Address</label>
+            <div class="fields">
+              <div class="twelve wide optional field">
+                <input type="text" name="shipping[address]" placeholder="Street Address">
+              </div>
+              <div class="four wide optional field">
+                <input type="text" name="shipping[address-2]" placeholder="Apt #">
+              </div>
+            </div>
+          </div>
+          <div class="two fields">
+            <div class="field">
+              <label>State</label>
+              <div class="ui fluid search selection dropdown">
+                <input type="hidden" name="country">
+                <i class="dropdown icon"></i>
+                <div class="default text">State</div>
+                <div class="menu">
+                  <div class="item" data-value="AL">Alabama</div>
+                  <div class="item" data-value="AK">Alaska</div>
+                  <div class="item" data-value="AZ">Arizona</div>
+                  <div class="item" data-value="AR">Arkansas</div>
+                  <div class="item" data-value="CA">California</div>
+                  <div class="item" data-value="CO">Colorado</div>
+                  <div class="item" data-value="CT">Connecticut</div>
+                  <div class="item" data-value="DE">Delaware</div>
+                  <div class="item" data-value="DC">District Of Columbia</div>
+                  <div class="item" data-value="FL">Florida</div>
+                  <div class="item" data-value="GA">Georgia</div>
+                  <div class="item" data-value="HI">Hawaii</div>
+                  <div class="item" data-value="ID">Idaho</div>
+                  <div class="item" data-value="IL">Illinois</div>
+                  <div class="item" data-value="IN">Indiana</div>
+                  <div class="item" data-value="IA">Iowa</div>
+                  <div class="item" data-value="KS">Kansas</div>
+                  <div class="item" data-value="KY">Kentucky</div>
+                  <div class="item" data-value="LA">Louisiana</div>
+                  <div class="item" data-value="ME">Maine</div>
+                  <div class="item" data-value="MD">Maryland</div>
+                  <div class="item" data-value="MA">Massachusetts</div>
+                  <div class="item" data-value="MI">Michigan</div>
+                  <div class="item" data-value="MN">Minnesota</div>
+                  <div class="item" data-value="MS">Mississippi</div>
+                  <div class="item" data-value="MO">Missouri</div>
+                  <div class="item" data-value="MT">Montana</div>
+                  <div class="item" data-value="NE">Nebraska</div>
+                  <div class="item" data-value="NV">Nevada</div>
+                  <div class="item" data-value="NH">New Hampshire</div>
+                  <div class="item" data-value="NJ">New Jersey</div>
+                  <div class="item" data-value="NM">New Mexico</div>
+                  <div class="item" data-value="NY">New York</div>
+                  <div class="item" data-value="NC">North Carolina</div>
+                  <div class="item" data-value="ND">North Dakota</div>
+                  <div class="item" data-value="OH">Ohio</div>
+                  <div class="item" data-value="OK">Oklahoma</div>
+                  <div class="item" data-value="OR">Oregon</div>
+                  <div class="item" data-value="PA">Pennsylvania</div>
+                  <div class="item" data-value="RI">Rhode Island</div>
+                  <div class="item" data-value="SC">South Carolina</div>
+                  <div class="item" data-value="SD">South Dakota</div>
+                  <div class="item" data-value="TN">Tennessee</div>
+                  <div class="item" data-value="TX">Texas</div>
+                  <div class="item" data-value="UT">Utah</div>
+                  <div class="item" data-value="VT">Vermont</div>
+                  <div class="item" data-value="VA">Virginia</div>
+                  <div class="item" data-value="WA">Washington</div>
+                  <div class="item" data-value="WV">West Virginia</div>
+                  <div class="item" data-value="WI">Wisconsin</div>
+                  <div class="item" data-value="WY">Wyoming</div>
+                </div>
+              </div>
+            </div>
+            <div class="field">
+              <label>Country</label>
+              <div class="ui fluid search selection dropdown">
+                <input type="hidden" name="country">
+                <i class="dropdown icon"></i>
+                <div class="default text">Select Country</div>
+                <div class="menu">
+                  <div class="item" data-value="af"><i class="af flag"></i>Afghanistan</div>
+                  <div class="item" data-value="ax"><i class="ax flag"></i>Aland Islands</div>
+                  <div class="item" data-value="al"><i class="al flag"></i>Albania</div>
+                  <div class="item" data-value="dz"><i class="dz flag"></i>Algeria</div>
+                  <div class="item" data-value="as"><i class="as flag"></i>American Samoa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ui blue button" tabindex="0">Submit Order</div>
+        </form>
+
+      </div>
+
     </div>
   </div>
 </div>

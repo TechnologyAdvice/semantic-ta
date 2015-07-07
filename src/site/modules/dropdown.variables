@@ -6,3 +6,4 @@
 @selectionItemDivider: none;
 @selectionTabletMaxMenuHeight: 20.284em;
 @selectionComputerMaxMenuHeight: 20.284em;
+@selectionIconPadding: 1em;
