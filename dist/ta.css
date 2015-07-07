@@ -348,6 +348,7 @@
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -1975,6 +1976,7 @@ input::selection {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -3758,6 +3760,7 @@ input::selection {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -4751,7 +4754,7 @@ input::selection {
 -----------------------*/
 .ui.divided.grid:not([class*="vertically divided"]) > .column:not(.row),
 .ui.divided.grid:not([class*="vertically divided"]) > .row > .column {
-  box-shadow: -1px 0px 0px 0px rgba(39, 41, 43, 0.15);
+  box-shadow: -1px 0px 0px 0px rgba(31, 31, 31, 0.15);
 }
 /* Swap from padding to margin on columns to have dividers align */
 .ui[class*="vertically divided"].grid > .column:not(.row),
@@ -4774,7 +4777,7 @@ input::selection {
 }
 /* Divided Row */
 .ui.grid > .divided.row > .column {
-  box-shadow: -1px 0px 0px 0px rgba(39, 41, 43, 0.15);
+  box-shadow: -1px 0px 0px 0px rgba(31, 31, 31, 0.15);
 }
 .ui.grid > .divided.row > .column:first-child {
   box-shadow: none;
@@ -4791,7 +4794,7 @@ input::selection {
   width: calc(100% -  2rem );
   height: 1px;
   margin: 0% 1rem;
-  box-shadow: 0px -1px 0px 0px rgba(39, 41, 43, 0.15);
+  box-shadow: 0px -1px 0px 0px rgba(31, 31, 31, 0.15);
 }
 /* Padded Horizontally Divided */
 [class*="horizontally padded"].ui.divided.grid,
@@ -5483,7 +5486,7 @@ input::selection {
   .ui.stackable.divided.grid > .column:not(.row),
   .ui.stackable.celled.grid > .row > .column,
   .ui.stackable.divided.grid > .row > .column {
-    border-top: 1px solid rgba(39, 41, 43, 0.15);
+    border-top: 1px solid rgba(31, 31, 31, 0.15);
     box-shadow: none !important;
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
@@ -5991,6 +5994,7 @@ input::selection {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -6037,7 +6041,7 @@ input::selection {
   background: #ffffff;
   font-size: 0em;
   font-weight: normal;
-  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
   border-radius: 0;
 }
 .ui.menu:after {
@@ -6472,7 +6476,7 @@ input::selection {
 .ui.tiered.menu .sub.menu {
   background-color: #fcfcfc;
   border-radius: 0em 0em 0 0;
-  border-top: 1px solid rgba(39, 41, 43, 0.15);
+  border-top: 1px solid rgba(31, 31, 31, 0.15);
   box-shadow: none;
 }
 .ui.tiered.menu > .sub.menu > .item {
@@ -7808,6 +7812,7 @@ input::selection {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -7857,7 +7862,7 @@ input::selection {
   -webkit-transition: opacity 0.2s ease, color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
           transition: opacity 0.2s ease, color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   border-radius: 0;
-  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset, 0px 0px 0px 0px transparent;
+  box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 0.15) inset, 0px 0px 0px 0px transparent;
 }
 .ui.message:first-child {
   margin-top: 0em;
@@ -8035,7 +8040,7 @@ input::selection {
     Floating
 ---------------*/
 .ui.floating.message {
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15), 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15), 0px 0px 0px 1px rgba(31, 31, 31, 0.15) inset;
 }
 /*--------------
      Colors
@@ -8632,6 +8637,7 @@ input::selection {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -8675,7 +8681,7 @@ input::selection {
   width: 100%;
   background: #ffffff;
   margin: 1em 0em;
-  border: 1px solid #d0d0d0;
+  border: 1px solid rgba(31, 31, 31, 0.15);
   box-shadow: none;
   border-radius: 0.25rem;
   color: #303030;
@@ -8865,8 +8871,8 @@ input::selection {
   border-right: none;
 }
 .ui.structured.sortable.table thead th {
-  border-left: 1px solid #d0d0d0;
-  border-right: 1px solid #d0d0d0;
+  border-left: 1px solid rgba(31, 31, 31, 0.15);
+  border-right: 1px solid rgba(31, 31, 31, 0.15);
 }
 .ui.structured.basic.table th {
   border-left: none;
@@ -8909,13 +8915,13 @@ input::selection {
 }
 /* Fix 2nd Column */
 .ui.definition.table thead:not(.full-width) th:nth-child(2) {
-  border-left: 1px solid #d0d0d0;
+  border-left: 1px solid rgba(31, 31, 31, 0.15);
 }
 .ui.definition.table tfoot:not(.full-width) th:nth-child(2) {
-  border-left: 1px solid #d0d0d0;
+  border-left: 1px solid rgba(31, 31, 31, 0.15);
 }
 .ui.definition.table td:nth-child(2) {
-  border-left: 1px solid #d0d0d0;
+  border-left: 1px solid rgba(31, 31, 31, 0.15);
 }
 /*******************************
              States
@@ -9331,7 +9337,7 @@ input::selection {
 .ui.sortable.table thead th {
   cursor: pointer;
   white-space: nowrap;
-  border-left: 1px solid #d0d0d0;
+  border-left: 1px solid rgba(31, 31, 31, 0.15);
   color: #303030;
 }
 .ui.sortable.table thead th:first-child {
@@ -9440,7 +9446,7 @@ input::selection {
 ---------------*/
 .ui.basic.table {
   background: transparent;
-  border: 1px solid #d0d0d0;
+  border: 1px solid rgba(31, 31, 31, 0.15);
   box-shadow: none;
 }
 .ui.basic.table thead,
@@ -9993,6 +9999,7 @@ input::selection {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -10097,7 +10104,7 @@ input::selection {
   background-color: #cccccc;
   background-image: '';
   color: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 0px 0px 1px transparent inset, 0px 1px 4px 0px rgba(39, 41, 43, 0.15) inset !important;
+  box-shadow: 0px 0px 0px 1px transparent inset, 0px 1px 4px 0px rgba(31, 31, 31, 0.15) inset !important;
 }
 /*--------------
      Active
@@ -10208,7 +10215,7 @@ input::selection {
 }
 /* Basic Group With Disabled */
 .ui.basic.buttons .ui.disabled.button {
-  border-color: rgba(39, 41, 43, 0.5);
+  border-color: rgba(31, 31, 31, 0.5);
 }
 /*******************************
              Types
@@ -10608,10 +10615,10 @@ input::selection {
   border-radius: 0;
   text-transform: none;
   text-shadow: none !important;
-  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 0.15) inset;
 }
 .ui.basic.buttons {
-  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15);
+  box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 0.15);
   border-radius: 0;
 }
 .ui.basic.buttons .button {
@@ -10621,20 +10628,20 @@ input::selection {
 .ui.basic.button:hover {
   background: #fafafa !important;
   color: rgba(0, 0, 0, 0.8) !important;
-  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset, 0px 0px 0px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 0.15) inset, 0px 0px 0px 0px rgba(31, 31, 31, 0.15) inset;
 }
 .ui.basic.buttons .button:active,
 .ui.basic.button:active {
   background: #f8f8f8 !important;
   color: rgba(0, 0, 0, 0.8) !important;
-  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(31, 31, 31, 0.15) inset;
 }
 .ui.basic.buttons .active.button,
 .ui.basic.active.button {
   background: rgba(0, 0, 0, 0.05) !important;
   box-shadow: '' !important;
   color: rgba(0, 0, 0, 0.8);
-  box-shadow: rgba(39, 41, 43, 0.3);
+  box-shadow: rgba(61, 151, 210, 0.8);
 }
 .ui.basic.buttons .active.button:hover,
 .ui.basic.active.button:hover {
@@ -10642,13 +10649,13 @@ input::selection {
 }
 /* Vertical */
 .ui.basic.buttons .button:hover {
-  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset, 0px 0px 0px 0px rgba(39, 41, 43, 0.15) inset inset;
+  box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 0.15) inset, 0px 0px 0px 0px rgba(31, 31, 31, 0.15) inset inset;
 }
 .ui.basic.buttons .button:active {
-  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(39, 41, 43, 0.15) inset inset;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(31, 31, 31, 0.15) inset inset;
 }
 .ui.basic.buttons .active.button {
-  box-shadow: rgba(39, 41, 43, 0.3) inset;
+  box-shadow: rgba(61, 151, 210, 0.8) inset;
 }
 /* Standard Basic Inverted */
 .ui.basic.inverted.buttons .button,
@@ -10682,7 +10689,7 @@ input::selection {
 }
 /* Basic Group */
 .ui.basic.buttons .button {
-  border-left: 1px solid rgba(39, 41, 43, 0.15);
+  border-left: 1px solid rgba(31, 31, 31, 0.15);
   box-shadow: none;
 }
 .ui.basic.vertical.buttons .button {
@@ -10690,7 +10697,7 @@ input::selection {
 }
 .ui.basic.vertical.buttons .button {
   border-left-width: 0px;
-  border-top: 1px solid rgba(39, 41, 43, 0.15);
+  border-top: 1px solid rgba(31, 31, 31, 0.15);
 }
 .ui.basic.vertical.buttons .button:first-child {
   border-top-width: 0px;
@@ -10803,7 +10810,7 @@ input::selection {
 .ui.attached.button {
   display: block;
   margin: 0em;
-  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) !important;
+  box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 0.15) !important;
   border-radius: 0em;
 }
 .ui.attached.top.button {
@@ -11112,7 +11119,7 @@ input::selection {
 /* Basic */
 .ui.basic.black.buttons .button,
 .ui.basic.black.button {
-  box-shadow: 0px 0px 0px 2px rgba(39, 41, 43, 0.15) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(31, 31, 31, 0.15) inset !important;
   color: #303030 !important;
 }
 .ui.basic.black.buttons .button:hover,
@@ -11220,7 +11227,7 @@ input::selection {
 /* Basic */
 .ui.basic.blue.buttons .button,
 .ui.basic.blue.button {
-  box-shadow: 0px 0px 0px 2px rgba(39, 41, 43, 0.15) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(31, 31, 31, 0.15) inset !important;
   color: #303030 !important;
 }
 .ui.basic.blue.buttons .button:hover,
@@ -11328,7 +11335,7 @@ input::selection {
 /* Basic */
 .ui.basic.green.buttons .button,
 .ui.basic.green.button {
-  box-shadow: 0px 0px 0px 2px rgba(39, 41, 43, 0.15) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(31, 31, 31, 0.15) inset !important;
   color: #303030 !important;
 }
 .ui.basic.green.buttons .button:hover,
@@ -11436,7 +11443,7 @@ input::selection {
 /* Basic */
 .ui.basic.orange.buttons .button,
 .ui.basic.orange.button {
-  box-shadow: 0px 0px 0px 2px rgba(39, 41, 43, 0.15) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(31, 31, 31, 0.15) inset !important;
   color: #303030 !important;
 }
 .ui.basic.orange.buttons .button:hover,
@@ -11544,7 +11551,7 @@ input::selection {
 /* Basic */
 .ui.basic.pink.buttons .button,
 .ui.basic.pink.button {
-  box-shadow: 0px 0px 0px 2px rgba(39, 41, 43, 0.15) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(31, 31, 31, 0.15) inset !important;
   color: #303030 !important;
 }
 .ui.basic.pink.buttons .button:hover,
@@ -11652,7 +11659,7 @@ input::selection {
 /* Basic */
 .ui.basic.purple.buttons .button,
 .ui.basic.purple.button {
-  box-shadow: 0px 0px 0px 2px rgba(39, 41, 43, 0.15) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(31, 31, 31, 0.15) inset !important;
   color: #303030 !important;
 }
 .ui.basic.purple.buttons .button:hover,
@@ -11760,7 +11767,7 @@ input::selection {
 /* Basic */
 .ui.basic.red.buttons .button,
 .ui.basic.red.button {
-  box-shadow: 0px 0px 0px 2px rgba(39, 41, 43, 0.15) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(31, 31, 31, 0.15) inset !important;
   color: #303030 !important;
 }
 .ui.basic.red.buttons .button:hover,
@@ -11868,7 +11875,7 @@ input::selection {
 /* Basic */
 .ui.basic.teal.buttons .button,
 .ui.basic.teal.button {
-  box-shadow: 0px 0px 0px 2px rgba(39, 41, 43, 0.15) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(31, 31, 31, 0.15) inset !important;
   color: #303030 !important;
 }
 .ui.basic.teal.buttons .button:hover,
@@ -11976,7 +11983,7 @@ input::selection {
 /* Basic */
 .ui.basic.yellow.buttons .button,
 .ui.basic.yellow.button {
-  box-shadow: 0px 0px 0px 2px rgba(39, 41, 43, 0.15) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(31, 31, 31, 0.15) inset !important;
   color: #303030 !important;
 }
 .ui.basic.yellow.buttons .button:hover,
@@ -12642,6 +12649,7 @@ input::selection {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -13228,6 +13236,7 @@ input::selection {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -14661,6 +14670,7 @@ i.flag.zimbabwe:before {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -15613,6 +15623,7 @@ h2.plus.ui.header {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -18416,6 +18427,7 @@ i.icon.bed:before {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -19088,6 +19100,7 @@ img.ui.bordered.image {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -19221,7 +19234,7 @@ img.ui.bordered.image {
 ---------------------*/
 .ui.input.focus input,
 .ui.input input:focus {
-  border-color: rgba(39, 41, 43, 0.3);
+  border-color: rgba(61, 151, 210, 0.8);
   background: #ffffff;
   color: rgba(0, 0, 0, 0.8);
   box-shadow: none;
@@ -19924,6 +19937,7 @@ img.ui.bordered.image {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -21243,6 +21257,7 @@ a.ui.yellow.label:hover:before {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -21817,7 +21832,7 @@ ol.ui.horizontal.list li:before,
        Divided
 --------------------*/
 .ui.divided.list > .item {
-  border-top: 1px solid rgba(39, 41, 43, 0.15);
+  border-top: 1px solid rgba(31, 31, 31, 0.15);
 }
 .ui.divided.list .list > .item {
   border-top: none;
@@ -21871,7 +21886,7 @@ ol.ui.horizontal.list li:before,
 }
 .ui.divided.horizontal.list > .item {
   border-top: none;
-  border-left: 1px solid rgba(39, 41, 43, 0.15);
+  border-left: 1px solid rgba(31, 31, 31, 0.15);
   margin: 0em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -21891,12 +21906,12 @@ ol.ui.horizontal.list li:before,
 --------------------*/
 .ui.celled.list > .item,
 .ui.celled.list > .list {
-  border-top: 1px solid rgba(39, 41, 43, 0.15);
+  border-top: 1px solid rgba(31, 31, 31, 0.15);
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 .ui.celled.list > .item:last-child {
-  border-bottom: 1px solid rgba(39, 41, 43, 0.15);
+  border-bottom: 1px solid rgba(31, 31, 31, 0.15);
 }
 /* Padding on all elements */
 .ui.celled.list > .item:first-child,
@@ -21947,7 +21962,7 @@ ol.ui.horizontal.list li:before,
 .ui.horizontal.celled.list .list > .item,
 .ui.horizontal.celled.list > .item {
   border-top: none;
-  border-left: 1px solid rgba(39, 41, 43, 0.15);
+  border-left: 1px solid rgba(31, 31, 31, 0.15);
   margin: 0em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -21956,7 +21971,7 @@ ol.ui.horizontal.list li:before,
 .ui.horizontal.celled.list .list > .item:last-child,
 .ui.horizontal.celled.list > .item:last-child {
   border-bottom: none;
-  border-right: 1px solid rgba(39, 41, 43, 0.15);
+  border-right: 1px solid rgba(31, 31, 31, 0.15);
 }
 /* Inverted */
 .ui.celled.inverted.list > .item,
@@ -22442,6 +22457,7 @@ ol.ui.horizontal.list li:before,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -23079,6 +23095,7 @@ ol.ui.horizontal.list li:before,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -23160,10 +23177,10 @@ ol.ui.horizontal.list li:before,
 .ui.left.dividing.rail {
   padding: 0em 2.5rem 0em 0em;
   margin: 0em 2.5rem 0em 0em;
-  border-right: 1px solid rgba(39, 41, 43, 0.15);
+  border-right: 1px solid rgba(31, 31, 31, 0.15);
 }
 .ui.right.dividing.rail {
-  border-left: 1px solid rgba(39, 41, 43, 0.15);
+  border-left: 1px solid rgba(31, 31, 31, 0.15);
   padding: 0em 0em 0em 2.5rem;
   margin: 0em 0em 0em 2.5rem;
 }
@@ -23557,6 +23574,7 @@ ol.ui.horizontal.list li:before,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -24237,6 +24255,7 @@ ol.ui.horizontal.list li:before,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -24278,7 +24297,7 @@ ol.ui.horizontal.list li:before,
 .ui.segment {
   position: relative;
   background-color: #ffffff;
-  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
   margin: 1rem 0em;
   padding: 1em 1em;
   border-radius: 0;
@@ -24305,7 +24324,7 @@ ol.ui.horizontal.list li:before,
   background-color: transparent;
   border-radius: 0px;
   border: none;
-  box-shadow: 0px -1px 0px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: 0px -1px 0px rgba(31, 31, 31, 0.15) inset;
 }
 .ui[class*="vertical segment"]:last-child {
   box-shadow: none;
@@ -24318,7 +24337,7 @@ ol.ui.horizontal.list li:before,
   background-color: transparent;
   border-radius: 0px;
   border: none;
-  box-shadow: 1px 0px 0px rgba(39, 41, 43, 0.15);
+  box-shadow: 1px 0px 0px rgba(31, 31, 31, 0.15);
 }
 /*-------------------
     Loose Coupling
@@ -24358,7 +24377,7 @@ ol.ui.horizontal.list li:before,
 .ui.basic.table.segment {
   background: #ffffff;
   border: none;
-  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 .ui[class*="very basic"].table.segment {
   padding: 1em 1em;
@@ -24371,7 +24390,7 @@ ol.ui.horizontal.list li:before,
 --------------------*/
 .ui.piled.segment {
   margin: 3em 0em;
-  box-shadow: 0px 0px 1px 1px rgba(39, 41, 43, 0.15);
+  box-shadow: 0px 0px 1px 1px rgba(31, 31, 31, 0.15);
   z-index: auto;
 }
 .ui.piled.segment:first-child {
@@ -24390,7 +24409,7 @@ ol.ui.horizontal.list li:before,
   left: 0px;
   position: absolute;
   width: 100%;
-  box-shadow: 0px 0px 1px 1px rgba(39, 41, 43, 0.15);
+  box-shadow: 0px 0px 1px 1px rgba(31, 31, 31, 0.15);
 }
 .ui.piled.segment:after {
   -webkit-transform: rotate(1.2deg);
@@ -24433,7 +24452,7 @@ ol.ui.horizontal.list li:before,
   position: absolute;
   bottom: -3px;
   left: 0%;
-  border-top: 1px solid rgba(39, 41, 43, 0.15);
+  border-top: 1px solid rgba(31, 31, 31, 0.15);
   background-color: rgba(0, 0, 0, 0.03);
   width: 100%;
   height: 6px;
@@ -24451,7 +24470,7 @@ ol.ui.horizontal.list li:before,
 .ui.stacked.inverted.segment:after,
 .ui.stacked.inverted.segment:before {
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(39, 41, 43, 0.3);
+  border-top: 1px solid rgba(61, 151, 210, 0.8);
 }
 /*-------------------
        Compact
@@ -24473,7 +24492,7 @@ ol.ui.horizontal.list li:before,
        Raised
 --------------------*/
 .ui.raised.segment {
-  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 0.15), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
 }
 /*******************************
             States
@@ -25224,6 +25243,7 @@ ol.ui.horizontal.list li:before,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -25283,8 +25303,8 @@ ol.ui.horizontal.list li:before,
   background-color: #ffffff;
   width: 1.5em;
   height: 1.5em;
-  border-bottom: 1px solid rgba(39, 41, 43, 0.15);
-  border-right: 1px solid rgba(39, 41, 43, 0.15);
+  border-bottom: 1px solid rgba(31, 31, 31, 0.15);
+  border-right: 1px solid rgba(31, 31, 31, 0.15);
   -webkit-transform: translateY(-50%) translateX(50%) rotate(-45deg);
       -ms-transform: translateY(-50%) translateX(50%) rotate(-45deg);
           transform: translateY(-50%) translateX(50%) rotate(-45deg);
@@ -26012,6 +26032,7 @@ ol.ui.horizontal.list li:before,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -26150,7 +26171,7 @@ ol.ui.horizontal.list li:before,
 .ui.styled.accordion .accordion {
   border-radius: 0;
   background: #ffffff;
-  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(39, 41, 43, 0.15);
+  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(31, 31, 31, 0.15);
 }
 .ui.styled.accordion .title,
 .ui.styled.accordion .accordion .title {
@@ -26158,7 +26179,7 @@ ol.ui.horizontal.list li:before,
   padding: 10px;
   color: rgba(0, 0, 0, 0.4);
   font-weight: bold;
-  border-top: 1px solid rgba(39, 41, 43, 0.15);
+  border-top: 1px solid rgba(31, 31, 31, 0.15);
   -webkit-transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
           transition: background 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -26654,6 +26675,7 @@ ol.ui.horizontal.list li:before,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -26789,7 +26811,7 @@ ol.ui.horizontal.list li:before,
 .ui.checkbox .box:hover::before,
 .ui.checkbox label:hover::before {
   background: #ffffff;
-  border: 1px solid rgba(39, 41, 43, 0.3);
+  border: 1px solid rgba(61, 151, 210, 0.8);
 }
 .ui.checkbox label:hover,
 .ui.checkbox + label:hover {
@@ -26801,7 +26823,7 @@ ol.ui.horizontal.list li:before,
 .ui.checkbox .box:active::before,
 .ui.checkbox label:active::before {
   background: #f5f5f5;
-  border: 1px solid 1px solid rgba(39, 41, 43, 0.3);
+  border: 1px solid 1px solid rgba(61, 151, 210, 0.8);
 }
 .ui.checkbox input[type="checkbox"]:active ~ label,
 .ui.checkbox input[type="radio"]:active ~ label {
@@ -26815,7 +26837,7 @@ ol.ui.horizontal.list li:before,
 .ui.checkbox input[type="radio"]:focus ~ .box:before,
 .ui.checkbox input[type="radio"]:focus ~ label:before {
   background: #f5f5f5;
-  border: 1px solid 1px solid rgba(39, 41, 43, 0.3);
+  border: 1px solid 1px solid rgba(61, 151, 210, 0.8);
 }
 .ui.checkbox input[type="checkbox"]:focus ~ label,
 .ui.checkbox input[type="radio"]:focus ~ label {
@@ -26939,7 +26961,7 @@ ol.ui.horizontal.list li:before,
   opacity: 1;
   z-index: 2;
   border: none;
-  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(31, 31, 31, 0.15) inset;
   width: 1.5rem;
   height: 1.5rem;
   top: -0.25rem;
@@ -27030,7 +27052,7 @@ ol.ui.horizontal.list li:before,
   opacity: 1;
   z-index: 2;
   border: none;
-  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(31, 31, 31, 0.15) inset;
   width: 1.5rem;
   height: 1.5rem;
   top: 0rem;
@@ -27506,6 +27528,7 @@ ol.ui.horizontal.list li:before,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -29524,6 +29547,7 @@ select.ui.dropdown {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -29627,7 +29651,7 @@ select.ui.dropdown {
   line-height: 3rem;
   font-weight: 500;
   color: #1f1f1f;
-  border-bottom: 1px solid rgba(39, 41, 43, 0.15);
+  border-bottom: 1px solid rgba(31, 31, 31, 0.15);
 }
 /*--------------
      Content
@@ -29677,7 +29701,7 @@ select.ui.dropdown {
 .ui.modal .actions {
   background: #efefef;
   padding: 1rem 2rem;
-  border-top: 1px solid rgba(39, 41, 43, 0.15);
+  border-top: 1px solid rgba(31, 31, 31, 0.15);
   text-align: right;
 }
 .ui.modal .actions > .button {
@@ -30331,6 +30355,7 @@ select.ui.dropdown {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -30876,6 +30901,7 @@ a.ui.nag {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -30920,7 +30946,7 @@ a.ui.nag {
   top: 0px;
   right: 0px;
   z-index: 1900;
-  border: 1px solid #cccccc;
+  border: 1px solid rgba(31, 31, 31, 0.15);
   max-width: 250px;
   background-color: #ffffff;
   padding: 0.833em 1em;
@@ -30950,7 +30976,7 @@ a.ui.nag {
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
   z-index: 2;
-  box-shadow: 1px 1px 0px 0px #b3b3b3;
+  box-shadow: 1px 1px 0px 0px rgba(5, 5, 5, 0.15);
 }
 /*******************************
             Types
@@ -30983,7 +31009,7 @@ a.ui.nag {
   left: 50%;
   right: auto;
   bottom: auto;
-  box-shadow: -1px -1px 0px 0px #b3b3b3;
+  box-shadow: -1px -1px 0px 0px rgba(5, 5, 5, 0.15);
 }
 .ui.bottom.left.popup {
   margin-left: 0em;
@@ -30994,7 +31020,7 @@ a.ui.nag {
   right: auto;
   bottom: auto;
   margin-left: 0em;
-  box-shadow: -1px -1px 0px 0px #b3b3b3;
+  box-shadow: -1px -1px 0px 0px rgba(5, 5, 5, 0.15);
 }
 .ui.bottom.right.popup {
   margin-right: 0em;
@@ -31005,7 +31031,7 @@ a.ui.nag {
   bottom: auto;
   left: auto;
   margin-left: 0em;
-  box-shadow: -1px -1px 0px 0px #b3b3b3;
+  box-shadow: -1px -1px 0px 0px rgba(5, 5, 5, 0.15);
 }
 /*--- Above ---*/
 .ui.top.center.popup:before {
@@ -31042,7 +31068,7 @@ a.ui.nag {
   bottom: auto;
   left: auto;
   margin-top: -0.325em;
-  box-shadow: 1px -1px 0px 0px #b3b3b3;
+  box-shadow: 1px -1px 0px 0px rgba(5, 5, 5, 0.15);
 }
 /*--- Right Center  ---*/
 .ui.right.center.popup:before {
@@ -31051,7 +31077,7 @@ a.ui.nag {
   bottom: auto;
   right: auto;
   margin-top: -0.325em;
-  box-shadow: -1px 1px 0px 0px #b3b3b3;
+  box-shadow: -1px 1px 0px 0px rgba(5, 5, 5, 0.15);
 }
 /*******************************
             Coupling
@@ -31532,6 +31558,7 @@ a.ui.nag {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -31574,7 +31601,7 @@ a.ui.nag {
   position: relative;
   display: block;
   max-width: 100%;
-  border: 1px solid rgba(39, 41, 43, 0.15);
+  border: 1px solid rgba(31, 31, 31, 0.15);
   margin: 1em 0em 2.5em;
   box-shadow: none;
   background: rgba(0, 0, 0, 0.03);
@@ -32345,6 +32372,7 @@ a.ui.nag {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -32967,6 +32995,7 @@ a.ui.nag {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -33020,7 +33049,7 @@ a.ui.nag {
   padding: 0.68571em 1em;
   font-size: 1em;
   background: #ffffff;
-  border: 1px solid rgba(39, 41, 43, 0.15);
+  border: 1px solid rgba(31, 31, 31, 0.15);
   color: #303030;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
@@ -33061,7 +33090,7 @@ a.ui.nag {
   padding: 0.5em 1em;
   color: #303030;
   line-height: 1.33;
-  border-bottom: 1px solid rgba(39, 41, 43, 0.15);
+  border-bottom: 1px solid rgba(31, 31, 31, 0.15);
 }
 .ui.search > .results .result:last-child {
   border-bottom: none;
@@ -33187,7 +33216,7 @@ a.ui.nag {
   position: relative;
   border-left-color: transparent;
   background: #f0f0f0;
-  box-shadow: 3px 0px 3px 0px rgba(39, 41, 43, 0.15);
+  box-shadow: 3px 0px 3px 0px rgba(31, 31, 31, 0.15);
 }
 .ui.search > .results .result.active .title {
   color: rgba(0, 0, 0, 0.85);
@@ -33208,7 +33237,7 @@ a.ui.nag {
 .ui.category.search > .results .category {
   background: #f0f0f0;
   box-shadow: none;
-  border-bottom: 1px solid rgba(39, 41, 43, 0.15);
+  border-bottom: 1px solid rgba(31, 31, 31, 0.15);
   -webkit-transition: background 0.2s ease, border-color 0.2s ease;
           transition: background 0.2s ease, border-color 0.2s ease;
 }
@@ -33219,8 +33248,8 @@ a.ui.nag {
 .ui.category.search > .results .category .result {
   background: #ffffff;
   margin-left: 100px;
-  border-left: 1px solid rgba(39, 41, 43, 0.15);
-  border-bottom: 1px solid rgba(39, 41, 43, 0.15);
+  border-left: 1px solid rgba(31, 31, 31, 0.15);
+  border-bottom: 1px solid rgba(31, 31, 31, 0.15);
   -webkit-transition: background 0.2s ease, border-color 0.2s ease;
           transition: background 0.2s ease, border-color 0.2s ease;
 }
@@ -33637,6 +33666,7 @@ a.ui.nag {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -34167,6 +34197,7 @@ a.ui.nag {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -34370,11 +34401,11 @@ body.pushable > .pusher {
 /* Shadow Direction */
 .ui.left.visible.sidebar,
 .ui.right.visible.sidebar {
-  box-shadow: 0px 0px 20px rgba(39, 41, 43, 0.15);
+  box-shadow: 0px 0px 20px rgba(31, 31, 31, 0.15);
 }
 .ui.top.visible.sidebar,
 .ui.bottom.visible.sidebar {
-  box-shadow: 0px 0px 20px rgba(39, 41, 43, 0.15);
+  box-shadow: 0px 0px 20px rgba(31, 31, 31, 0.15);
 }
 /* Visible On Load */
 .ui.visible.left.sidebar ~ .fixed,
@@ -35083,6 +35114,7 @@ html.ios {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -35522,6 +35554,7 @@ html.ios {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -35974,6 +36007,7 @@ html.ios {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -38276,6 +38310,7 @@ html.ios {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -38753,6 +38788,7 @@ html.ios {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -39411,6 +39447,7 @@ html.ios {
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -39833,7 +39870,7 @@ a.ui.card:hover,
   z-index: 5;
   background: '';
   border: none;
-  box-shadow: 0px 3px 0px 0px #bebebf, 0px 0px 0px 1px rgba(39, 41, 43, 0.3);
+  box-shadow: 0px 3px 0px 0px #bebebf, 0px 0px 0px 1px rgba(61, 151, 210, 0.8);
 }
 /*-------------------
        Colors
@@ -40643,6 +40680,7 @@ a.ui.card:hover,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -40845,7 +40883,7 @@ a.ui.card:hover,
 .ui.threaded.comments .comment .comments {
   margin: -1.5em 0 -1em 1.25em;
   padding: 3em 0em 2em 2.25em;
-  box-shadow: -1px 0px 0px rgba(39, 41, 43, 0.15);
+  box-shadow: -1px 0px 0px rgba(31, 31, 31, 0.15);
 }
 /*--------------------
         Minimal
@@ -41290,6 +41328,7 @@ a.ui.card:hover,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -41959,6 +41998,7 @@ a.ui.card:hover,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
@@ -42330,7 +42370,7 @@ a.ui.card:hover,
       Divided
 --------------------*/
 .ui.divided.items > .item {
-  border-top: 1px solid rgba(39, 41, 43, 0.15);
+  border-top: 1px solid rgba(31, 31, 31, 0.15);
   margin: 0em;
   padding: 1em 0em;
 }
@@ -42768,6 +42808,7 @@ a.ui.card:hover,
 /*---  Colors  ---*/
 /*---  Light Colors  ---*/
 /*---   Neutrals  ---*/
+/*---  Form Border Colors  ---*/
 /*-------------------
     Brand Colors
 --------------------*/
