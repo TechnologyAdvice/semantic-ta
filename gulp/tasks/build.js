@@ -43,9 +43,10 @@ gulp.task('build-cached-less', function() {
     .pipe(g.cached('less'))         // only pass files changed since last build
     .pipe(getSemanticLessFile())    // for *.variables/overrides use the *.less
     .pipe(g.less())                 // compile to css
-    .pipe(g.autoprefixer())         // autoprefix for browser support
     .pipe(g.remember('less'))       // add back files that didn't change
     .pipe(g.concat('ta.css'))       // concat all css files
+    .pipe(g.less())                 // move font @imports to the top
+    .pipe(g.autoprefixer())         // autoprefix for browser support
     .pipe(gulp.dest(paths.dist))    // put in dist
     .pipe(g.minifyCss(minifyOpts))  // minify the build
     .pipe(g.rename('ta.min.css'))   // rename
