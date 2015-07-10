@@ -13,11 +13,17 @@ module.exports = {
   site: PROJECT_ROOT + '/src/site',
   componentVariables: [
     PROJECT_ROOT + '/src/site/**/*.variables',
-    '!' + PROJECT_ROOT + '/src/site/globals/*.variables'
+    '!' + PROJECT_ROOT + '/src/site/globals/*.variables',
+
+    // exclude busted video module
+    '!' + PROJECT_ROOT + '/src/site/modules/video.variables'
   ],
   componentOverrides: [
     PROJECT_ROOT + '/src/site/**/*.overrides',
-    '!' + PROJECT_ROOT + '/src/site/globals/*.overrides'
+    '!' + PROJECT_ROOT + '/src/site/globals/*.overrides',
+
+    // exclude busted video module
+    '!' + PROJECT_ROOT + '/src/site/modules/video.overrides'
   ],
   globalVariables: [
     PROJECT_ROOT + '/src/site/globals/*.variables'
@@ -29,7 +35,10 @@ module.exports = {
     // must build reset and site first
     PROJECT_ROOT + '/src/definitions/globals/reset.less',   // site reset
     PROJECT_ROOT + '/src/definitions/globals/site.less',    // site site base
-    PROJECT_ROOT + '/src/definitions/**/*.less'             // all other less
+    PROJECT_ROOT + '/src/definitions/**/*.less',            // all other less
+
+    // exclude busted video module
+    '!' + PROJECT_ROOT + '/src/definitions/modules/video.less'
   ],
   assetFiles: [
     // icons

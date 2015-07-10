@@ -40,6 +40,7 @@ gulp.task('build-cached-less', function() {
     paths.componentOverrides
   ))
     .pipe(g.plumber())              // don't kill watchers on error
+    .pipe(g.debug())
     .pipe(g.cached('less'))         // only pass files changed since last build
     .pipe(getSemanticLessFile())    // for *.variables/overrides use the *.less
     .pipe(g.less())                 // compile to css
