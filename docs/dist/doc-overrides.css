@@ -3,7 +3,11 @@
   position: relative;
   top: 0;
   left: 0;
+  max-width: 100%;
 }
 #dropdowns {
   min-height: 485px;
+}
+.docs-menu {
+  max-width: 200px;
 }
