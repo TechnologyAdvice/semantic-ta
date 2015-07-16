@@ -173,3 +173,11 @@
 @transitionEasing           : @defaultEasing;
 @transitionEaseEnter        : @easeOutQuart;   // elements entering the scene
 @transitionEaseLeave        : @easeInQuart;    // elements leaving the scene
+
+/*-------------------
+        Paths
+--------------------*/
+
+/* For source only. Modified in gulp for dist */
+@imagePath : '../images';
+@fontPath  : '../fonts';
