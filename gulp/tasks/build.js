@@ -47,10 +47,10 @@ gulp.task('build-cached-less', function() {
     .pipe(g.concat('ta.css'))       // concat all css files
     .pipe(g.less())                 // move font @imports to the top
     .pipe(g.autoprefixer())         // autoprefix for browser support
-    .pipe(gulp.dest(paths.dist))    // put in dist
+    .pipe(gulp.dest(paths.dist + '/css'))
     .pipe(g.minifyCss(minifyOpts))  // minify the build
     .pipe(g.rename('ta.min.css'))   // rename
-    .pipe(gulp.dest(paths.dist));   // put that in dist also
+    .pipe(gulp.dest(paths.dist + '/css'));
 });
 
 gulp.task('build-all-less', function(cb) {
@@ -61,8 +61,8 @@ gulp.task('build-all-less', function(cb) {
     .pipe(g.less())
     .pipe(g.autoprefixer())
     .pipe(g.concat('ta.css'))
-    .pipe(gulp.dest(paths.dist))
+    .pipe(gulp.dest(paths.dist + '/css'))
     .pipe(g.minifyCss(minifyOpts))
     .pipe(g.rename('ta.min.css'))
-    .pipe(gulp.dest(paths.dist));
+    .pipe(gulp.dest(paths.dist + '/css'));
 });

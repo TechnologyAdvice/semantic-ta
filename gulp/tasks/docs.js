@@ -9,7 +9,8 @@ gulp.task('docs', 'build the /docs page', function(cb) {
     'clean-docs-dist',
     [
       'docs-less',
-      'docs-html'
+      'docs-html',
+      'docs-js'
     ],
     cb
   );
@@ -28,6 +29,14 @@ gulp.task('docs-less', function(cb) {
     .pipe(g.remember('doc-less'))
     .pipe(g.concat('doc-overrides.css'))
     .pipe(gulp.dest(paths.docsDist));
+});
+
+gulp.task('docs-js', function(cb) {
+  return gulp.src([
+    paths.docsSrc + '/*.js'
+  ])
+    .pipe(g.concat('docs.js'))
+    .pipe(gulp.dest(paths.docsDist))
 });
 
 gulp.task('docs-html', function(cb) {

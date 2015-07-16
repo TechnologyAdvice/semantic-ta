@@ -3,19 +3,19 @@
 <head lang="en">
   <meta charset="UTF-8">
   <title>TechnologyAdvice Theme</title>
-  <link rel="stylesheet" type="text/css" href="/dist/ta.css">
-  <link rel="stylesheet" type="text/css" href="/docs/dist/doc-overrides.css">
+  <link rel="stylesheet" type="text/css" href="../../dist/css/ta.css">
+  <link rel="stylesheet" type="text/css" href="doc-overrides.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.1/semantic.min.js"></script>
+  <script src="docs.js"></script>
 </head>
 <body class="style guide">
-<div class="ui menu"></div>
-<div class="ui stackable two column grid horizontally padded">
+<div class="ui stackable two column padded grid">
   <div class="four wide column">
-    <div class="ui top fixed secondary vertical pointing menu">
+    <div class="ui secondary vertical fluid pointing menu docs-menu">
       <div class="header item">
         <h4 class="ui header">TechnologyAdvice</h4>
       </div>
-      <div class="header item">Design Elements</div>
-
       <a class="item" href="#palette">Color Palette</a>
       <a class="item" href="#typography">Typography</a>
       <a class="item" href="#buttons">Buttons</a>
@@ -161,14 +161,14 @@
 
         <h2 class="ui header">Sizes</h2>
 
-        <div class="mini ui button"> Mini</div>
-        <div class="tiny ui button"> Tiny</div>
-        <div class="small ui button"> Small</div>
-        <div class="medium ui button"> Medium</div>
-        <div class="large ui button"> Large</div>
-        <div class="big ui button"> Big</div>
-        <div class="huge ui button"> Huge</div>
-        <div class="massive ui button"> Massive</div>
+        <div class="ui mini button"> Mini</div>
+        <div class="ui tiny button"> Tiny</div>
+        <div class="ui small button"> Small</div>
+        <div class="ui medium button"> Medium</div>
+        <div class="ui large button"> Large</div>
+        <div class="ui big button"> Big</div>
+        <div class="ui huge button"> Huge</div>
+        <div class="ui massive button"> Massive</div>
 
         <h2 class="ui header">Colors</h2>
 
@@ -893,6 +893,7 @@
         <h1 class="ui dividing header">Forms</h1>
 
         <h3 class="ui header">Standard Forms:</h3>
+
         <form class="ui form">
           <div class="field">
             <input type="text" name="shipping[first-name]" placeholder="First Name">
@@ -910,6 +911,7 @@
         </form>
 
         <h3 class="ui header">Labeled Forms:</h3>
+
         <form class="ui labeled form">
           <div class="required field">
             <label>First Name</label>
@@ -925,6 +927,7 @@
           </div>
           <div class="field">
             <label>Billing Address</label>
+
             <div class="fields">
               <div class="twelve wide optional field">
                 <input type="text" name="shipping[address]" placeholder="Street Address">
@@ -937,9 +940,11 @@
           <div class="two fields">
             <div class="field">
               <label>State</label>
+
               <div class="ui fluid search selection dropdown">
                 <input type="hidden" name="country">
                 <i class="dropdown icon"></i>
+
                 <div class="default text">State</div>
                 <div class="menu">
                   <div class="item" data-value="AL">Alabama</div>
@@ -998,9 +1003,11 @@
             </div>
             <div class="field">
               <label>Country</label>
+
               <div class="ui fluid search selection dropdown">
                 <input type="hidden" name="country">
                 <i class="dropdown icon"></i>
+
                 <div class="default text">Select Country</div>
                 <div class="menu">
                   <div class="item" data-value="af"><i class="af flag"></i>Afghanistan</div>
