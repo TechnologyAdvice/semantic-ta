@@ -1,0 +1,16 @@
+machine:
+  node:
+    version: 4.2.0
+  ruby:
+    version: 2.2.3
+
+test:
+  override:
+    - nvm use 4.2.0 && ./runtest
+    - nvm install 5 && ./runtest
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - bash scripts/circle_deploy.sh
