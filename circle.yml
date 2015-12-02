@@ -6,8 +6,11 @@ machine:
 
 test:
   override:
-    - nvm use 4.2.0 && ./runtest
-    - nvm install 5 && ./runtest
+    - nvm use 4.2.0
+    - npm test
+    - nvm install 5
+    - nvm use 5
+    - npm test
 
 deployment:
   production:
